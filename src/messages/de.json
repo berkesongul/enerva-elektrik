@@ -1,0 +1,79 @@
+{
+    "metadata": {
+        "title": "Enerva Elektrik - Elektrische Energielösungen",
+        "description": "Enerva Elektrik – Ihr Partner für Hoch- und Mittelspannungstechnik, Projektierung und Elektrotechnik."
+    },
+    "nav": {
+        "home": "Startseite",
+        "about": "Über uns",
+        "services": "Leistungen",
+        "projects": "Projekte",
+        "brands": "Marken",
+        "blog": "Blog",
+        "contact": "Kontakt"
+    },
+    "hero": {
+        "title": "Elektrische Energielösungen",
+        "subtitle": "Ihr zuverlässiger Partner für Hoch- und Mittelspannungstechnik",
+        "cta": "Unsere Leistungen"
+    },
+    "widgets": {
+        "whatsapp": "Schreiben Sie uns auf WhatsApp",
+        "language": "Sprache"
+    },
+    "footer": {
+        "rights": "Alle Rechte vorbehalten.",
+        "company": "Enerva Elektrik"
+    },
+    "aboutPage": {
+        "title": "Über uns",
+        "p1": "Enerva Elektrik ist eines der führenden Unternehmen, das innovative Lösungen in den Bereichen Elektrotechnik, Automatisierung und Energie anbietet. Seit seiner Gründung hat es sich zum Prinzip gemacht, sichere und effiziente Projekte zu realisieren, indem es die Bedürfnisse unserer Kunden genau analysiert. Wir bedienen ein breites Kundenportfolio von Industrieanlagen bis hin zu gewerblichen Unternehmen und machen mit unseren Qualitätsprodukten und unserem professionellen Servicekonzept einen Unterschied in der Branche.",
+        "p2": "Unser Unternehmen bietet umfassende Dienstleistungen im Bereich elektrischer Systeme an, darunter Niederspannungs- (NS), Mittelspannungs- (MS) und Energieleitungsprojekte sowie Kompensations-, Automatisierungs-, Solarenergiesysteme (SES) und unterirdische Kabelführungslösungen. Jedes Projekt wird von unserem Expertenteam aus Ingenieuren und Technikern sorgfältig geplant, umgesetzt und kontrolliert. Somit bieten unsere Projekte stets Sicherheit, Langlebigkeit und maximale Effizienz.",
+        "p3": "Bei Enerva Elektrik verfolgen wir die Technologie aufmerksam und integrieren die neuesten Systeme in unsere Anwendungen. Dank moderner Technologien wie SPS, SCADA, Wechselrichtern und Energieüberwachungssystemen werden die Produktionsprozesse unserer Kunden optimiert und die Energieeffizienz gesteigert. Darüber hinaus werden die elektrischen Infrastrukturen der Anlagen mit unterirdischen Kabelkanälen, Mastmontage- und -demontagediensten sowie detaillierten Projektzeichnungen gesichert.",
+        "p4": "Qualität und Kundenzufriedenheit sind die Grundwerte unseres Unternehmens. Unsere Dienstleistungen, die in jeder Phase durch Qualitätskontrollmechanismen unterstützt werden, garantieren den Unternehmen eine sichere und unterbrechungsfreie Energieversorgung. Mit unseren regelmäßigen Wartungs-, Fehlererkennungs- und technischen Supportdiensten stellen wir sicher, dass die Systeme stets optimal funktionieren. Dieser Ansatz macht Enerva Elektrik zu einem zuverlässigen Lösungspartner in der Branche.",
+        "p5": "Wir legen auch großen Wert auf Umwelt- und Nachhaltigkeitsfragen. Mit Solarenergiesystemen und energiesparenden Lösungen senken wir die Kosten der Unternehmen und helfen ihnen gleichzeitig, ihren CO2-Fußabdruck zu reduzieren. Unser Unternehmen nimmt mit innovativen und umweltfreundlichen Lösungen eine Vorreiterrolle in der Branche ein.",
+        "p6": "Enerva Elektrik strebt mit seinem fundierten technischen Wissen, seinen erfahrenen Mitarbeitern und seinem kundenorientierten Serviceansatz stets danach, die besten Lösungen anzubieten. Indem wir die Bedürfnisse unserer Kunden genau analysieren, stehen wir ihnen als zuverlässiger Partner bei Projektplanungs- und Umsetzungsprozessen zur Seite. Dank unseres innovativen Ansatzes, unseres Qualitätsverständnisses und unseres Ziels der kontinuierlichen Weiterentwicklung behaupten wir unsere führende Position in der Branche und gewinnen weiterhin das Vertrauen unserer Kunden."
+    },
+    "servicesPage": {
+        "title": "Unsere Leistungen",
+        "subtitle": "Unsere umfassenden Elektro- und Automatisierungslösungen",
+        "items": {
+            "ag": {
+                "title": "Niederspannungs (NS) -Elektrosysteme",
+                "desc": "Installations- und Wartungsdienste für Niederspannungselektrosysteme."
+            },
+            "og": {
+                "title": "Mittelspannungs (MS) -Elektrosysteme",
+                "desc": "Transformatorenstationen, MS-Zelleninstallationen, Kabelverlegung, Prüfung und Inbetriebnahme."
+            },
+            "kompanzasyon": {
+                "title": "Kompensationsanlagen",
+                "desc": "Wir sorgen für ein sicheres, effizientes und nachhaltiges Energiemanagement."
+            },
+            "otomasyon": {
+                "title": "Automatisierungssysteme",
+                "desc": "Wir etablieren sichere und nachhaltige Systeme, indem wir maßgeschneiderte Lösungen entwickeln."
+            },
+            "ges": {
+                "title": "Solarenergiesysteme (SES)",
+                "desc": "Nachhaltige Energie mit SES-Installations- und Projektierungsdiensten."
+            },
+            "yeralti": {
+                "title": "Unterirdische Kanalsysteme",
+                "desc": "Sichere, ordentliche und langlebige unterirdische Kanalsysteme für Anlagen und Industriegebiete."
+            },
+            "enerji": {
+                "title": "Installation und Wartung von Energieleitungen",
+                "desc": "Normgerechte Energieleitungsinstallation für Industrie- und Gewerbeanlagen."
+            },
+            "direk": {
+                "title": "Mastmontage und -demontage",
+                "desc": "Sichere und schnelle Montage und Demontage von Strommasten."
+            },
+            "proje": {
+                "title": "Projektzeichnung für Elektrik und Automatisierung",
+                "desc": "Detaillierte elektrische und Automatisierungsprojektzeichnungen für Ihre Anlagen."
+            }
+        }
+    }
+}

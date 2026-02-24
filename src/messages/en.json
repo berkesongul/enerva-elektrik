@@ -1,0 +1,79 @@
+{
+    "metadata": {
+        "title": "Enerva Elektrik - Electrical Energy Solutions",
+        "description": "Enerva Elektrik – Your reliable partner for high and medium voltage engineering, project planning, and electrical engineering."
+    },
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "services": "Services",
+        "projects": "Projects",
+        "brands": "Brands",
+        "blog": "Blog",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "Electrical Energy Solutions",
+        "subtitle": "Your reliable partner for high and medium voltage engineering",
+        "cta": "Our Services"
+    },
+    "widgets": {
+        "whatsapp": "Message us on WhatsApp",
+        "language": "Language"
+    },
+    "footer": {
+        "rights": "All rights reserved.",
+        "company": "Enerva Elektrik"
+    },
+    "aboutPage": {
+        "title": "About Us",
+        "p1": "Enerva Elektrik is one of the leading companies offering innovative solutions in the electrical, automation, and energy sectors. Since its establishment, it has adopted the principle of realizing safe and efficient projects by accurately analyzing the needs of our customers. Serving a wide customer portfolio from industrial facilities to commercial businesses, our company makes a difference in the sector with its quality products and professional service approach.",
+        "p2": "Our company offers comprehensive services in the field of electrical systems, including low voltage (LV), medium voltage (MV), and energy line projects, as well as compensation, automation, solar energy systems (SES), and underground conduit solutions. Each project is meticulously planned, implemented, and controlled by our expert team of engineers and technicians. Thus, our projects always offer safety, longevity, and maximum efficiency.",
+        "p3": "At Enerva Elektrik, we closely follow technology and integrate the latest systems into our applications. Thanks to modern technologies such as PLC, SCADA, inverters, and energy monitoring systems, our customers' production processes are optimized and energy efficiency is increased. In addition, the electrical infrastructures of the facilities are secured with underground cable conduits, pole assembly-disassembly services, and detailed project drawing.",
+        "p4": "Quality and customer satisfaction are the core values of our company. Our services, supported by quality control mechanisms at every stage, guarantee that businesses have safe and uninterrupted energy. With our periodic maintenance, fault detection, and technical support services, we ensure that the systems always perform optimally. This approach makes Enerva Elektrik a reliable solution partner in the sector.",
+        "p5": "We also attach great importance to environmental and sustainability issues. With solar energy systems and energy saving solutions, we both reduce the costs of businesses and help them reduce their carbon footprint. Our company plays a pioneering role in the sector with innovative and environmentally friendly solutions.",
+        "p6": "Enerva Elektrik always aims to offer the best solutions with its strong technical knowledge, experienced staff, and customer-oriented service approach. By accurately analyzing the needs of our customers, we stand by them as a reliable partner in project planning and implementation processes. Thanks to our innovative approach, quality service understanding, and continuous development goal, we maintain our leading position in the sector and continue to gain the trust of our customers."
+    },
+    "servicesPage": {
+        "title": "Our Services",
+        "subtitle": "Our comprehensive electrical and automation solutions",
+        "items": {
+            "ag": {
+                "title": "Low Voltage (LV) Electrical Systems",
+                "desc": "Low voltage electrical systems installation and maintenance services."
+            },
+            "og": {
+                "title": "Medium Voltage (MV) Electrical Systems",
+                "desc": "Transformer centers, MV cell installations, cable laying, testing, and commissioning services."
+            },
+            "kompanzasyon": {
+                "title": "Compensation Systems",
+                "desc": "We provide safe, efficient, and sustainable energy management."
+            },
+            "otomasyon": {
+                "title": "Automation Systems",
+                "desc": "We establish safe and sustainable systems by developing tailor-made solutions."
+            },
+            "ges": {
+                "title": "Solar Energy Systems (SES)",
+                "desc": "Sustainable energy with SES installation and project designing services."
+            },
+            "yeralti": {
+                "title": "Underground Conduit Systems",
+                "desc": "Safe, orderly, and long-lasting underground conduit systems for facilities and industrial areas."
+            },
+            "enerji": {
+                "title": "Energy Line Installation and Maintenance",
+                "desc": "Standard-compliant energy line installation for industrial and commercial facilities."
+            },
+            "direk": {
+                "title": "Pole Assembly and Disassembly",
+                "desc": "Safe and fast assembly and disassembly of electrical poles."
+            },
+            "proje": {
+                "title": "Electrical and Automation Project Drawing",
+                "desc": "Detailed electrical and automation project drawing services for your facilities."
+            }
+        }
+    }
+}

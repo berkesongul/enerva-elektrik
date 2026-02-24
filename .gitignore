@@ -1,0 +1,59 @@
+# ─── Dependencies ───
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# ─── Next.js ───
+/.next/
+/out/
+/build
+next-env.d.ts
+*.tsbuildinfo
+
+# ─── Environment Variables ───
+.env
+.env.*
+!.env.example
+
+# ─── Database ───
+prisma/migrations/
+*.db
+*.sqlite
+
+# ─── OS Files ───
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ─── IDE / Editor ───
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# ─── Debug Logs ───
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ─── Testing ───
+/coverage
+
+# ─── Keys & Certificates ───
+*.pem
+*.key
+
+# ─── Vercel ───
+.vercel
+
+# ─── Misc ───
+*.tgz
+.eslintcache

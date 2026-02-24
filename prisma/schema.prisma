@@ -1,0 +1,78 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum ProjectCategory {
+  HV
+  MV
+  POWER_SYSTEMS
+}
+
+model Admin {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  password  String
+  name      String
+  createdAt DateTime @default(now())
+}
+
+model Project {
+  id          String          @id @default(cuid())
+  // Localized fields
+  titleDe     String
+  titleTr     String
+  titleEn     String
+  descriptionDe String        @db.Text
+  descriptionTr String        @db.Text
+  descriptionEn String        @db.Text
+  clientDe    String?
+  clientTr    String?
+  clientEn    String?
+  // Common fields
+  category    ProjectCategory
+  mainImage   String?
+  gallery     Json?           @default("[]")
+  year        Int?
+  location    String?
+  slug        String          @unique
+  isPublished Boolean         @default(false)
+  createdAt   DateTime        @default(now())
+  updatedAt   DateTime        @updatedAt
+
+  @@index([category])
+  @@index([isPublished])
+  @@index([slug])
+}
+
+model Blog {
+  id          String   @id @default(cuid())
+  // Localized fields
+  titleDe     String
+  titleTr     String
+  titleEn     String
+  slugDe      String   @unique
+  slugTr      String   @unique
+  slugEn      String   @unique
+  contentDe   String   @db.Text
+  contentTr   String   @db.Text
+  contentEn   String   @db.Text
+  // Common fields
+  image       String?
+  isPublished Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([isPublished])
+}
+
+model Settings {
+  id        String   @id @default(cuid())
+  key       String   @unique
+  value     String   @db.Text
+  updatedAt DateTime @updatedAt
+}

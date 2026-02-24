@@ -1,0 +1,79 @@
+{
+    "metadata": {
+        "title": "Enerva Elektrik - Elektrik Enerji Çözümleri",
+        "description": "Enerva Elektrik – Yüksek ve orta gerilim tekniği, projelendirme ve elektrik mühendisliğinde güvenilir ortağınız."
+    },
+    "nav": {
+        "home": "Ana Sayfa",
+        "about": "Hakkımızda",
+        "services": "Hizmetlerimiz",
+        "projects": "Projeler",
+        "brands": "Markalar",
+        "blog": "Blog",
+        "contact": "İletişim"
+    },
+    "hero": {
+        "title": "Elektrik Enerji Çözümleri",
+        "subtitle": "Yüksek ve orta gerilim tekniğinde güvenilir ortağınız",
+        "cta": "Hizmetlerimiz"
+    },
+    "widgets": {
+        "whatsapp": "WhatsApp ile yazın",
+        "language": "Dil"
+    },
+    "footer": {
+        "rights": "Tüm hakları saklıdır.",
+        "company": "Enerva Elektrik"
+    },
+    "aboutPage": {
+        "title": "Hakkımızda",
+        "p1": "Enerva Elektrik, elektrik, otomasyon ve enerji sektörlerinde yenilikçi çözümler sunan lider firmalardan biridir. Kurulduğu günden bu yana, müşterilerimizin ihtiyaçlarını doğru analiz ederek, güvenli ve verimli projeler gerçekleştirmeyi ilke edinmiştir. Endüstriyel tesislerden ticari işletmelere kadar geniş bir müşteri portföyüne hizmet veren firmamız, kaliteli ürün ve profesyonel hizmet anlayışıyla sektörde fark yaratmaktadır.",
+        "p2": "Firmamız, elektrik sistemleri alanında alçak gerilim (AG), orta gerilim (OG) ve enerji hatları projelerinin yanı sıra, kompanzasyon, otomasyon, güneş enerjisi sistemleri (GES) ve yer altı kanal çözümleri gibi kapsamlı hizmetler sunmaktadır. Her bir proje, alanında uzman mühendis ve teknisyen ekibimiz tarafından titizlikle planlanır, uygulanır ve kontrol edilir. Bu sayede, projelerimiz her zaman güvenli, uzun ömürlü ve maksimum verimlilik sunar.",
+        "p3": "Enerva Elektrik olarak teknolojiyi yakından takip ediyor ve en son sistemleri uygulamalarımıza entegre ediyoruz. PLC, SCADA, inverter ve enerji izleme sistemleri gibi modern teknolojiler sayesinde, müşterilerimizin üretim süreçleri optimize edilmekte ve enerji verimliliği artırılmaktadır. Bunun yanı sıra, yer altı kablo kanalları, direk montaj-demontaj hizmetleri ve detaylı proje çizimi ile tesislerin elektrik altyapıları güvence altına alınmaktadır.",
+        "p4": "Kalite ve müşteri memnuniyeti, firmamızın temel değerlerindendir. Her aşamada kalite kontrol mekanizmaları ile desteklenen hizmetlerimiz, işletmelerin güvenli ve kesintisiz enerjiye sahip olmasını garanti eder. Periyodik bakım, arıza tespit ve teknik destek hizmetlerimiz ile sistemlerin her zaman optimum performans göstermesini sağlıyoruz. Bu yaklaşım, Enerva Elektrik’i sektörde güvenilir bir çözüm ortağı haline getirmektedir.",
+        "p5": "Ayrıca çevre ve sürdürülebilirlik konularına büyük önem veriyoruz. Güneş enerjisi sistemleri ve enerji tasarrufu çözümleri ile hem işletmelerin maliyetlerini düşürüyor hem de karbon ayak izlerini azaltmalarına katkıda bulunuyoruz. Firmamız, inovatif ve çevre dostu çözümlerle sektörde öncü bir rol üstlenmektedir.",
+        "p6": "Enerva Elektrik, güçlü teknik bilgi birikimi, deneyimli kadrosu ve müşteri odaklı hizmet anlayışı ile her zaman en iyi çözümleri sunmayı hedefler. Müşterilerimizin ihtiyaçlarını doğru analiz ederek, proje planlama ve uygulama süreçlerinde güvenilir bir ortak olarak yanlarında yer alıyoruz. Yenilikçi yaklaşımımız, kaliteli hizmet anlayışımız ve sürekli gelişim hedefimiz sayesinde sektörde lider konumumuzu koruyor ve müşterilerimizin güvenini kazanmaya devam ediyoruz."
+    },
+    "servicesPage": {
+        "title": "Hizmetlerimiz",
+        "subtitle": "Kapsamlı elektrik ve otomasyon çözümlerimiz",
+        "items": {
+            "ag": {
+                "title": "Alçak Gerilim (AG) Elektrik Sistemleri",
+                "desc": "Alçak gerilim elektrik sistemleri kurulum ve bakım hizmetleri."
+            },
+            "og": {
+                "title": "Orta Gerilim (OG) Elektrik Sistemleri",
+                "desc": "Trafo merkezleri, OG hücre montajları, kablo döşeme, test ve devreye alma hizmetleri."
+            },
+            "kompanzasyon": {
+                "title": "Kompanzasyon Sistemleri",
+                "desc": "Güvenli, verimli ve sürdürülebilir enerji yönetimi sağlıyoruz."
+            },
+            "otomasyon": {
+                "title": "Otomasyon Sistemleri",
+                "desc": "İhtiyaca özel çözümler geliştirerek güvenli ve sürdürülebilir sistemler kuruyoruz."
+            },
+            "ges": {
+                "title": "Güneş Enerjisi Sistemleri (GES)",
+                "desc": "GES kurulum ve projelendirme hizmetleri ile sürdürülebilir enerji."
+            },
+            "yeralti": {
+                "title": "Yer Altı Kanal Sistemleri",
+                "desc": "Tesis ve endüstriyel alanlar için güvenli, düzenli ve uzun ömürlü yer altı kanal sistemleri."
+            },
+            "enerji": {
+                "title": "Enerji Hat Kurulumu ve Bakımı",
+                "desc": "Endüstriyel ve ticari tesisler için standartlara uygun enerji hat kurulumu."
+            },
+            "direk": {
+                "title": "Direk Montaj ve Demontaj",
+                "desc": "Elektrik direklerinin güvenli ve hızlı montaj ile demontaj işlemleri."
+            },
+            "proje": {
+                "title": "Elektrik ve Otomasyon Proje Çizimi",
+                "desc": "Tesisleriniz için detaylı elektrik ve otomasyon proje çizimi hizmetleri."
+            }
+        }
+    }
+}
