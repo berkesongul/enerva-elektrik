@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 3220" font-family="'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif" font-size="13">
+  <style>
+    .folder { fill: #e8a317; }
+    .file { fill: #5a9fd4; }
+    .label { fill: #1e1e1e; font-size: 13px; }
+    .root-label { fill: #1e1e1e; font-size: 15px; font-weight: bold; }
+    .line { stroke: #b0b0b0; stroke-width: 1; fill: none; }
+    .bg { fill: #ffffff; }
+  </style>
+
+  <!-- Background -->
+  <rect class="bg" width="720" height="3220" rx="12"/>
+
+  <!-- Title -->
+  <text x="30" y="36" class="root-label" font-size="18">📁 enerva-elektrik</text>
+
+  <!-- ======== ROOT FILES ======== -->
+  <text x="50" y="68" class="label">├── 📄 .env</text>
+  <text x="50" y="88" class="label">├── 📄 .env.example</text>
+  <text x="50" y="108" class="label">├── 📄 .gitattributes</text>
+  <text x="50" y="128" class="label">├── 📄 .gitignore</text>
+  <text x="50" y="148" class="label">├── 📄 README.md</text>
+  <text x="50" y="168" class="label">├── 📄 components.json</text>
+  <text x="50" y="188" class="label">├── 📄 eslint.config.mjs</text>
+  <text x="50" y="208" class="label">├── 📄 next-env.d.ts</text>
+  <text x="50" y="228" class="label">├── 📄 next.config.ts</text>
+  <text x="50" y="248" class="label">├── 📄 package.json</text>
+  <text x="50" y="268" class="label">├── 📄 package-lock.json</text>
+  <text x="50" y="288" class="label">├── 📄 postcss.config.mjs</text>
+  <text x="50" y="308" class="label">├── 📄 tsconfig.json</text>
+
+  <!-- ======== PRISMA ======== -->
+  <text x="50" y="348" class="label">├── 📁 prisma/</text>
+  <text x="80" y="368" class="label">├── 📄 schema.prisma</text>
+  <text x="80" y="388" class="label">└── 📄 seed.ts</text>
+
+  <!-- ======== PUBLIC ======== -->
+  <text x="50" y="428" class="label">├── 📁 public/</text>
+  <text x="80" y="448" class="label">├── 📁 brands/</text>
+  <text x="110" y="468" class="label">├── 📄 adalpano.png</text>
+  <text x="110" y="488" class="label">├── 📄 chintelectronics.png</text>
+  <text x="110" y="508" class="label">├── 📄 forlife_professional.png</text>
+  <text x="110" y="528" class="label">├── 📄 hascelik_kablo.png</text>
+  <text x="110" y="548" class="label">├── 📄 kael.png</text>
+  <text x="110" y="568" class="label">├── 📄 legrand.png</text>
+  <text x="110" y="588" class="label">├── 📄 oznurkablo.png</text>
+  <text x="110" y="608" class="label">├── 📄 provar.png</text>
+  <text x="110" y="628" class="label">├── 📄 raychem.png</text>
+  <text x="110" y="648" class="label">├── 📄 schneider.png</text>
+  <text x="110" y="668" class="label">├── 📄 sena_kablo.png</text>
+  <text x="110" y="688" class="label">└── 📄 sutem.png</text>
+  <text x="80" y="708" class="label">├── 📄 file.svg</text>
+  <text x="80" y="728" class="label">├── 📄 globe.svg</text>
+  <text x="80" y="748" class="label">├── 📄 next.svg</text>
+  <text x="80" y="768" class="label">├── 📄 vercel.svg</text>
+  <text x="80" y="788" class="label">└── 📄 window.svg</text>
+
+  <!-- ======== SRC ======== -->
+  <text x="50" y="828" class="label">└── 📁 src/</text>
+  <text x="80" y="848" class="label">├── 📄 middleware.ts</text>
+
+  <!-- ======== SRC / APP ======== -->
+  <text x="80" y="888" class="label">├── 📁 app/</text>
+  <text x="110" y="908" class="label">├── 📄 favicon.ico</text>
+  <text x="110" y="928" class="label">├── 📄 globals.css</text>
+  <text x="110" y="948" class="label">├── 📄 layout.tsx</text>
+
+  <!-- [locale] -->
+  <text x="110" y="988" class="label">├── 📁 [locale]/</text>
+  <text x="140" y="1008" class="label">├── 📄 HomeClient.tsx</text>
+  <text x="140" y="1028" class="label">├── 📄 layout.tsx</text>
+  <text x="140" y="1048" class="label">├── 📄 page.tsx</text>
+  <text x="140" y="1078" class="label">├── 📁 about/</text>
+  <text x="170" y="1098" class="label">└── 📄 page.tsx</text>
+  <text x="140" y="1128" class="label">├── 📁 blog/</text>
+  <text x="170" y="1148" class="label">├── 📄 BlogClient.tsx</text>
+  <text x="170" y="1168" class="label">├── 📄 page.tsx</text>
+  <text x="170" y="1198" class="label">└── 📁 [slug]/</text>
+  <text x="200" y="1218" class="label">├── 📄 BlogDetailClient.tsx</text>
+  <text x="200" y="1238" class="label">└── 📄 page.tsx</text>
+  <text x="140" y="1268" class="label">├── 📁 brands/</text>
+  <text x="170" y="1288" class="label">└── 📄 page.tsx</text>
+  <text x="140" y="1318" class="label">├── 📁 contact/</text>
+  <text x="170" y="1338" class="label">└── 📄 page.tsx</text>
+  <text x="140" y="1368" class="label">├── 📁 projects/</text>
+  <text x="170" y="1388" class="label">├── 📄 ProjectsClient.tsx</text>
+  <text x="170" y="1408" class="label">├── 📄 page.tsx</text>
+  <text x="170" y="1438" class="label">└── 📁 [slug]/</text>
+  <text x="200" y="1458" class="label">├── 📄 ProjectDetailClient.tsx</text>
+  <text x="200" y="1478" class="label">└── 📄 page.tsx</text>
+  <text x="140" y="1508" class="label">└── 📁 services/</text>
+  <text x="170" y="1528" class="label">└── 📄 page.tsx</text>
+
+  <!-- admin -->
+  <text x="110" y="1568" class="label">├── 📁 admin/</text>
+  <text x="140" y="1588" class="label">├── 📄 layout.tsx</text>
+  <text x="140" y="1608" class="label">├── 📄 page.tsx</text>
+  <text x="140" y="1638" class="label">├── 📁 actions/</text>
+  <text x="170" y="1658" class="label">├── 📄 blog.ts</text>
+  <text x="170" y="1678" class="label">├── 📄 projects.ts</text>
+  <text x="170" y="1698" class="label">└── 📄 upload.ts</text>
+  <text x="140" y="1728" class="label">├── 📁 blog/</text>
+  <text x="170" y="1748" class="label">├── 📄 page.tsx</text>
+  <text x="170" y="1778" class="label">├── 📁 new/</text>
+  <text x="200" y="1798" class="label">└── 📄 page.tsx</text>
+  <text x="170" y="1828" class="label">└── 📁 [id]/</text>
+  <text x="200" y="1848" class="label">└── 📁 edit/</text>
+  <text x="230" y="1868" class="label">└── 📄 page.tsx</text>
+  <text x="140" y="1898" class="label">├── 📁 login/</text>
+  <text x="170" y="1918" class="label">└── 📄 page.tsx</text>
+  <text x="140" y="1948" class="label">└── 📁 projects/</text>
+  <text x="170" y="1968" class="label">├── 📄 page.tsx</text>
+  <text x="170" y="1998" class="label">├── 📁 new/</text>
+  <text x="200" y="2018" class="label">└── 📄 page.tsx</text>
+  <text x="170" y="2048" class="label">└── 📁 [id]/</text>
+  <text x="200" y="2068" class="label">└── 📁 edit/</text>
+  <text x="230" y="2088" class="label">└── 📄 page.tsx</text>
+
+  <!-- api -->
+  <text x="110" y="2128" class="label">└── 📁 api/</text>
+  <text x="140" y="2148" class="label">└── 📁 auth/</text>
+  <text x="170" y="2168" class="label">└── 📁 [...nextauth]/</text>
+  <text x="200" y="2188" class="label">└── 📄 route.ts</text>
+
+  <!-- ======== SRC / COMPONENTS ======== -->
+  <text x="80" y="2228" class="label">├── 📁 components/</text>
+  <text x="110" y="2248" class="label">├── 📁 admin/</text>
+  <text x="140" y="2268" class="label">├── 📄 AdminProviders.tsx</text>
+  <text x="140" y="2288" class="label">├── 📄 AdminSidebar.tsx</text>
+  <text x="140" y="2308" class="label">├── 📄 AdminTopBar.tsx</text>
+  <text x="140" y="2328" class="label">├── 📄 BlogForm.tsx</text>
+  <text x="140" y="2348" class="label">├── 📄 BlogListClient.tsx</text>
+  <text x="140" y="2368" class="label">├── 📄 DashboardClient.tsx</text>
+  <text x="140" y="2388" class="label">├── 📄 EditBlogClient.tsx</text>
+  <text x="140" y="2408" class="label">├── 📄 EditProjectClient.tsx</text>
+  <text x="140" y="2428" class="label">├── 📄 ProjectForm.tsx</text>
+  <text x="140" y="2448" class="label">└── 📄 ProjectsListClient.tsx</text>
+
+  <!-- shared -->
+  <text x="110" y="2478" class="label">├── 📁 shared/</text>
+  <text x="140" y="2498" class="label">└── 📄 Navbar.tsx</text>
+
+  <!-- ui -->
+  <text x="110" y="2528" class="label">├── 📁 ui/</text>
+  <text x="140" y="2548" class="label">├── 📄 avatar.tsx</text>
+  <text x="140" y="2568" class="label">├── 📄 badge.tsx</text>
+  <text x="140" y="2588" class="label">├── 📄 button.tsx</text>
+  <text x="140" y="2608" class="label">├── 📄 card.tsx</text>
+  <text x="140" y="2628" class="label">├── 📄 dialog.tsx</text>
+  <text x="140" y="2648" class="label">├── 📄 dropdown-menu.tsx</text>
+  <text x="140" y="2668" class="label">├── 📄 input.tsx</text>
+  <text x="140" y="2688" class="label">├── 📄 label.tsx</text>
+  <text x="140" y="2708" class="label">├── 📄 select.tsx</text>
+  <text x="140" y="2728" class="label">├── 📄 separator.tsx</text>
+  <text x="140" y="2748" class="label">├── 📄 table.tsx</text>
+  <text x="140" y="2768" class="label">├── 📄 tabs.tsx</text>
+  <text x="140" y="2788" class="label">└── 📄 textarea.tsx</text>
+
+  <!-- widgets -->
+  <text x="110" y="2818" class="label">└── 📁 widgets/</text>
+  <text x="140" y="2838" class="label">├── 📄 LanguageSwitcher.tsx</text>
+  <text x="140" y="2858" class="label">└── 📄 WhatsAppWidget.tsx</text>
+
+  <!-- ======== SRC / I18N ======== -->
+  <text x="80" y="2898" class="label">├── 📁 i18n/</text>
+  <text x="110" y="2918" class="label">├── 📄 navigation.ts</text>
+  <text x="110" y="2938" class="label">├── 📄 request.ts</text>
+  <text x="110" y="2958" class="label">└── 📄 routing.ts</text>
+
+  <!-- ======== SRC / LIB ======== -->
+  <text x="80" y="2998" class="label">├── 📁 lib/</text>
+  <text x="110" y="3018" class="label">├── 📄 admin-i18n.tsx</text>
+  <text x="110" y="3038" class="label">├── 📄 auth.ts</text>
+  <text x="110" y="3058" class="label">├── 📄 prisma.ts</text>
+  <text x="110" y="3078" class="label">└── 📄 utils.ts</text>
+
+  <!-- ======== SRC / MESSAGES ======== -->
+  <text x="80" y="3118" class="label">└── 📁 messages/</text>
+  <text x="110" y="3138" class="label">├── 📄 de.json</text>
+  <text x="110" y="3158" class="label">├── 📄 en.json</text>
+  <text x="110" y="3178" class="label">└── 📄 tr.json</text>
+</svg>

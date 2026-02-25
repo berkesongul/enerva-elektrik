@@ -27,6 +27,9 @@
     },
     "aboutPage": {
         "title": "About Us",
+        "techTitle": "Technology and Expertise",
+        "valuesTitle": "Quality and Reliability",
+        "sustainTitle": "Sustainability",
         "p1": "Enerva Elektrik is one of the leading companies offering innovative solutions in the electrical, automation, and energy sectors. Since its establishment, it has adopted the principle of realizing safe and efficient projects by accurately analyzing the needs of our customers. Serving a wide customer portfolio from industrial facilities to commercial businesses, our company makes a difference in the sector with its quality products and professional service approach.",
         "p2": "Our company offers comprehensive services in the field of electrical systems, including low voltage (LV), medium voltage (MV), and energy line projects, as well as compensation, automation, solar energy systems (SES), and underground conduit solutions. Each project is meticulously planned, implemented, and controlled by our expert team of engineers and technicians. Thus, our projects always offer safety, longevity, and maximum efficiency.",
         "p3": "At Enerva Elektrik, we closely follow technology and integrate the latest systems into our applications. Thanks to modern technologies such as PLC, SCADA, inverters, and energy monitoring systems, our customers' production processes are optimized and energy efficiency is increased. In addition, the electrical infrastructures of the facilities are secured with underground cable conduits, pole assembly-disassembly services, and detailed project drawing.",
@@ -37,42 +40,45 @@
     "servicesPage": {
         "title": "Our Services",
         "subtitle": "Our comprehensive electrical and automation solutions",
+        "learnMore": "Learn More",
+        "backToServices": "All Services",
+        "contactCta": "Contact us for more information about this service.",
+        "contactButton": "Contact Us",
         "items": {
-            "ag": {
-                "title": "Low Voltage (LV) Electrical Systems",
-                "desc": "Low voltage electrical systems installation and maintenance services."
-            },
             "og": {
                 "title": "Medium Voltage (MV) Electrical Systems",
-                "desc": "Transformer centers, MV cell installations, cable laying, testing, and commissioning services."
+                "desc": "Transformer centers, MV cell installations, cable laying, testing, and commissioning services.",
+                "detail": "At Enerva Elektrik, we offer comprehensive and reliable solutions in the field of medium voltage electrical systems. We carry out the engineering, installation, and commissioning of transformer stations, MV cell installations, cable laying operations, and testing and measurement services with our expert team. In all our projects, we ensure compliance with international standards and local regulations, meeting the needs of businesses for safe and uninterrupted energy. Our applications, carried out with modern measuring instruments and quality materials, deliver long-lasting and efficient systems."
             },
             "kompanzasyon": {
                 "title": "Compensation Systems",
-                "desc": "We provide safe, efficient, and sustainable energy management."
+                "desc": "We provide safe, efficient, and sustainable energy management.",
+                "detail": "Compensation systems are one of the most effective ways to control reactive power consumption, reduce your energy costs, and improve power quality in your electrical grid. Enerva Elektrik determines the optimal compensation solution for your facility through site-specific analysis and engineering. We offer the installation of fixed, automatic, and filtered compensation panels, maintenance and revision of existing systems, and energy monitoring and reporting services. With proper compensation, you prevent penalty payments, extend the lifespan of your transformers and cables, and increase overall energy efficiency."
             },
             "otomasyon": {
                 "title": "Automation Systems",
-                "desc": "We establish safe and sustainable systems by developing tailor-made solutions."
-            },
-            "ges": {
-                "title": "Solar Energy Systems (SES)",
-                "desc": "Sustainable energy with SES installation and project designing services."
+                "desc": "We establish safe and sustainable systems by developing tailor-made solutions.",
+                "detail": "Industrial automation systems are critically important for increasing the efficiency of your production processes and minimizing human error. At Enerva Elektrik, we offer PLC (Programmable Logic Controller), SCADA (Supervisory Control and Data Acquisition), HMI panel programming, inverter and drive systems, motor control centers (MCC), and industrial energy monitoring solutions. Each project is custom-designed to our client's needs, and installation and commissioning processes are carried out meticulously. By modernizing your automation infrastructure, we enhance your production quality and sustainability."
             },
             "yeralti": {
                 "title": "Underground Conduit Systems",
-                "desc": "Safe, orderly, and long-lasting underground conduit systems for facilities and industrial areas."
+                "desc": "Safe, orderly, and long-lasting underground conduit systems for facilities and industrial areas.",
+                "detail": "Underground conduit systems are indispensable infrastructure solutions for the safe installation of electrical cables and communication lines. Enerva Elektrik performs concrete channel, PVC pipe, and cable tray applications for industrial facilities, organized industrial zones, and commercial areas. In our projects, we manage all processes from ground survey, route planning, and engineering to excavation, laying, and assembly with our expert team. With long-lasting materials and standard-compliant workmanship, your cables are protected against external factors, providing you with a secure infrastructure."
             },
             "enerji": {
                 "title": "Energy Line Installation and Maintenance",
-                "desc": "Standard-compliant energy line installation for industrial and commercial facilities."
+                "desc": "Standard-compliant energy line installation for industrial and commercial facilities.",
+                "detail": "Energy lines are critical infrastructures that ensure the safe transmission of electrical energy from the generation point to the consumption point. Enerva Elektrik offers overhead and underground cable line installation, maintenance and repair of existing lines, route engineering and permitting processes, and testing and commissioning of energy transmission lines. With our quality conductors, insulation materials, and connection equipment, we ensure that your energy lines are safe, efficient, and long-lasting. With our periodic maintenance services, we detect potential failures in advance and guarantee uninterrupted energy supply."
             },
             "direk": {
                 "title": "Pole Assembly and Disassembly",
-                "desc": "Safe and fast assembly and disassembly of electrical poles."
+                "desc": "Safe and fast assembly and disassembly of electrical poles.",
+                "detail": "The assembly and disassembly of electrical poles are fundamental operations of the energy distribution infrastructure that require high expertise. Enerva Elektrik performs the assembly and disassembly of concrete, wooden, and steel poles, pole foundation excavation and concreting, conductor pulling and connection works, and applications in full compliance with safety and occupational health standards. With our experienced team and specialized equipment, we carry out fast and safe pole operations in urban, rural, and industrial areas."
             },
             "proje": {
                 "title": "Electrical and Automation Project Drawing",
-                "desc": "Detailed electrical and automation project drawing services for your facilities."
+                "desc": "Detailed electrical and automation project drawing services for your facilities.",
+                "detail": "Correct engineering is the first step to a safe and efficient electrical infrastructure. Enerva Elektrik prepares single-line diagrams, panel layout and wiring projects, cable route and cross-section calculations, lighting and grounding projects, and automation system projects for factories, facilities, and businesses. Our projects, prepared with professional software such as AutoCAD and Eplan, ensure full compliance with local regulations and international standards. We analyze the requirements of your facility on-site and engineer the most efficient and safest solution."
             }
         }
     }

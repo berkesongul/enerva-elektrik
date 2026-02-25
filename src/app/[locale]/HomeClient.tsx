@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import { Link } from "@/i18n/navigation";
 import { Badge } from "@/components/ui/badge";
+import Image from "next/image";
 
 export function HomeClient({
     recentProjects,
@@ -26,23 +27,43 @@ export function HomeClient({
         <div className="relative overflow-hidden transition-colors duration-300">
             {/* Hero Section */}
             <section className="relative min-h-[calc(100vh-5rem)] flex items-center">
-                {/* Background Grid + Gradient */}
+                {/* Banner Background Image */}
                 <div className="absolute inset-0">
-                    <div className="absolute inset-0 bg-[linear-gradient(rgba(27,54,93,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(27,54,93,0.08)_1px,transparent_1px)] dark:bg-[linear-gradient(rgba(27,54,93,0.15)_1px,transparent_1px),linear-gradient(90deg,rgba(27,54,93,0.15)_1px,transparent_1px)] bg-[size:64px_64px]" />
-                    <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/80 to-background" />
-                    {/* Glowing orbs */}
-                    <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-[#D4AF37]/5 rounded-full blur-3xl" />
-                    <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-[#1B365D]/10 dark:bg-[#1B365D]/20 rounded-full blur-3xl" />
+                    <img
+                        src="/images/anasayfa/ana-sayfa-banner.jpg"
+                        alt="Enerva Elektrik Banner"
+                        className="w-full h-full object-cover"
+                    />
+                    {/* Theme-aware overlay for text readability */}
+                    <div className="absolute inset-0 bg-gradient-to-r from-white/70 via-white/55 to-white/25 dark:from-[#0d1b2e]/70 dark:via-[#0d1b2e]/55 dark:to-[#0d1b2e]/25" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-white/75 via-transparent to-white/20 dark:from-[#0d1b2e]/75 dark:via-transparent dark:to-[#0d1b2e]/20" />
                 </div>
 
                 <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32 w-full">
                     <div className="max-w-3xl">
+                        {/* Logo */}
+                        <motion.div
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ delay: 0.1 }}
+                            className="mb-6"
+                        >
+                            <Image
+                                src="/images/enerva-logo.png"
+                                alt="Enerva Elektrik Logo"
+                                width={180}
+                                height={60}
+                                className="h-14 sm:h-16 lg:h-20 w-auto drop-shadow-lg"
+                                priority
+                            />
+                        </motion.div>
+
                         {/* Badge */}
                         <motion.div
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.2 }}
-                            className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#1B365D]/10 dark:bg-[#1B365D]/30 border border-[#D4AF37]/30 text-sm font-medium text-[#D4AF37] mb-8"
+                            className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#1B365D]/10 dark:bg-white/10 backdrop-blur-sm border border-[#D4AF37]/40 text-sm font-medium text-[#D4AF37] mb-8"
                         >
                             <span className="w-2 h-2 bg-[#D4AF37] rounded-full animate-pulse" />
                             Hoch- & Mittelspannungstechnik
@@ -55,7 +76,7 @@ export function HomeClient({
                             transition={{ delay: 0.3, duration: 0.6 }}
                             className="text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight mb-6"
                         >
-                            <span className="text-foreground">
+                            <span className="text-[#1B365D] dark:text-white">
                                 {t("hero.title").split(" ")[0]}
                             </span> {" "}
                             <span className="gradient-text">
@@ -68,7 +89,7 @@ export function HomeClient({
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.5 }}
-                            className="text-lg sm:text-xl text-muted-foreground max-w-2xl mb-10 leading-relaxed"
+                            className="text-lg sm:text-xl text-[#1B365D]/80 dark:text-white/80 max-w-2xl mb-10 leading-relaxed"
                         >
                             {t("hero.subtitle")}
                         </motion.p>
@@ -101,7 +122,7 @@ export function HomeClient({
                             </Link>
                             <Link
                                 href="/contact"
-                                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-muted border border-border text-foreground font-semibold text-base rounded-xl hover:bg-muted/80 transition-all duration-300 backdrop-blur-sm"
+                                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#1B365D]/10 dark:bg-white/10 border border-[#1B365D]/20 dark:border-white/20 text-[#1B365D] dark:text-white font-semibold text-base rounded-xl hover:bg-[#1B365D]/20 dark:hover:bg-white/20 transition-all duration-300 backdrop-blur-sm"
                             >
                                 {t("nav.contact")}
                             </Link>
@@ -126,12 +147,12 @@ export function HomeClient({
                                 initial={{ opacity: 0, y: 20 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ delay: 1.2 + index * 0.1 }}
-                                className="bg-card border border-border backdrop-blur-sm rounded-xl p-6 text-center hover:border-[#D4AF37]/30 transition-all duration-300"
+                                className="bg-[#1B365D]/10 dark:bg-white/10 border border-[#1B365D]/10 dark:border-white/15 backdrop-blur-md rounded-xl p-6 text-center hover:border-[#D4AF37]/40 transition-all duration-300"
                             >
                                 <div className="text-2xl lg:text-3xl font-bold gradient-text mb-1">
                                     {stat.value}
                                 </div>
-                                <div className="text-sm text-muted-foreground">
+                                <div className="text-sm text-[#1B365D]/70 dark:text-white/70">
                                     {stat.label}
                                 </div>
                             </motion.div>

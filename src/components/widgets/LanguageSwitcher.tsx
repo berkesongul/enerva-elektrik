@@ -21,7 +21,7 @@ export default function LanguageSwitcher() {
 
     const currentLocale = locales.find((l) => l.code === locale) ?? locales[0];
 
-    // Close dropdown on click outside
+
     useEffect(() => {
         const handleClickOutside = (event: MouseEvent) => {
             if (ref.current && !ref.current.contains(event.target as Node)) {

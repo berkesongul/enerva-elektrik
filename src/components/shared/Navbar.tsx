@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { User, Sun, Moon } from "lucide-react";
+import Image from "next/image";
 
 const navLinks = [
     { key: "home", href: "/" },
@@ -60,21 +61,15 @@ export default function Navbar() {
             <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16 lg:h-20">
                     {/* Logo */}
-                    <Link href="/" className="flex items-center gap-3 group">
-                        <div className="relative">
-                            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-accent to-accent-light flex items-center justify-center font-bold text-primary text-xl transition-transform group-hover:scale-110">
-                                E
-                            </div>
-                            <div className="absolute inset-0 rounded-lg bg-gradient-to-br from-accent to-accent-light opacity-0 group-hover:opacity-40 blur-md transition-opacity" />
-                        </div>
-                        <div className="flex flex-col">
-                            <span className="text-lg font-bold text-foreground tracking-tight">
-                                ENERVA
-                            </span>
-                            <span className="text-[10px] font-medium text-enerva-text-muted tracking-[0.2em] uppercase -mt-1">
-                                Elektrik
-                            </span>
-                        </div>
+                    <Link href="/" className="flex items-center group">
+                        <Image
+                            src="/images/enerva-logo.png"
+                            alt="Enerva Elektrik"
+                            width={160}
+                            height={50}
+                            className="h-10 lg:h-12 w-auto transition-transform group-hover:scale-105"
+                            priority
+                        />
                     </Link>
 
                     {/* Desktop Navigation */}
