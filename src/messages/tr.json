@@ -15,7 +15,58 @@
     "hero": {
         "title": "Elektrik Enerji Çözümleri",
         "subtitle": "Yüksek ve orta gerilim tekniğinde güvenilir ortağınız",
+        "slides": [
+            {
+                "title": "Güvenilir Enerji Çözümleri",
+                "subtitle": "Orta gerilim sistemlerinizi uzman ekibimizle güvenle projelendiriyor ve uyguluyoruz."
+            },
+            {
+                "title": "Verimli Enerji Yönetimi",
+                "subtitle": "Kompanzasyon sistemlerimizle enerji maliyetlerinizi düşürün, verimliliğinizi artırın."
+            },
+            {
+                "title": "Akıllı Otomasyon",
+                "subtitle": "Endüstriyel tesisleriniz için ileri teknoloji otomasyon çözümleri sağlıyoruz."
+            },
+            {
+                "title": "Altyapı Sistemleri",
+                "subtitle": "Yer altı kablo ve kanal sistemlerinde kalıcı ve güvenli çözümler üretiyoruz."
+            },
+            {
+                "title": "Kesintisiz Güç",
+                "subtitle": "Enerji nakil hatları projelerinde uluslararası standartlarda hizmet veriyoruz."
+            },
+            {
+                "title": "Profesyonel Kurulum",
+                "subtitle": "Direk montajı ve altyapı çalışmalarını deneyimli kadromuzla gerçekleştiriyoruz."
+            }
+        ],
         "cta": "Hizmetlerimiz"
+    },
+    "homePage": {
+        "badge": "Yüksek & Orta Gerilim Tekniği",
+        "statYears": "Yıllık Deneyim",
+        "statProjects": "Tamamlanan Proje",
+        "statClients": "Mutlu Müşteri",
+        "statSupport": "Teknik Destek",
+        "aboutTitle": "Enerva Elektrik Hakkında",
+        "aboutP1": "Enerva Elektrik, elektrik, otomasyon ve enerji sektörlerinde yenilikçi çözümler sunan lider firmalardan biridir. Kurulduğu günden bu yana, müşterilerimizin ihtiyaçlarını doğru analiz ederek güvenli ve verimli projeler gerçekleştirmeyi ilke edinmiştir.",
+        "aboutP2": "Endüstriyel tesislerden ticari işletmelere kadar geniş bir portföye hizmet veren firmamız, kaliteli ürün ve profesyonel hizmet anlayışıyla sektörde fark yaratmaktadır.",
+        "servicesTitle": "Hizmetlerimiz",
+        "servicesSubtitle": "Kapsamlı elektrik ve otomasyon çözümlerimizle projelerinize değer katıyoruz.",
+        "projectsTitle": "Projelerimiz",
+        "projectsSubtitle": "Başarıyla tamamladığımız projelerimizden bazılarına göz atın.",
+        "noProjectsYet": "Henüz proje eklenmemiştir.",
+        "brandsTitle": "Partner Markalarımız",
+        "brandsSubtitle": "Sektörün öncü markalarıyla güvenilir ve uzun ömürlü çözümler üretiyoruz.",
+        "blogTitle": "Blog & Haberler",
+        "blogSubtitle": "Enerji sektöründen güncel haberler ve içgörüler.",
+        "noBlogsYet": "Henüz blog yazısı eklenmemiştir.",
+        "readMore": "Devamını Oku",
+        "seeMore": "Devamını Gör",
+        "contactTitle": "Bizimle İletişime Geçin",
+        "contactCta": "Proje Teklifi Alın",
+        "goToContact": "İletişim Sayfasına Git"
     },
     "widgets": {
         "whatsapp": "WhatsApp ile yazın",
@@ -81,5 +132,62 @@
                 "detail": "Doğru projelendirme, güvenli ve verimli bir elektrik altyapısının ilk adımıdır. Enerva Elektrik, fabrika, tesis ve işletmeler için tek hat şemaları, pano yerleşim ve iç bağlantı projeleri, kablo güzergahı ve kesit hesaplamaları, aydınlatma ve topraklama projeleri ile otomasyon sistem projeleri hazırlamaktadır. AutoCAD ve Eplan gibi profesyonel yazılımlarla hazırlanan projelerimiz, yerel mevzuata ve uluslararası standartlara tam uygunluk sağlar. Tesisinizin ihtiyaçlarını yerinde analiz ederek en verimli ve güvenli çözümü projelendiriyoruz."
             }
         }
+    },
+    "brandsPage": {
+        "subtitle": "Sektörün öncü markalarıyla güvenilir ve uzun ömürlü çözümler üretiyoruz. Projelerimizde kullandığımız partner markalar:"
+    },
+    "contactPage": {
+        "subtitle": "Projeleriniz ve ihtiyaçlarınız hakkında bizimle iletişime geçin.",
+        "phone": "Telefon",
+        "email": "E-posta",
+        "address": "Adres",
+        "addressValue": "Adres bilgisi buraya gelecek",
+        "workingHours": "Çalışma Saatleri",
+        "workingHoursValue": "Pazartesi - Cumartesi: 08:00 - 18:00",
+        "formTitle": "Bize Ulaşın",
+        "formSubtitle": "Formumuzu doldurarak bize mesaj gönderin, en kısa sürede dönüş yapacağız.",
+        "nameLabel": "Ad Soyad",
+        "namePlaceholder": "Adınızı girin",
+        "emailLabel": "E-posta",
+        "emailPlaceholder": "ornek@email.com",
+        "subjectLabel": "Konu",
+        "subjectPlaceholder": "Mesajınızın konusu",
+        "messageLabel": "Mesaj",
+        "messagePlaceholder": "Mesajınızı yazın...",
+        "sendButton": "Mesaj Gönder",
+        "whyContactTitle": "Neden Bizi Tercih Etmelisiniz?",
+        "reason1": "20+ yıllık sektör deneyimi",
+        "reason2": "Uzman mühendis ve teknisyen kadrosu",
+        "reason3": "7/24 teknik destek hizmeti",
+        "reason4": "Uluslararası standartlara uygun çözümler",
+        "directContactTitle": "Hızlı İletişim",
+        "directContactDesc": "Acil projeleriniz için WhatsApp üzerinden anında bize ulaşın.",
+        "mapTitle": "Bizi Ziyaret Edin",
+        "mapSubtitle": "Ofisimize gelin, projelerinizi yüz yüze görüşelim.",
+        "directionsButton": "Yol Tarifi Al"
+    },
+    "blogPage": {
+        "subtitle": "Enerji sektöründen güncel haberler, gelişmeler ve içgörüler.",
+        "readMore": "Devamını Oku",
+        "noImage": "Görsel yok",
+        "noPosts": "Henüz blog yazısı bulunmamaktadır.",
+        "backToBlog": "Blog'a Dön",
+        "news": "Haberler"
+    },
+    "projectsPage": {
+        "subtitle": "Başarıyla tamamladığımız projelerimizi keşfedin.",
+        "allProjects": "Tüm Projeler",
+        "catHV": "Yüksek Gerilim",
+        "catMV": "Orta Gerilim",
+        "catPower": "Enerji Sistemleri",
+        "viewDetails": "Detayları Gör",
+        "noImage": "Görsel yok",
+        "noProjects": "Bu kategoride proje bulunmamaktadır.",
+        "backToProjects": "Projelere Dön",
+        "client": "Müşteri",
+        "ctaTitle": "Benzer bir proje mi planlıyorsunuz?",
+        "ctaDesc": "Ücretsiz danışmanlık için bizimle iletişime geçin.",
+        "ctaButton": "İletişime Geçin",
+        "gallery": "Proje Galerisi"
     }
 }

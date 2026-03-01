@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { Inter, Outfit } from "next/font/google";
 import { routing } from "@/i18n/routing";
 import Navbar from "@/components/shared/Navbar";
+import Footer from "@/components/shared/Footer";
 import WhatsAppWidget from "@/components/widgets/WhatsAppWidget";
 import LanguageSwitcher from "@/components/widgets/LanguageSwitcher";
 
@@ -53,7 +54,10 @@ export default async function LocaleLayout({
             >
                 <NextIntlClientProvider locale={locale} messages={messages}>
                     <Navbar />
-                    <main className="min-h-screen pt-16 lg:pt-20">{children}</main>
+                    <main className="min-h-screen pt-16 lg:pt-20 flex flex-col">
+                        <div className="flex-1">{children}</div>
+                        <Footer />
+                    </main>
                     <WhatsAppWidget />
                     <LanguageSwitcher />
                 </NextIntlClientProvider>

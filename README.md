@@ -1,4 +1,4 @@
-# ⚡ Enerva Elektrik — Kurumsal Web Sitesi
+#Enerva Elektrik — Kurumsal Web Sitesi
 
 Enerva Elektrik'in kurumsal web sitesi. Yüksek gerilim, orta gerilim ve enerji sistemleri alanında hizmet veren firmamızın dijital vitrinidir.
 
@@ -6,7 +6,7 @@ Enerva Elektrik'in kurumsal web sitesi. Yüksek gerilim, orta gerilim ve enerji 
 
 ---
 
-## 📋 İçindekiler
+## İçindekiler
 
 - [Özellikler](#-özellikler)
 - [Teknolojiler](#-teknolojiler)
@@ -21,25 +21,25 @@ Enerva Elektrik'in kurumsal web sitesi. Yüksek gerilim, orta gerilim ve enerji 
 
 ---
 
-## ✨ Özellikler
+##  Özellikler
 
 | Özellik | Açıklama |
 |---------|----------|
-| 🌐 **Çok Dilli (i18n)** | Türkçe, Almanca ve İngilizce tam destek |
-| 🎨 **Light / Dark Mode** | Kullanıcı tercihi `localStorage`'da saklanır |
-| 🔐 **Admin Paneli** | Auth.js ile korunan yönetim arayüzü |
-| 📁 **Projeler CRUD** | Kategori (HV, MV, Power Systems), galeri, çok dilli içerik |
-| 📝 **Blog CRUD** | Çok dilli blog yazıları, slug bazlı SEO-friendly URL'ler |
-| 🏭 **Hizmetlerimiz** | AG, OG, enerji hatları, kompanzasyon ve daha fazlası |
-| 🏢 **Hakkımızda** | Firma tanıtımı ve değerler |
-| 🤝 **Markalar** | İş ortaklıkları ve partner marka logoları |
-| 📱 **Responsive** | Mobil, tablet ve masaüstü uyumlu |
-| 💬 **WhatsApp Widget** | Sabit WhatsApp iletişim butonu |
-| 🎭 **Animasyonlar** | Framer Motion ile akıcı sayfa geçişleri |
+|  **Çok Dilli (i18n)** | Türkçe, Almanca ve İngilizce tam destek |
+|  **Light / Dark Mode** | Kullanıcı tercihi `localStorage`'da saklanır |
+|  **Admin Paneli** | Auth.js ile korunan yönetim arayüzü |
+|  **Projeler CRUD** | Kategori (HV, MV, Power Systems), galeri, çok dilli içerik |
+|  **Blog CRUD** | Çok dilli blog yazıları, slug bazlı SEO-friendly URL'ler |
+|  **Hizmetlerimiz** | AG, OG, enerji hatları, kompanzasyon ve daha fazlası |
+|  **Hakkımızda** | Firma tanıtımı ve değerler |
+|  **Markalar** | İş ortaklıkları ve partner marka logoları |
+|  **Responsive** | Mobil, tablet ve masaüstü uyumlu |
+|  **WhatsApp Widget** | Sabit WhatsApp iletişim butonu |
+|  **Animasyonlar** | Framer Motion ile akıcı sayfa geçişleri |
 
 ---
 
-## 🛠 Teknolojiler
+##  Teknolojiler
 
 - **Framework:** [Next.js 16](https://nextjs.org/) (App Router, Turbopack)
 - **UI:** [React 19](https://react.dev/), [Tailwind CSS 4](https://tailwindcss.com/), [Shadcn/ui](https://ui.shadcn.com/)
@@ -52,7 +52,7 @@ Enerva Elektrik'in kurumsal web sitesi. Yüksek gerilim, orta gerilim ve enerji 
 
 ---
 
-## 🚀 Kurulum
+##  Kurulum
 
 ### Gereksinimler
 
@@ -88,7 +88,7 @@ Tarayıcıda açın: [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 🔑 Ortam Değişkenleri
+## Ortam Değişkenleri
 
 Proje kökünde `.env` dosyası oluşturun:
 
@@ -100,11 +100,11 @@ DATABASE_URL="postgresql://kullanici:sifre@localhost:5432/enerva_db"
 AUTH_SECRET="rastgele-guclu-bir-secret-key"
 ```
 
-> ⚠️ `.env` dosyası `.gitignore` ile repo dışında tutulur. Asla commit etmeyin.
+>  `.env` dosyası `.gitignore` ile repo dışında tutulur. Asla commit etmeyin.
 
 ---
 
-## 🗄 Veritabanı
+##  Veritabanı
 
 Prisma ORM ile PostgreSQL kullanılmaktadır.
 
@@ -132,7 +132,7 @@ npx prisma db seed
 
 ---
 
-## 💻 Geliştirme
+##  Geliştirme
 
 ```bash
 # Geliştirme sunucusu (Turbopack)
@@ -150,7 +150,7 @@ npm run lint
 
 ---
 
-## 📂 Proje Yapısı
+## Proje Yapısı
 
 ```
 enerva-elektrik/
@@ -195,7 +195,7 @@ enerva-elektrik/
 
 ---
 
-## 🌍 Dil Desteği (i18n)
+## Dil Desteği (i18n)
 
 Site üç dili destekler:
 
@@ -211,7 +211,7 @@ Yeni bir çeviri anahtarı eklemek için her üç dosyayı da güncelleyin.
 
 ---
 
-## 🔐 Admin Paneli
+##  Admin Paneli
 
 Admin paneline erişim: `/admin/login`
 
@@ -224,19 +224,19 @@ E-posta: admin@enerva.de
 Şifre:   admin123
 ```
 
-> ⚠️ Prodüksiyon ortamında şifreyi mutlaka değiştirin!
+>  Prodüksiyon ortamında şifreyi mutlaka değiştirin!
 
 ### Admin Özellikleri
 
-- 📊 Dashboard (istatistik kartları)
-- 📁 Proje Yönetimi (oluştur, düzenle, sil, yayınla)
-- 📝 Blog Yönetimi (oluştur, düzenle, sil, yayınla)
-- 🖼️ Görsel Yükleme (public/uploads)
-- 🌐 3 dilli içerik düzenleme (DE / TR / EN sekmeleri)
+- 📊Dashboard (istatistik kartları)
+- Proje Yönetimi (oluştur, düzenle, sil, yayınla)
+- Blog Yönetimi (oluştur, düzenle, sil, yayınla)
+- Görsel Yükleme (public/uploads)
+- 3 dilli içerik düzenleme (DE / TR / EN sekmeleri)
 
 ---
 
-## 🏗 Derleme ve Deploy
+## Derleme ve Deploy
 
 ### Prodüksiyon Derlemesi
 
@@ -258,12 +258,12 @@ Next.js `standalone` output modunda yapılandırılmıştır, kolayca Docker'a t
 
 ---
 
-## 📄 Lisans
+##Lisans
 
 Bu proje özel kullanım içindir. Tüm hakları saklıdır.
 
 ---
 
 <p align="center">
-  <strong>Enerva Elektrik</strong> · Elektrik Enerji Çözümleri ⚡
+  <strong>Enerva Elektrik</strong> · Elektrik Enerji Çözümleri
 </p>

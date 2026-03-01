@@ -21,6 +21,7 @@ const brands = [
 
 export default function BrandsPage() {
     const t = useTranslations("nav");
+    const b = useTranslations("brandsPage");
 
     const containerVariants = {
         hidden: { opacity: 0 },
@@ -56,8 +57,7 @@ export default function BrandsPage() {
                     </h1>
                     <div className="w-24 h-1 bg-[#D4AF37] mx-auto rounded-full mb-8" />
                     <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto">
-                        Sektörün öncü markalarıyla güvenilir ve uzun ömürlü çözümler üretiyoruz.
-                        Projelerimizde kullandığımız partner markalar:
+                        {b("subtitle")}
                     </p>
                 </motion.div>
 

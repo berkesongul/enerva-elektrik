@@ -1,85 +1,193 @@
-{
-    "metadata": {
-        "title": "Enerva Elektrik - Elektrische Energielösungen",
-        "description": "Enerva Elektrik – Ihr Partner für Hoch- und Mittelspannungstechnik, Projektierung und Elektrotechnik."
-    },
-    "nav": {
-        "home": "Startseite",
-        "about": "Über uns",
-        "services": "Leistungen",
-        "projects": "Projekte",
-        "brands": "Marken",
-        "blog": "Blog",
-        "contact": "Kontakt"
-    },
-    "hero": {
-        "title": "Elektrische Energielösungen",
-        "subtitle": "Ihr zuverlässiger Partner für Hoch- und Mittelspannungstechnik",
-        "cta": "Unsere Leistungen"
-    },
-    "widgets": {
-        "whatsapp": "Schreiben Sie uns auf WhatsApp",
-        "language": "Sprache"
-    },
-    "footer": {
-        "rights": "Alle Rechte vorbehalten.",
-        "company": "Enerva Elektrik"
-    },
-    "aboutPage": {
-        "title": "Über uns",
-        "techTitle": "Technologie und Expertise",
-        "valuesTitle": "Qualität und Zuverlässigkeit",
-        "sustainTitle": "Nachhaltigkeit",
-        "p1": "Enerva Elektrik ist eines der führenden Unternehmen, das innovative Lösungen in den Bereichen Elektrotechnik, Automatisierung und Energie anbietet. Seit seiner Gründung hat es sich zum Prinzip gemacht, sichere und effiziente Projekte zu realisieren, indem es die Bedürfnisse unserer Kunden genau analysiert. Wir bedienen ein breites Kundenportfolio von Industrieanlagen bis hin zu gewerblichen Unternehmen und machen mit unseren Qualitätsprodukten und unserem professionellen Servicekonzept einen Unterschied in der Branche.",
-        "p2": "Unser Unternehmen bietet umfassende Dienstleistungen im Bereich elektrischer Systeme an, darunter Niederspannungs- (NS), Mittelspannungs- (MS) und Energieleitungsprojekte sowie Kompensations-, Automatisierungs-, Solarenergiesysteme (SES) und unterirdische Kabelführungslösungen. Jedes Projekt wird von unserem Expertenteam aus Ingenieuren und Technikern sorgfältig geplant, umgesetzt und kontrolliert. Somit bieten unsere Projekte stets Sicherheit, Langlebigkeit und maximale Effizienz.",
-        "p3": "Bei Enerva Elektrik verfolgen wir die Technologie aufmerksam und integrieren die neuesten Systeme in unsere Anwendungen. Dank moderner Technologien wie SPS, SCADA, Wechselrichtern und Energieüberwachungssystemen werden die Produktionsprozesse unserer Kunden optimiert und die Energieeffizienz gesteigert. Darüber hinaus werden die elektrischen Infrastrukturen der Anlagen mit unterirdischen Kabelkanälen, Mastmontage- und -demontagediensten sowie detaillierten Projektzeichnungen gesichert.",
-        "p4": "Qualität und Kundenzufriedenheit sind die Grundwerte unseres Unternehmens. Unsere Dienstleistungen, die in jeder Phase durch Qualitätskontrollmechanismen unterstützt werden, garantieren den Unternehmen eine sichere und unterbrechungsfreie Energieversorgung. Mit unseren regelmäßigen Wartungs-, Fehlererkennungs- und technischen Supportdiensten stellen wir sicher, dass die Systeme stets optimal funktionieren. Dieser Ansatz macht Enerva Elektrik zu einem zuverlässigen Lösungspartner in der Branche.",
-        "p5": "Wir legen auch großen Wert auf Umwelt- und Nachhaltigkeitsfragen. Mit Solarenergiesystemen und energiesparenden Lösungen senken wir die Kosten der Unternehmen und helfen ihnen gleichzeitig, ihren CO2-Fußabdruck zu reduzieren. Unser Unternehmen nimmt mit innovativen und umweltfreundlichen Lösungen eine Vorreiterrolle in der Branche ein.",
-        "p6": "Enerva Elektrik strebt mit seinem fundierten technischen Wissen, seinen erfahrenen Mitarbeitern und seinem kundenorientierten Serviceansatz stets danach, die besten Lösungen anzubieten. Indem wir die Bedürfnisse unserer Kunden genau analysieren, stehen wir ihnen als zuverlässiger Partner bei Projektplanungs- und Umsetzungsprozessen zur Seite. Dank unseres innovativen Ansatzes, unseres Qualitätsverständnisses und unseres Ziels der kontinuierlichen Weiterentwicklung behaupten wir unsere führende Position in der Branche und gewinnen weiterhin das Vertrauen unserer Kunden."
-    },
-    "servicesPage": {
-        "title": "Unsere Leistungen",
-        "subtitle": "Unsere umfassenden Elektro- und Automatisierungslösungen",
-        "learnMore": "Mehr erfahren",
-        "backToServices": "Alle Leistungen",
-        "contactCta": "Kontaktieren Sie uns für weitere Informationen zu dieser Dienstleistung.",
-        "contactButton": "Kontaktieren Sie uns",
-        "items": {
-            "og": {
-                "title": "Mittelspannungs (MS) -Elektrosysteme",
-                "desc": "Transformatorenstationen, MS-Zelleninstallationen, Kabelverlegung, Prüfung und Inbetriebnahme.",
-                "detail": "Bei Enerva Elektrik bieten wir umfassende und zuverlässige Lösungen im Bereich der Mittelspannungs-Elektrosysteme an. Wir führen die Projektierung, Installation und Inbetriebnahme von Transformatorenstationen, MS-Zelleninstallationen, Kabelverlegungsarbeiten sowie Prüf- und Messdienstleistungen mit unserem Expertenteam durch. Bei all unseren Projekten gewährleisten wir die Konformität mit internationalen Standards und lokalen Vorschriften und decken den Bedarf der Unternehmen an sicherer und unterbrechungsfreier Energie. Unsere Anwendungen, die mit modernen Messgeräten und hochwertigen Materialien durchgeführt werden, liefern langlebige und effiziente Systeme."
-            },
-            "kompanzasyon": {
-                "title": "Kompensationsanlagen",
-                "desc": "Wir sorgen für ein sicheres, effizientes und nachhaltiges Energiemanagement.",
-                "detail": "Kompensationsanlagen gehören zu den effektivsten Methoden, um den Blindleistungsverbrauch zu kontrollieren, Ihre Energiekosten zu senken und die Leistungsqualität in Ihrem Stromnetz zu verbessern. Enerva Elektrik ermittelt durch anlagenspezifische Analysen und Projektierungen die optimale Kompensationslösung für Ihre Anlage. Wir bieten die Installation von festen, automatischen und gefilterten Kompensationsschaltschränken, die Wartung und Revision bestehender Systeme sowie Energieüberwachungs- und Berichtsdienstleistungen an. Mit der richtigen Kompensation vermeiden Sie Strafzahlungen, verlängern die Lebensdauer Ihrer Transformatoren und Kabel und steigern die allgemeine Energieeffizienz."
-            },
-            "otomasyon": {
-                "title": "Automatisierungssysteme",
-                "desc": "Wir etablieren sichere und nachhaltige Systeme, indem wir maßgeschneiderte Lösungen entwickeln.",
-                "detail": "Industrielle Automatisierungssysteme sind von entscheidender Bedeutung, um die Effizienz Ihrer Produktionsprozesse zu steigern und menschliche Fehler zu minimieren. Bei Enerva Elektrik bieten wir SPS (Speicherprogrammierbare Steuerung), SCADA (Supervisory Control and Data Acquisition), HMI-Panel-Programmierung, Wechselrichter- und Antriebssysteme, Motorsteuerzentralen (MCC) sowie industrielle Energieüberwachungslösungen an. Jedes Projekt wird speziell auf die Bedürfnisse unserer Kunden zugeschnitten, und die Installations- und Inbetriebnahmeprozesse werden sorgfältig durchgeführt. Durch die Modernisierung Ihrer Automatisierungsinfrastruktur steigern wir Ihre Produktionsqualität und Nachhaltigkeit."
-            },
-            "yeralti": {
-                "title": "Unterirdische Kanalsysteme",
-                "desc": "Sichere, ordentliche und langlebige unterirdische Kanalsysteme für Anlagen und Industriegebiete.",
-                "detail": "Unterirdische Kanalsysteme sind unverzichtbare Infrastrukturlösungen für die sichere Verlegung von Stromkabeln und Kommunikationsleitungen. Enerva Elektrik führt Betonkanal-, PVC-Rohr- und Kabeltragsystem-Anwendungen für Industrieanlagen, organisierte Industriegebiete und Gewerbegebiete durch. In unseren Projekten verwalten wir alle Prozesse von der Bodenuntersuchung, Trassenplanung und Projektierung bis hin zu Erdarbeiten, Verlegung und Montage mit unserem Fachpersonal. Mit langlebigen Materialien und normgerechter Verarbeitung werden Ihre Kabel vor äußeren Einflüssen geschützt und Sie erhalten eine sichere Infrastruktur."
-            },
-            "enerji": {
-                "title": "Installation und Wartung von Energieleitungen",
-                "desc": "Normgerechte Energieleitungsinstallation für Industrie- und Gewerbeanlagen.",
-                "detail": "Energieleitungen sind kritische Infrastrukturen, die die sichere Übertragung elektrischer Energie vom Erzeugungspunkt zum Verbrauchspunkt gewährleisten. Enerva Elektrik bietet die Installation von Freileitungen und Erdkabelleitungen, die Wartung und Reparatur bestehender Leitungen, die Trassenplanung und Genehmigungsverfahren sowie die Prüfung und Inbetriebnahme von Energieübertragungsleitungen an. Mit unseren hochwertigen Leitern, Isoliermaterialien und Anschlussgeräten sorgen wir dafür, dass Ihre Energieleitungen sicher, effizient und langlebig sind. Mit unseren regelmäßigen Wartungsdienstleistungen erkennen wir mögliche Störungen frühzeitig und garantieren eine unterbrechungsfreie Energieversorgung."
-            },
-            "direk": {
-                "title": "Mastmontage und -demontage",
-                "desc": "Sichere und schnelle Montage und Demontage von Strommasten.",
-                "detail": "Die Montage und Demontage von Strommasten sind grundlegende Arbeiten der Energieverteilungsinfrastruktur, die hohe Fachkompetenz erfordern. Enerva Elektrik führt die Montage und Demontage von Beton-, Holz- und Stahlmasten, Mastfundamentaushub und Betonierung, Leiterziehung und Anschlussarbeiten sowie Anwendungen in voller Übereinstimmung mit Sicherheits- und Arbeitsschutzstandards durch. Mit unserem erfahrenen Team und unserer Spezialausrüstung führen wir schnelle und sichere Mastoperationen in städtischen, ländlichen und industriellen Gebieten durch."
-            },
-            "proje": {
-                "title": "Projektzeichnung für Elektrik und Automatisierung",
-                "desc": "Detaillierte elektrische und Automatisierungsprojektzeichnungen für Ihre Anlagen.",
-                "detail": "Eine korrekte Projektierung ist der erste Schritt zu einer sicheren und effizienten elektrischen Infrastruktur. Enerva Elektrik erstellt Einlinien-Schaltpläne, Schaltschrank-Layout- und Verdrahtungsprojekte, Kabeltrassen- und Querschnittsberechnungen, Beleuchtungs- und Erdungsprojekte sowie Automatisierungssystemprojekte für Fabriken, Anlagen und Unternehmen. Unsere mit professioneller Software wie AutoCAD und Eplan erstellten Projekte gewährleisten die vollständige Konformität mit lokalen Vorschriften und internationalen Standards. Wir analysieren die Anforderungen Ihrer Anlage vor Ort und projektieren die effizienteste und sicherste Lösung."
+    {
+        "metadata": {
+            "title": "Enerva Elektrik - Elektrische Energielösungen",
+            "description": "Enerva Elektrik – Ihr Partner für Hoch- und Mittelspannungstechnik, Projektierung und Elektrotechnik."
+        },
+        "nav": {
+            "home": "Startseite",
+            "about": "Über uns",
+            "services": "Leistungen",
+            "projects": "Projekte",
+            "brands": "Marken",
+            "blog": "Blog",
+            "contact": "Kontakt"
+        },
+        "hero": {
+            "title": "Elektrische Energielösungen",
+            "subtitle": "Ihr zuverlässiger Partner für Hoch- und Mittelspannungstechnik",
+            "slides": [
+                {
+                    "title": "Zuverlässige Energielösungen",
+                    "subtitle": "Wir planen und realisieren Ihre Mittelspannungssysteme sicher mit unserem Expertenteam."
+                },
+                {
+                    "title": "Effizientes Energiemanagement",
+                    "subtitle": "Senken Sie Ihre Energiekosten und steigern Sie die Effizienz mit unseren Kompensationsanlagen."
+                },
+                {
+                    "title": "Intelligente Automation",
+                    "subtitle": "Wir bieten hochmoderne Automatisierungslösungen für Ihre Industrieanlagen."
+                },
+                {
+                    "title": "Infrastruktursysteme",
+                    "subtitle": "Wir schaffen dauerhafte und sichere Lösungen für Erdkabel- und Kanalsysteme."
+                },
+                {
+                    "title": "Unterbrechungsfreie Stromversorgung",
+                    "subtitle": "Wir bieten Dienstleistungen auf internationalem Niveau bei Stromübertragungsprojekten."
+                },
+                {
+                    "title": "Professionelle Installation",
+                    "subtitle": "Mastmontage und Infrastrukturarbeiten führen wir mit unserem erfahrenen Personal durch."
+                }
+            ],
+            "cta": "Unsere Leistungen"
+        },
+        "homePage": {
+            "badge": "Hoch- & Mittelspannungstechnik",
+            "statYears": "Jahre Erfahrung",
+            "statProjects": "Abgeschlossene Projekte",
+            "statClients": "Zufriedene Kunden",
+            "statSupport": "Technischer Support",
+            "aboutTitle": "Über Enerva Elektrik",
+            "aboutP1": "Enerva Elektrik ist eines der führenden Unternehmen, das innovative Lösungen in den Bereichen Elektro, Automatisierung und Energie anbietet. Seit der Gründung haben wir es uns zur Aufgabe gemacht, die Bedürfnisse unserer Kunden präzise zu analysieren und sichere, effiziente Projekte umzusetzen.",
+            "aboutP2": "Unser Unternehmen bedient ein breites Portfolio von Industrieanlagen bis hin zu Gewerbeunternehmen und setzt sich mit hochwertigen Produkten und professionellem Service ab.",
+            "servicesTitle": "Unsere Leistungen",
+            "servicesSubtitle": "Mit unseren umfassenden Elektro- und Automatisierungslösungen schaffen wir Mehrwert für Ihre Projekte.",
+            "projectsTitle": "Unsere Projekte",
+            "projectsSubtitle": "Werfen Sie einen Blick auf einige unserer erfolgreich abgeschlossenen Projekte.",
+            "noProjectsYet": "Noch keine Projekte hinzugefügt.",
+            "brandsTitle": "Unsere Partnermarken",
+            "brandsSubtitle": "Wir schaffen zuverlässige und langlebige Lösungen mit führenden Marken der Branche.",
+            "blogTitle": "Blog & Neuigkeiten",
+            "blogSubtitle": "Aktuelle Nachrichten und Einblicke aus dem Energiesektor.",
+            "noBlogsYet": "Noch keine Blogbeiträge hinzugefügt.",
+            "readMore": "Weiterlesen",
+            "seeMore": "Mehr anzeigen",
+            "contactTitle": "Kontaktieren Sie uns",
+            "contactCta": "Projektangebot anfordern",
+            "goToContact": "Zur Kontaktseite"
+        },
+        "widgets": {
+            "whatsapp": "Schreiben Sie uns auf WhatsApp",
+            "language": "Sprache"
+        },
+        "footer": {
+            "rights": "Alle Rechte vorbehalten.",
+            "company": "Enerva Elektrik"
+        },
+        "aboutPage": {
+            "title": "Über uns",
+            "techTitle": "Technologie und Expertise",
+            "valuesTitle": "Qualität und Zuverlässigkeit",
+            "sustainTitle": "Nachhaltigkeit",
+            "p1": "Enerva Elektrik ist eines der führenden Unternehmen, das innovative Lösungen in den Bereichen Elektrotechnik, Automatisierung und Energie anbietet. Seit seiner Gründung hat es sich zum Prinzip gemacht, sichere und effiziente Projekte zu realisieren, indem es die Bedürfnisse unserer Kunden genau analysiert. Wir bedienen ein breites Kundenportfolio von Industrieanlagen bis hin zu gewerblichen Unternehmen und machen mit unseren Qualitätsprodukten und unserem professionellen Servicekonzept einen Unterschied in der Branche.",
+            "p2": "Unser Unternehmen bietet umfassende Dienstleistungen im Bereich elektrischer Systeme an, darunter Niederspannungs- (NS), Mittelspannungs- (MS) und Energieleitungsprojekte sowie Kompensations-, Automatisierungs-, Solarenergiesysteme (SES) und unterirdische Kabelführungslösungen. Jedes Projekt wird von unserem Expertenteam aus Ingenieuren und Technikern sorgfältig geplant, umgesetzt und kontrolliert. Somit bieten unsere Projekte stets Sicherheit, Langlebigkeit und maximale Effizienz.",
+            "p3": "Bei Enerva Elektrik verfolgen wir die Technologie aufmerksam und integrieren die neuesten Systeme in unsere Anwendungen. Dank moderner Technologien wie SPS, SCADA, Wechselrichtern und Energieüberwachungssystemen werden die Produktionsprozesse unserer Kunden optimiert und die Energieeffizienz gesteigert. Darüber hinaus werden die elektrischen Infrastrukturen der Anlagen mit unterirdischen Kabelkanälen, Mastmontage- und -demontagediensten sowie detaillierten Projektzeichnungen gesichert.",
+            "p4": "Qualität und Kundenzufriedenheit sind die Grundwerte unseres Unternehmens. Unsere Dienstleistungen, die in jeder Phase durch Qualitätskontrollmechanismen unterstützt werden, garantieren den Unternehmen eine sichere und unterbrechungsfreie Energieversorgung. Mit unseren regelmäßigen Wartungs-, Fehlererkennungs- und technischen Supportdiensten stellen wir sicher, dass die Systeme stets optimal funktionieren. Dieser Ansatz macht Enerva Elektrik zu einem zuverlässigen Lösungspartner in der Branche.",
+            "p5": "Wir legen auch großen Wert auf Umwelt- und Nachhaltigkeitsfragen. Mit Solarenergiesystemen und energiesparenden Lösungen senken wir die Kosten der Unternehmen und helfen ihnen gleichzeitig, ihren CO2-Fußabdruck zu reduzieren. Unser Unternehmen nimmt mit innovativen und umweltfreundlichen Lösungen eine Vorreiterrolle in der Branche ein.",
+            "p6": "Enerva Elektrik strebt mit seinem fundierten technischen Wissen, seinen erfahrenen Mitarbeitern und seinem kundenorientierten Serviceansatz stets danach, die besten Lösungen anzubieten. Indem wir die Bedürfnisse unserer Kunden genau analysieren, stehen wir ihnen als zuverlässiger Partner bei Projektplanungs- und Umsetzungsprozessen zur Seite. Dank unseres innovativen Ansatzes, unseres Qualitätsverständnisses und unseres Ziels der kontinuierlichen Weiterentwicklung behaupten wir unsere führende Position in der Branche und gewinnen weiterhin das Vertrauen unserer Kunden."
+        },
+        "servicesPage": {
+            "title": "Unsere Leistungen",
+            "subtitle": "Unsere umfassenden Elektro- und Automatisierungslösungen",
+            "learnMore": "Mehr erfahren",
+            "backToServices": "Alle Leistungen",
+            "contactCta": "Kontaktieren Sie uns für weitere Informationen zu dieser Dienstleistung.",
+            "contactButton": "Kontaktieren Sie uns",
+            "items": {
+                "og": {
+                    "title": "Mittelspannungs (MS) -Elektrosysteme",
+                    "desc": "Transformatorenstationen, MS-Zelleninstallationen, Kabelverlegung, Prüfung und Inbetriebnahme.",
+                    "detail": "Bei Enerva Elektrik bieten wir umfassende und zuverlässige Lösungen im Bereich der Mittelspannungs-Elektrosysteme an. Wir führen die Projektierung, Installation und Inbetriebnahme von Transformatorenstationen, MS-Zelleninstallationen, Kabelverlegungsarbeiten sowie Prüf- und Messdienstleistungen mit unserem Expertenteam durch. Bei all unseren Projekten gewährleisten wir die Konformität mit internationalen Standards und lokalen Vorschriften und decken den Bedarf der Unternehmen an sicherer und unterbrechungsfreier Energie. Unsere Anwendungen, die mit modernen Messgeräten und hochwertigen Materialien durchgeführt werden, liefern langlebige und effiziente Systeme."
+                },
+                "kompanzasyon": {
+                    "title": "Kompensationsanlagen",
+                    "desc": "Wir sorgen für ein sicheres, effizientes und nachhaltiges Energiemanagement.",
+                    "detail": "Kompensationsanlagen gehören zu den effektivsten Methoden, um den Blindleistungsverbrauch zu kontrollieren, Ihre Energiekosten zu senken und die Leistungsqualität in Ihrem Stromnetz zu verbessern. Enerva Elektrik ermittelt durch anlagenspezifische Analysen und Projektierungen die optimale Kompensationslösung für Ihre Anlage. Wir bieten die Installation von festen, automatischen und gefilterten Kompensationsschaltschränken, die Wartung und Revision bestehender Systeme sowie Energieüberwachungs- und Berichtsdienstleistungen an. Mit der richtigen Kompensation vermeiden Sie Strafzahlungen, verlängern die Lebensdauer Ihrer Transformatoren und Kabel und steigern die allgemeine Energieeffizienz."
+                },
+                "otomasyon": {
+                    "title": "Automatisierungssysteme",
+                    "desc": "Wir etablieren sichere und nachhaltige Systeme, indem wir maßgeschneiderte Lösungen entwickeln.",
+                    "detail": "Industrielle Automatisierungssysteme sind von entscheidender Bedeutung, um die Effizienz Ihrer Produktionsprozesse zu steigern und menschliche Fehler zu minimieren. Bei Enerva Elektrik bieten wir SPS (Speicherprogrammierbare Steuerung), SCADA (Supervisory Control and Data Acquisition), HMI-Panel-Programmierung, Wechselrichter- und Antriebssysteme, Motorsteuerzentralen (MCC) sowie industrielle Energieüberwachungslösungen an. Jedes Projekt wird speziell auf die Bedürfnisse unserer Kunden zugeschnitten, und die Installations- und Inbetriebnahmeprozesse werden sorgfältig durchgeführt. Durch die Modernisierung Ihrer Automatisierungsinfrastruktur steigern wir Ihre Produktionsqualität und Nachhaltigkeit."
+                },
+                "yeralti": {
+                    "title": "Unterirdische Kanalsysteme",
+                    "desc": "Sichere, ordentliche und langlebige unterirdische Kanalsysteme für Anlagen und Industriegebiete.",
+                    "detail": "Unterirdische Kanalsysteme sind unverzichtbare Infrastrukturlösungen für die sichere Verlegung von Stromkabeln und Kommunikationsleitungen. Enerva Elektrik führt Betonkanal-, PVC-Rohr- und Kabeltragsystem-Anwendungen für Industrieanlagen, organisierte Industriegebiete und Gewerbegebiete durch. In unseren Projekten verwalten wir alle Prozesse von der Bodenuntersuchung, Trassenplanung und Projektierung bis hin zu Erdarbeiten, Verlegung und Montage mit unserem Fachpersonal. Mit langlebigen Materialien und normgerechter Verarbeitung werden Ihre Kabel vor äußeren Einflüssen geschützt und Sie erhalten eine sichere Infrastruktur."
+                },
+                "enerji": {
+                    "title": "Installation und Wartung von Energieleitungen",
+                    "desc": "Normgerechte Energieleitungsinstallation für Industrie- und Gewerbeanlagen.",
+                    "detail": "Energieleitungen sind kritische Infrastrukturen, die die sichere Übertragung elektrischer Energie vom Erzeugungspunkt zum Verbrauchspunkt gewährleisten. Enerva Elektrik bietet die Installation von Freileitungen und Erdkabelleitungen, die Wartung und Reparatur bestehender Leitungen, die Trassenplanung und Genehmigungsverfahren sowie die Prüfung und Inbetriebnahme von Energieübertragungsleitungen an. Mit unseren hochwertigen Leitern, Isoliermaterialien und Anschlussgeräten sorgen wir dafür, dass Ihre Energieleitungen sicher, effizient und langlebig sind. Mit unseren regelmäßigen Wartungsdienstleistungen erkennen wir mögliche Störungen frühzeitig und garantieren eine unterbrechungsfreie Energieversorgung."
+                },
+                "direk": {
+                    "title": "Mastmontage und -demontage",
+                    "desc": "Sichere und schnelle Montage und Demontage von Strommasten.",
+                    "detail": "Die Montage und Demontage von Strommasten sind grundlegende Arbeiten der Energieverteilungsinfrastruktur, die hohe Fachkompetenz erfordern. Enerva Elektrik führt die Montage und Demontage von Beton-, Holz- und Stahlmasten, Mastfundamentaushub und Betonierung, Leiterziehung und Anschlussarbeiten sowie Anwendungen in voller Übereinstimmung mit Sicherheits- und Arbeitsschutzstandards durch. Mit unserem erfahrenen Team und unserer Spezialausrüstung führen wir schnelle und sichere Mastoperationen in städtischen, ländlichen und industriellen Gebieten durch."
+                },
+                "proje": {
+                    "title": "Projektzeichnung für Elektrik und Automatisierung",
+                    "desc": "Detaillierte elektrische und Automatisierungsprojektzeichnungen für Ihre Anlagen.",
+                    "detail": "Eine korrekte Projektierung ist der erste Schritt zu einer sicheren und effizienten elektrischen Infrastruktur. Enerva Elektrik erstellt Einlinien-Schaltpläne, Schaltschrank-Layout- und Verdrahtungsprojekte, Kabeltrassen- und Querschnittsberechnungen, Beleuchtungs- und Erdungsprojekte sowie Automatisierungssystemprojekte für Fabriken, Anlagen und Unternehmen. Unsere mit professioneller Software wie AutoCAD und Eplan erstellten Projekte gewährleisten die vollständige Konformität mit lokalen Vorschriften und internationalen Standards. Wir analysieren die Anforderungen Ihrer Anlage vor Ort und projektieren die effizienteste und sicherste Lösung."
+                }
             }
+        },
+        "brandsPage": {
+            "subtitle": "Wir schaffen zuverlässige und langlebige Lösungen mit führenden Marken der Branche. Unsere Partnermarken, die wir in unseren Projekten einsetzen:"
+        },
+        "contactPage": {
+            "subtitle": "Kontaktieren Sie uns zu Ihren Projekten und Anforderungen.",
+            "phone": "Telefon",
+            "email": "E-Mail",
+            "address": "Adresse",
+            "addressValue": "Adressinformationen werden hier platziert",
+            "workingHours": "Öffnungszeiten",
+            "workingHoursValue": "Montag - Samstag: 08:00 - 18:00",
+            "formTitle": "Kontaktieren Sie uns",
+            "formSubtitle": "Füllen Sie unser Formular aus, um uns eine Nachricht zu senden. Wir werden uns so schnell wie möglich bei Ihnen melden.",
+            "nameLabel": "Vollständiger Name",
+            "namePlaceholder": "Geben Sie Ihren Namen ein",
+            "emailLabel": "E-Mail",
+            "emailPlaceholder": "beispiel@email.com",
+            "subjectLabel": "Betreff",
+            "subjectPlaceholder": "Betreff Ihrer Nachricht",
+            "messageLabel": "Nachricht",
+            "messagePlaceholder": "Schreiben Sie Ihre Nachricht...",
+            "sendButton": "Nachricht senden",
+            "whyContactTitle": "Warum uns wählen?",
+            "reason1": "Über 20 Jahre Branchenerfahrung",
+            "reason2": "Expertenteam aus Ingenieuren und Technikern",
+            "reason3": "24/7 technischer Support",
+            "reason4": "Lösungen gemäß internationaler Standards",
+            "directContactTitle": "Schnellkontakt",
+            "directContactDesc": "Erreichen Sie uns sofort über WhatsApp für Ihre dringenden Projekte.",
+            "mapTitle": "Besuchen Sie uns",
+            "mapSubtitle": "Kommen Sie in unser Büro und lassen Sie uns Ihre Projekte persönlich besprechen.",
+            "directionsButton": "Wegbeschreibung"
+        },
+        "blogPage": {
+            "subtitle": "Aktuelles, Nachrichten und Insights aus dem Bereich Energietechnik.",
+            "readMore": "Weiterlesen",
+            "noImage": "Kein Bild",
+            "noPosts": "Keine Blogbeiträge gefunden.",
+            "backToBlog": "Zurück zum Blog",
+            "news": "Neuigkeiten"
+        },
+        "projectsPage": {
+            "subtitle": "Entdecken Sie unsere erfolgreich abgeschlossenen Projekte.",
+            "allProjects": "Alle Projekte",
+            "catHV": "Hochspannung",
+            "catMV": "Mittelspannung",
+            "catPower": "Energiesysteme",
+            "viewDetails": "Details ansehen",
+            "noImage": "Kein Bild",
+            "noProjects": "Keine Projekte in dieser Kategorie gefunden.",
+            "backToProjects": "Zurück zu Projekten",
+            "client": "Kunde",
+            "ctaTitle": "Planen Sie ein ähnliches Projekt?",
+            "ctaDesc": "Kontaktieren Sie uns für ein unverbindliches Beratungsgespräch.",
+            "ctaButton": "Kontakt aufnehmen",
+            "gallery": "Projektgalerie"
         }
     }
-}
