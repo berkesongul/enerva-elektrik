@@ -56,8 +56,8 @@ Enerva Elektrik'in kurumsal web sitesi. Yüksek gerilim, orta gerilim ve enerji 
 
 ### Gereksinimler
 
-- Node.js **18+**
-- PostgreSQL **14+**
+- Node.js **20.9+**
+- PostgreSQL **16+**
 - npm veya yarn
 
 ### Adımlar
@@ -74,13 +74,16 @@ npm install
 cp .env.example .env
 # .env dosyasını düzenleyin (aşağıya bakın)
 
-# 4. Veritabanını oluşturun
-npx prisma db push
+# 4. Yerel veritabanını oluşturun (kendi PostgreSQL kullanıcı adınızı kullanın)
+createdb enerva_elektrik_dev
 
-# 5. Admin kullanıcısını oluşturun (seed)
-npx prisma db seed
+# 5. Sürümlü şema değişikliklerini uygulayın
+npm run db:migrate:dev
 
-# 6. Geliştirme sunucusunu başlatın
+# 6. Admin hesabı ve örnek içerikleri oluşturun
+npm run db:seed
+
+# 7. Geliştirme sunucusunu başlatın
 npm run dev
 ```
 
@@ -94,10 +97,14 @@ Proje kökünde `.env` dosyası oluşturun:
 
 ```env
 # Veritabanı
-DATABASE_URL="postgresql://kullanici:sifre@localhost:5432/enerva_db"
+DATABASE_URL="postgresql://kullanici:sifre@127.0.0.1:5432/enerva_elektrik_dev?schema=public"
 
 # Auth.js
 AUTH_SECRET="rastgele-guclu-bir-secret-key"
+NEXTAUTH_URL="http://localhost:3000"
+
+# Yalnızca yerel seed için
+ADMIN_SEED_PASSWORD="guclu-bir-yerel-sifre"
 ```
 
 >  `.env` dosyası `.gitignore` ile repo dışında tutulur. Asla commit etmeyin.
@@ -106,7 +113,7 @@ AUTH_SECRET="rastgele-guclu-bir-secret-key"
 
 ##  Veritabanı
 
-Prisma ORM ile PostgreSQL kullanılmaktadır.
+Prisma ORM ile PostgreSQL kullanılmaktadır. Yerel veritabanı üretim veritabanından ayrıdır. Mac'te mevcut kullanıcıyla çalışan PostgreSQL bağlantısında şifre gerekmiyorsa URL'deki `:sifre` kısmını çıkarın. Şifrede URL için özel karakterler varsa yüzde kodlaması kullanın.
 
 ### Modeller
 
@@ -120,14 +127,14 @@ Prisma ORM ile PostgreSQL kullanılmaktadır.
 ### Faydalı Komutlar
 
 ```bash
-# Şemayı veritabanına uygula
-npx prisma db push
+# Yerelde yeni migration oluştur ve uygula
+npm run db:migrate:dev
 
 # Prisma Studio (görsel DB yönetimi)
 npx prisma studio
 
-# Seed (admin kullanıcısı oluştur)
-npx prisma db seed
+# Seed (admin hesabı ve örnek içerikler)
+npm run db:seed
 ```
 
 ---
@@ -215,16 +222,16 @@ Yeni bir çeviri anahtarı eklemek için her üç dosyayı da güncelleyin.
 
 Admin paneline erişim: `/admin/login`
 
-### Varsayılan Giriş Bilgileri
+### Yerel Giriş Bilgileri
 
 > Seed script çalıştırıldıktan sonra:
 
 ```
-E-posta: admin@enerva.de
-Şifre:   admin123
+E-posta: admin@enervaelektrik.com
+Şifre:   .env içindeki ADMIN_SEED_PASSWORD
 ```
 
->  Prodüksiyon ortamında şifreyi mutlaka değiştirin!
+>  Yerel seed şifresini üretim ortamına taşımayın.
 
 ### Admin Özellikleri
 
@@ -245,16 +252,45 @@ npm run build
 npm start
 ```
 
-### Docker (Opsiyonel)
+### VPS üzerinde Docker
 
-Next.js `standalone` output modunda yapılandırılmıştır, kolayca Docker'a taşınabilir.
+Docker Compose; Next.js uygulamasını, PostgreSQL 16'yı, migration adımını ve otomatik HTTPS sağlayan Caddy reverse proxy'yi birlikte çalıştırır. PostgreSQL verileri, admin panelinden yüklenen görseller ve TLS sertifikaları kalıcı volume'larda tutulur.
+
+```bash
+# Sunucuda repoyu klonladıktan sonra
+cp deploy.env.example .env.production
+
+# .env.production içindeki alan adı, e-posta ve şifreleri düzenleyin.
+# DNS A kaydı sunucunun IP adresine yönlenmiş olmalıdır.
+
+# Veritabanı migration'larını çalıştırıp sistemi başlatın
+docker compose --env-file .env.production up -d --build
+
+# İlk admin hesabını oluşturun
+docker compose --env-file .env.production --profile tools run --rm admin-init
+
+# Durumu ve logları kontrol edin
+docker compose --env-file .env.production ps
+docker compose --env-file .env.production logs -f app caddy
+```
+
+Yeni sürüm yayınlamak için:
+
+```bash
+git pull
+docker compose --env-file .env.production up -d --build
+```
+
+Yedek alınması gereken volume'lar: `postgres_data`, `uploads` ve `caddy_data`.
 
 ### Ortam Kontrol Listesi
 
-- [ ] `DATABASE_URL` prodüksiyon veritabanına yönlendirildi
+- [ ] Alan adının DNS kaydı VPS IP adresine yönlendirildi
+- [ ] VPS güvenlik duvarında 22, 80 ve 443 portları açıldı
 - [ ] `AUTH_SECRET` güçlü ve rastgele bir değerle ayarlandı
-- [ ] Admin şifresi değiştirildi
-- [ ] `npx prisma db push` prodüksiyon DB'de çalıştırıldı
+- [ ] PostgreSQL ve admin parolaları güçlü değerlerle ayarlandı
+- [ ] İlk admin hesabı oluşturuldu
+- [ ] PostgreSQL ve upload volume'ları için düzenli yedekleme kuruldu
 
 ---
 

@@ -3,10 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "prisma db push && prisma generate && next build",
+    "build": "prisma generate && next build",
     "dev": "next dev",
     "start": "NODE_OPTIONS='--max-old-space-size=1024' next start",
-    "lint": "next lint"
+    "lint": "eslint .",
+    "db:migrate:dev": "prisma migrate dev",
+    "db:migrate:deploy": "prisma migrate deploy",
+    "db:seed": "prisma db seed"
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.11.1",

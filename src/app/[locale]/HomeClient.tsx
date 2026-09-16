@@ -5,28 +5,9 @@ import { useTranslations } from "next-intl";
 import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "@/i18n/navigation";
 import Image from "next/image";
-import { Activity, ShieldCheck, Cpu, ArrowDownToLine, Unplug, ArrowUpToLine, DraftingCompass, ChevronLeft, ChevronRight } from "lucide-react";
-
-const services = [
-    { id: "og", slug: "orta-gerilim", icon: Activity, image: "/images/hizmetler/orta-gerilim.jpg" },
-    { id: "kompanzasyon", slug: "kompanzasyon-sistemleri", icon: ShieldCheck, image: "/images/hizmetler/kompanzasyon-sistemleri.png" },
-    { id: "otomasyon", slug: "otomasyon-sistemleri", icon: Cpu, image: "/images/hizmetler/otomasyon-sistemleri.jpg" },
-    { id: "yeralti", slug: "yer-alti-kanal", icon: ArrowDownToLine, image: "/images/hizmetler/yer-alti-kanal.jpg" },
-    { id: "enerji", slug: "enerji-hat", icon: Unplug, image: "/images/hizmetler/enerji-hat.jpg" },
-    { id: "direk", slug: "direk-montaj", icon: ArrowUpToLine, image: "/images/hizmetler/direk-montaj.jpg" },
-    { id: "proje", slug: "proje-cizimi", icon: DraftingCompass, image: "/images/hizmetler/proje-çizimi.jpg" },
-];
-
-const brands = [
-    { id: "schneider", name: "Schneider Electric", logo: "/brands/schneider.png" },
-    { id: "legrand", name: "Legrand", logo: "/brands/legrand.png" },
-    { id: "chint", name: "Chint", logo: "/brands/chintelectronics.png" },
-    { id: "adalpano", name: "Adalpano", logo: "/brands/adalpano.png" },
-    { id: "forlife", name: "Forlife", logo: "/brands/forlife_professional.png" },
-    { id: "hascelik", name: "Hasçelik Kablo", logo: "/brands/hascelik_kablo.png" },
-    { id: "oznur", name: "Öznur Kablo", logo: "/brands/oznurkablo.png" },
-    { id: "raychem", name: "Raychem", logo: "/brands/raychem.png" },
-];
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import { services } from "@/lib/services";
+import { brands } from "@/lib/brands";
 
 export function HomeClient({
     recentProjects,
@@ -331,7 +312,7 @@ export function HomeClient({
             {/* ══════════════════════════════════════════════
                 SERVICES PREVIEW
             ══════════════════════════════════════════════ */}
-            < section className="py-20 lg:py-28 bg-card/30 border-y border-border/50" >
+            < section className="py-20 lg:py-28" >
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     {sectionHeader(
                         h("servicesTitle"),

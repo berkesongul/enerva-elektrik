@@ -7,10 +7,14 @@ async function main() {
     console.log('Start seeding...');
 
     // 1. Admin
-    const hashedPassword = await bcrypt.hash('Enerva4545', 10);
+    const seedPassword = process.env.ADMIN_SEED_PASSWORD;
+    if (!seedPassword) {
+        throw new Error('ADMIN_SEED_PASSWORD must be set before running the seed script.');
+    }
+    const hashedPassword = await bcrypt.hash(seedPassword, 10);
     const admin = await prisma.admin.upsert({
         where: { email: 'admin@enervaelektrik.com' },
-        update: {},
+        update: { password: hashedPassword },
         create: {
             email: 'admin@enervaelektrik.com',
             password: hashedPassword,

@@ -4,24 +4,15 @@ import { useTranslations } from "next-intl";
 import { useParams } from "next/navigation";
 import { motion } from "framer-motion";
 import { Link } from "@/i18n/navigation";
-import { ArrowLeft, Activity, ShieldCheck, Cpu, ArrowDownToLine, Unplug, ArrowUpToLine, DraftingCompass } from "lucide-react";
-
-const servicesData = [
-    { id: "og", slug: "orta-gerilim", icon: Activity, image: "/images/hizmetler/orta-gerilim.jpg" },
-    { id: "kompanzasyon", slug: "kompanzasyon-sistemleri", icon: ShieldCheck, image: "/images/hizmetler/kompanzasyon-sistemleri.png" },
-    { id: "otomasyon", slug: "otomasyon-sistemleri", icon: Cpu, image: "/images/hizmetler/otomasyon-sistemleri.jpg" },
-    { id: "yeralti", slug: "yer-alti-kanal", icon: ArrowDownToLine, image: "/images/hizmetler/yer-alti-kanal.jpg" },
-    { id: "enerji", slug: "enerji-hat", icon: Unplug, image: "/images/hizmetler/enerji-hat.jpg" },
-    { id: "direk", slug: "direk-montaj", icon: ArrowUpToLine, image: "/images/hizmetler/direk-montaj.jpg" },
-    { id: "proje", slug: "proje-cizimi", icon: DraftingCompass, image: "/images/hizmetler/proje-çizimi.jpg" },
-];
+import { ArrowLeft } from "lucide-react";
+import { services } from "@/lib/services";
 
 export default function ServiceDetailPage() {
     const t = useTranslations("servicesPage");
     const params = useParams();
     const slug = params.slug as string;
 
-    const service = servicesData.find((s) => s.slug === slug);
+    const service = services.find((s) => s.slug === slug);
 
     if (!service) {
         return (
@@ -44,7 +35,7 @@ export default function ServiceDetailPage() {
     const Icon = service.icon;
 
     // Get other services for the "Other Services" section
-    const otherServices = servicesData.filter((s) => s.slug !== slug).slice(0, 3);
+    const otherServices = services.filter((s) => s.slug !== slug).slice(0, 3);
 
     return (
         <div className="bg-background text-foreground transition-colors duration-300">
@@ -141,7 +132,7 @@ export default function ServiceDetailPage() {
             <section className="py-16 lg:py-24 bg-card/30 border-t border-border/50">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <h2 className="text-2xl sm:text-3xl font-bold text-foreground mb-10">
-                        {t("backToServices")}
+                        {t("otherServices")}
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                         {otherServices.map((otherService) => {

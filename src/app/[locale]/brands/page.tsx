@@ -3,24 +3,9 @@
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import Image from "next/image";
-
-const brands = [
-    { id: "schneider", name: "Schneider Electric", logo: "/brands/schneider.png" },
-    { id: "legrand", name: "Legrand", logo: "/brands/legrand.png" },
-    { id: "chint", name: "Chint", logo: "/brands/chintelectronics.png" },
-    { id: "adalpano", name: "Adalpano", logo: "/brands/adalpano.png" },
-    { id: "forlife", name: "Forlife", logo: "/brands/forlife_professional.png" },
-    { id: "hascelik", name: "Hasçelik Kablo", logo: "/brands/hascelik_kablo.png" },
-    { id: "oznur", name: "Öznur Kablo", logo: "/brands/oznurkablo.png" },
-    { id: "raychem", name: "Raychem", logo: "/brands/raychem.png" },
-    { id: "sena", name: "Sena Kablo", logo: "/brands/sena_kablo.png" },
-    { id: "sutem", name: "Sutem", logo: "/brands/sutem.png" },
-    { id: "provar", name: "Provar", logo: "/brands/provar.png" },
-    { id: "kael", name: "Kael", logo: "/brands/kael.png" },
-];
+import { brands } from "@/lib/brands";
 
 export default function BrandsPage() {
-    const t = useTranslations("nav");
     const b = useTranslations("brandsPage");
 
     const containerVariants = {
@@ -53,7 +38,7 @@ export default function BrandsPage() {
                     className="mb-16"
                 >
                     <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold tracking-tight mb-6">
-                        <span className="gradient-text">{t("brands")}</span>
+                        <span className="gradient-text">{b("title")}</span>
                     </h1>
                     <div className="w-24 h-1 bg-[#D4AF37] mx-auto rounded-full mb-8" />
                     <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto">

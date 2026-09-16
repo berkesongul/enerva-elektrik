@@ -57,8 +57,8 @@
         "projectsTitle": "Projelerimiz",
         "projectsSubtitle": "Başarıyla tamamladığımız projelerimizden bazılarına göz atın.",
         "noProjectsYet": "Henüz proje eklenmemiştir.",
-        "brandsTitle": "Partner Markalarımız",
-        "brandsSubtitle": "Sektörün öncü markalarıyla güvenilir ve uzun ömürlü çözümler üretiyoruz.",
+        "brandsTitle": "Çözüm Ortaklarımız",
+        "brandsSubtitle": "Sektörün önde gelen markalarıyla çalışarak en yüksek kaliteyi sunuyoruz.",
         "blogTitle": "Blog & Haberler",
         "blogSubtitle": "Enerji sektöründen güncel haberler ve içgörüler.",
         "noBlogsYet": "Henüz blog yazısı eklenmemiştir.",
@@ -90,51 +90,43 @@
     },
     "servicesPage": {
         "title": "Hizmetlerimiz",
-        "subtitle": "Kapsamlı elektrik ve otomasyon çözümlerimiz",
+        "subtitle": "Müşterilerimize sunduğumuz kaliteli ve güvenilir çözümlerle elektrik ve otomasyon alanında öncü projelere imza atıyoruz.",
         "learnMore": "Detaylı Bilgi",
         "backToServices": "Tüm Hizmetler",
+        "otherServices": "Diğer Hizmetlerimiz",
         "contactCta": "Bu hizmet hakkında bilgi almak için bizimle iletişime geçin.",
         "contactButton": "İletişime Geçin",
         "items": {
             "og": {
-                "title": "Orta Gerilim (OG) Elektrik Sistemleri",
-                "desc": "Trafo merkezleri, OG hücre montajları, kablo döşeme, test ve devreye alma hizmetleri.",
-                "detail": "Enerva Elektrik olarak, orta gerilim elektrik sistemleri alanında kapsamlı ve güvenilir çözümler sunuyoruz. Trafo merkezlerinin projelendirilmesi, kurulumu ve devreye alınması, OG hücre montajları, kablo döşeme işlemleri ile test ve ölçüm hizmetlerini uzman ekibimizle gerçekleştiriyoruz. Tüm projelerimizde uluslararası standartlara ve yerel mevzuata uygunluk sağlıyor, işletmelerin güvenli ve kesintisiz enerji ihtiyacını karşılıyoruz. Modern ölçüm cihazları ve kaliteli malzemelerle gerçekleştirdiğimiz uygulamalar, uzun ömürlü ve verimli sistemler ortaya koymaktadır."
-            },
-            "kompanzasyon": {
-                "title": "Kompanzasyon Sistemleri",
-                "desc": "Güvenli, verimli ve sürdürülebilir enerji yönetimi sağlıyoruz.",
-                "detail": "Kompanzasyon sistemleri, reaktif güç tüketimini kontrol altına alarak enerji maliyetlerinizi düşürmenin ve elektrik şebekenizdeki güç kalitesini artırmanın en etkili yollarından biridir. Enerva Elektrik, tesisinize özel analiz ve projelendirme ile en uygun kompanzasyon çözümünü belirler. Sabit, otomatik ve filtreli kompanzasyon panoları kurulumu, mevcut sistemlerin bakım ve revizyonu ile enerji izleme ve raporlama hizmetleri sunuyoruz. Doğru kompanzasyon ile ceza ödemelerini önler, trafo ve kablo ömrünüzü uzatır, genel enerji verimliliğini artırırsınız."
-            },
-            "otomasyon": {
-                "title": "Otomasyon Sistemleri",
-                "desc": "İhtiyaca özel çözümler geliştirerek güvenli ve sürdürülebilir sistemler kuruyoruz.",
-                "detail": "Endüstriyel otomasyon sistemleri, üretim süreçlerinizin verimliliğini artırmak ve insan hatasını en aza indirmek için kritik öneme sahiptir. Enerva Elektrik olarak PLC (Programlanabilir Mantık Denetleyicisi), SCADA (Veri Tabanlı Kontrol ve İzleme), HMI panel programlama, inverter ve sürücü sistemleri, motor kontrol merkezleri (MCC) ile endüstriyel enerji izleme çözümleri sunuyoruz. Her projeyi müşterimizin ihtiyaçlarına özel tasarlıyor, kurulum ve devreye alma süreçlerini titizlikle yürütüyoruz. Otomasyon altyapınızı modernize ederek üretim kalitenizi ve sürdürülebilirliğinizi artırıyoruz."
+                "title": "Orta Gerilim Sistemleri",
+                "desc": "Güvenli ve kesintisiz enerji nakli için profesyonel orta gerilim çözümleri sunuyoruz.",
+                "detail": "Tesisinizin enerji ihtiyacını karşılamak üzere optimum standartlarda orta gerilim tesislerinin tasarımı, projelendirilmesi ve anahtar teslimi uygulamasını yapmaktayız. Trafoların bakımı, hücre sistemlerinin kurulumu ve testleri uzman mühendislerimizce gerçekleştirilmektedir."
             },
             "yeralti": {
-                "title": "Yer Altı Kanal Sistemleri",
-                "desc": "Tesis ve endüstriyel alanlar için güvenli, düzenli ve uzun ömürlü yer altı kanal sistemleri.",
-                "detail": "Yer altı kanal sistemleri, elektrik kablolarının ve haberleşme hatlarının güvenli bir şekilde döşenmesi için vazgeçilmez altyapı çözümleridir. Enerva Elektrik, endüstriyel tesisler, organize sanayi bölgeleri ve ticari alanlar için beton kanal, PVC boru ve kablo tavası uygulamaları gerçekleştirmektedir. Projelerimizde zemin etüdü, güzergah planlaması ve projelendirme aşamalarından kazı, döşeme ve montaj işlemlerine kadar tüm süreçleri uzman kadromuzla yönetiyoruz. Uzun ömürlü malzemeler ve standartlara uygun işçilik ile kablolarınız dış etkenlere karşı korunarak güvenli bir altyapı elde edersiniz."
+                "title": "Yeraltı Kanal Hizmetleri",
+                "desc": "Enerji ve haberleşme kabloları için güvenli yeraltı altyapı işleri yapıyoruz.",
+                "detail": "Şehir içi veya tesis içi enerji dağıtımı için gerekli olan yeraltı kablo kanallarının kazılması, borulanması, kablo çekimi ve menhol yapımı işlerini standartlara uygun, güvenli ve çevreye duyarlı bir şekilde gerçekleştiriyoruz."
+            },
+            "salt": {
+                "title": "Şalt Sahası",
+                "desc": "Açık ve kapalı şalt sahalarının projelendirilmesi, montajı ve devreye alınması süreçlerini yönetiyoruz.",
+                "detail": "Açık ve AIS/GIS kapalı şalt sahalarının kurulumunda, çelik konstrüksiyon montajından, kesici, ayırıcı, akım/gerilim trafolarının yerleşimine ve sekonder koruma röle panolarının entegrasyonuna kadar tüm aşamaları titizlikle tamamlıyoruz."
             },
             "enerji": {
-                "title": "Enerji Hat Kurulumu ve Bakımı",
-                "desc": "Endüstriyel ve ticari tesisler için standartlara uygun enerji hat kurulumu.",
-                "detail": "Enerji hatları, elektrik enerjisinin üretim noktasından tüketim noktasına güvenli bir şekilde iletilmesini sağlayan kritik altyapılardır. Enerva Elektrik, havai hat ve yeraltı kablo hatları kurulumu, mevcut hatların bakım ve onarımı, hat güzergahı projelendirme ve izin süreçleri ile enerji nakil hatlarının test ve devreye alınması hizmetlerini sunmaktadır. Kullandığımız kaliteli iletkenler, izolasyon malzemeleri ve bağlantı ekipmanları ile enerji hatlarınızın güvenli, verimli ve uzun ömürlü olmasını sağlıyoruz. Periyodik bakım hizmetlerimiz ile olası arızaları önceden tespit ederek kesintisiz enerji tedariğini garanti ediyoruz."
-            },
-            "direk": {
-                "title": "Direk Montaj ve Demontaj",
-                "desc": "Elektrik direklerinin güvenli ve hızlı montaj ile demontaj işlemleri.",
-                "detail": "Elektrik direklerinin montaj ve demontaj işlemleri, enerji dağıtım altyapısının temelini oluşturan ve yüksek uzmanlık gerektiren çalışmalardır. Enerva Elektrik, beton, ahşap ve çelik direklerin montaj ve demontajı, direk temel kazısı ve betonlama, iletken çekimi ve bağlantı işlemleri ile güvenlik ve iş sağlığı standartlarına tam uyumlu uygulamalar gerçekleştirmektedir. Deneyimli ekibimiz ve özel ekipmanlarımızla şehir içi, kırsal alan ve endüstriyel bölgelerde hızlı ve güvenli direk operasyonları yürütüyoruz."
+                "title": "Enerji Nakil Hatları",
+                "desc": "Yeraltı ve yerüstü enerji nakil hatlarının projelendirmesi, direk montajı ve tel çekimi işlemlerini yapıyoruz.",
+                "detail": "Galvanizli poligon, beton veya kafes direklerin temel betonlarının dökülmesinden, dikilmesine ve üzerlerindeki izolatör, iletken tel çekimi montajlarına kadar orta ve yüksek gerilim enerji iletim hatlarının tüm süreçlerini teknik şartnamelere uygun olarak inşa ediyoruz."
             },
             "proje": {
-                "title": "Elektrik ve Otomasyon Proje Çizimi",
-                "desc": "Tesisleriniz için detaylı elektrik ve otomasyon proje çizimi hizmetleri.",
-                "detail": "Doğru projelendirme, güvenli ve verimli bir elektrik altyapısının ilk adımıdır. Enerva Elektrik, fabrika, tesis ve işletmeler için tek hat şemaları, pano yerleşim ve iç bağlantı projeleri, kablo güzergahı ve kesit hesaplamaları, aydınlatma ve topraklama projeleri ile otomasyon sistem projeleri hazırlamaktadır. AutoCAD ve Eplan gibi profesyonel yazılımlarla hazırlanan projelerimiz, yerel mevzuata ve uluslararası standartlara tam uygunluk sağlar. Tesisinizin ihtiyaçlarını yerinde analiz ederek en verimli ve güvenli çözümü projelendiriyoruz."
+                "title": "Proje Çizimleri",
+                "desc": "Elektrik tesisat ve dağıtım projelerinin tasarımını ve resmi onay süreçlerini yönetiyoruz.",
+                "detail": "AG/YG elektrik tesisleri, aydınlatma, kuvvet, zayıf akım ve otomasyon projelerini güncel yönetmeliklere (TEDAŞ, EMO) uygun olarak çiziyor, gerekli tüm mühendislik hesaplamalarını yapıyor ve onay süreçlerini sizin adınıza takip ediyoruz."
             }
         }
     },
     "brandsPage": {
-        "subtitle": "Sektörün öncü markalarıyla güvenilir ve uzun ömürlü çözümler üretiyoruz. Projelerimizde kullandığımız partner markalar:"
+        "title": "Çözüm Ortaklarımız",
+        "subtitle": "Sektörün önde gelen markalarıyla çalışarak en yüksek kaliteyi sunuyoruz."
     },
     "contactPage": {
         "subtitle": "Projeleriniz ve ihtiyaçlarınız hakkında bizimle iletişime geçin.",

@@ -21,7 +21,6 @@ next-env.d.ts
 !.env.example
 
 # ─── Database ───
-prisma/migrations/
 *.db
 *.sqlite
 

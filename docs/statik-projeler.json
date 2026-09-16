@@ -1,0 +1,769 @@
+{
+  "documentVersion": 1,
+  "generatedAt": "2026-09-16T18:41:50.066Z",
+  "source": "enerva-elektrik statik versiyonu/src/data/projects.ts",
+  "targetModel": "Prisma Project",
+  "projectCount": 11,
+  "referencedAssetCount": 59,
+  "missingAssetCount": 0,
+  "notes": [
+    "Türkçe başlık ve açıklamalar statik sürümden değiştirilmeden alınmıştır.",
+    "İngilizce ve Almanca alanlar çeviri yapılmadan null bırakılmıştır.",
+    "Kategori eşleşmeleri suggestedDatabaseCategory alanında öneri olarak verilmiştir.",
+    "client, year ve location bilgileri statik kaynakta bulunmadığı için null bırakılmıştır.",
+    "assets dizisi, statik public klasöründeki dosya kontrolünün sonucunu içerir."
+  ],
+  "missingAssets": [],
+  "projects": [
+    {
+      "sourceId": 1,
+      "slug": "154kv-salt-calismasi",
+      "titleTr": "Aydın Efeler 154 kV Şalt Sahası Projesi",
+      "titleEn": null,
+      "titleDe": null,
+      "descriptionTr": "Aydın Efeler bölgesinde gerçekleştirilen 154 kV açık şalt sahası projesi kapsamında ekibimizin başarıyla tamamladığı çalışmalar:\n\n• Çelik konstrüksiyon montajı\n• Primer ekipman montajı\n• Bara sistemleri kurulumu\n• Topraklama uygulamaları\n\nProje, yüksek gerilim standartlarına uygun olarak titizlikle yürütülmüş ve zamanında teslim edilmiştir.",
+      "descriptionEn": null,
+      "descriptionDe": null,
+      "clientTr": null,
+      "clientEn": null,
+      "clientDe": null,
+      "sourceCategory": "Yüksek Gerilim",
+      "suggestedDatabaseCategory": "HV",
+      "mainImage": "/images/projeler/154kv-salt-calismasi/main.jpeg",
+      "gallery": [
+        "/images/projeler/154kv-salt-calismasi/main.jpeg",
+        "/images/projeler/154kv-salt-calismasi/gallery-1.jpeg",
+        "/images/projeler/154kv-salt-calismasi/gallery-2.jpeg",
+        "/images/projeler/154kv-salt-calismasi/gallery-3.jpeg",
+        "/images/projeler/154kv-salt-calismasi/gallery-4.jpeg"
+      ],
+      "year": null,
+      "location": null,
+      "isPublished": true,
+      "assets": [
+        {
+          "path": "/images/projeler/154kv-salt-calismasi/main.jpeg",
+          "exists": true,
+          "bytes": 511371
+        },
+        {
+          "path": "/images/projeler/154kv-salt-calismasi/gallery-1.jpeg",
+          "exists": true,
+          "bytes": 511371
+        },
+        {
+          "path": "/images/projeler/154kv-salt-calismasi/gallery-2.jpeg",
+          "exists": true,
+          "bytes": 677578
+        },
+        {
+          "path": "/images/projeler/154kv-salt-calismasi/gallery-3.jpeg",
+          "exists": true,
+          "bytes": 696474
+        },
+        {
+          "path": "/images/projeler/154kv-salt-calismasi/gallery-4.jpeg",
+          "exists": true,
+          "bytes": 385251
+        }
+      ],
+      "migrationStatus": {
+        "contentExtracted": true,
+        "assetsVerified": true,
+        "translationsPending": [
+          "en",
+          "de"
+        ],
+        "metadataPending": [
+          "client",
+          "year",
+          "location"
+        ]
+      }
+    },
+    {
+      "sourceId": 2,
+      "slug": "manisa-osb-380kv",
+      "titleTr": "Manisa OSB 380 kV Enerji Nakil Hattı",
+      "titleEn": null,
+      "titleDe": null,
+      "descriptionTr": "Manisa Organize Sanayi Bölgesi'nde ekibimizin yer aldığı ve başarıyla tamamladığı 380 kV yüksek gerilim çift devre enerji nakil hattı projesi.\n\nBu proje kapsamında yüksek gerilim hat montajı, iletken çekimi ve saha güvenlik uygulamaları titizlikle gerçekleştirilmiştir.",
+      "descriptionEn": null,
+      "descriptionDe": null,
+      "clientTr": null,
+      "clientEn": null,
+      "clientDe": null,
+      "sourceCategory": "Yüksek Gerilim",
+      "suggestedDatabaseCategory": "HV",
+      "mainImage": "/images/projeler/manisa-osb-380kv.jpeg",
+      "gallery": [
+        "/images/projeler/manisa-osb-380kv.jpeg"
+      ],
+      "year": null,
+      "location": null,
+      "isPublished": true,
+      "assets": [
+        {
+          "path": "/images/projeler/manisa-osb-380kv.jpeg",
+          "exists": true,
+          "bytes": 237548
+        }
+      ],
+      "migrationStatus": {
+        "contentExtracted": true,
+        "assetsVerified": true,
+        "translationsPending": [
+          "en",
+          "de"
+        ],
+        "metadataPending": [
+          "client",
+          "year",
+          "location"
+        ]
+      }
+    },
+    {
+      "sourceId": 3,
+      "slug": "nigde-bor-154kv",
+      "titleTr": "Niğde Bor 154 kV ENH Hat Tesisi",
+      "titleEn": null,
+      "titleDe": null,
+      "descriptionTr": "Niğde'nin Bor ilçesinde gerçekleştirilen 154 kV enerji nakil hattı (ENH) tesisi projesi kapsamında hat montajı, direk dikimi ve iletken çekimi çalışmaları başarıyla tamamlanmıştır.\n\nProje, bölgenin enerji altyapısının güçlendirilmesine önemli katkı sağlamış olup, tüm çalışmalar iş güvenliği standartlarına uygun şekilde yürütülmüştür.",
+      "descriptionEn": null,
+      "descriptionDe": null,
+      "clientTr": null,
+      "clientEn": null,
+      "clientDe": null,
+      "sourceCategory": "Yüksek Gerilim",
+      "suggestedDatabaseCategory": "HV",
+      "mainImage": "/images/projeler/nigde-bor-154kv/main.jpeg",
+      "gallery": [
+        "/images/projeler/nigde-bor-154kv/main.jpeg",
+        "/images/projeler/nigde-bor-154kv/gallery-1.jpeg"
+      ],
+      "year": null,
+      "location": null,
+      "isPublished": true,
+      "assets": [
+        {
+          "path": "/images/projeler/nigde-bor-154kv/main.jpeg",
+          "exists": true,
+          "bytes": 166243
+        },
+        {
+          "path": "/images/projeler/nigde-bor-154kv/gallery-1.jpeg",
+          "exists": true,
+          "bytes": 85061
+        }
+      ],
+      "migrationStatus": {
+        "contentExtracted": true,
+        "assetsVerified": true,
+        "translationsPending": [
+          "en",
+          "de"
+        ],
+        "metadataPending": [
+          "client",
+          "year",
+          "location"
+        ]
+      }
+    },
+    {
+      "sourceId": 4,
+      "slug": "orta-gerilim-enerji-nakil-hatti-ve-trafo-kurulumlari",
+      "titleTr": "Orta Gerilim Enerji Nakil Hattı ve Trafo Kurulumları",
+      "titleEn": null,
+      "titleDe": null,
+      "descriptionTr": "Manisa Soma'da gerçekleştirilen orta gerilim enerji nakil hattı ve trafo kurulum projesi kapsamında NB+6 direği montajı ve Hawk iletken montajı çalışmaları tamamlanmıştır.\n\nProje sürecinde direk temelleri, montaj, iletken çekimi ve bağlantı işlemleri güvenlik standartlarına uygun olarak yürütülmüş; trafo kurulumu ve devreye alma çalışmaları başarıyla gerçekleştirilmiştir.",
+      "descriptionEn": null,
+      "descriptionDe": null,
+      "clientTr": null,
+      "clientEn": null,
+      "clientDe": null,
+      "sourceCategory": "Orta Gerilim",
+      "suggestedDatabaseCategory": "MV",
+      "mainImage": "/images/projeler/orta-gerilim-enerji-nakil-hatti-ve-trafo-kurulumlari/main.jpeg",
+      "gallery": [
+        "/images/projeler/orta-gerilim-enerji-nakil-hatti-ve-trafo-kurulumlari/main.jpeg",
+        "/images/projeler/orta-gerilim-enerji-nakil-hatti-ve-trafo-kurulumlari/gallery-1.jpeg",
+        "/images/projeler/orta-gerilim-enerji-nakil-hatti-ve-trafo-kurulumlari/gallery-2.jpeg",
+        "/images/projeler/orta-gerilim-enerji-nakil-hatti-ve-trafo-kurulumlari/gallery-3.jpeg",
+        "/images/projeler/orta-gerilim-enerji-nakil-hatti-ve-trafo-kurulumlari/gallery-4.jpeg",
+        "/images/projeler/orta-gerilim-enerji-nakil-hatti-ve-trafo-kurulumlari/gallery-5.jpeg",
+        "/images/projeler/orta-gerilim-enerji-nakil-hatti-ve-trafo-kurulumlari/gallery-6.jpeg",
+        "/images/projeler/orta-gerilim-enerji-nakil-hatti-ve-trafo-kurulumlari/gallery-7.jpeg"
+      ],
+      "year": null,
+      "location": null,
+      "isPublished": true,
+      "assets": [
+        {
+          "path": "/images/projeler/orta-gerilim-enerji-nakil-hatti-ve-trafo-kurulumlari/main.jpeg",
+          "exists": true,
+          "bytes": 243933
+        },
+        {
+          "path": "/images/projeler/orta-gerilim-enerji-nakil-hatti-ve-trafo-kurulumlari/gallery-1.jpeg",
+          "exists": true,
+          "bytes": 294949
+        },
+        {
+          "path": "/images/projeler/orta-gerilim-enerji-nakil-hatti-ve-trafo-kurulumlari/gallery-2.jpeg",
+          "exists": true,
+          "bytes": 293828
+        },
+        {
+          "path": "/images/projeler/orta-gerilim-enerji-nakil-hatti-ve-trafo-kurulumlari/gallery-3.jpeg",
+          "exists": true,
+          "bytes": 272347
+        },
+        {
+          "path": "/images/projeler/orta-gerilim-enerji-nakil-hatti-ve-trafo-kurulumlari/gallery-4.jpeg",
+          "exists": true,
+          "bytes": 274142
+        },
+        {
+          "path": "/images/projeler/orta-gerilim-enerji-nakil-hatti-ve-trafo-kurulumlari/gallery-5.jpeg",
+          "exists": true,
+          "bytes": 233305
+        },
+        {
+          "path": "/images/projeler/orta-gerilim-enerji-nakil-hatti-ve-trafo-kurulumlari/gallery-6.jpeg",
+          "exists": true,
+          "bytes": 205661
+        },
+        {
+          "path": "/images/projeler/orta-gerilim-enerji-nakil-hatti-ve-trafo-kurulumlari/gallery-7.jpeg",
+          "exists": true,
+          "bytes": 117195
+        }
+      ],
+      "migrationStatus": {
+        "contentExtracted": true,
+        "assetsVerified": true,
+        "translationsPending": [
+          "en",
+          "de"
+        ],
+        "metadataPending": [
+          "client",
+          "year",
+          "location"
+        ]
+      }
+    },
+    {
+      "sourceId": 5,
+      "slug": "soma-adnan-polat-res",
+      "titleTr": "Soma Adnan Polat RES Sekonder Montajı",
+      "titleEn": null,
+      "titleDe": null,
+      "descriptionTr": "Manisa Soma'da yer alan Adnan Polat Rüzgâr Enerjisi Santrali (RES) projesi kapsamında, tesisin güvenli işletmeye alınması için kritik öneme sahip sekonder montaj çalışmaları başarıyla tamamlanmıştır.\n\nSekonder montaj sürecinde koruma röleleri, ölçüm sistemleri, kumanda devreleri ve SCADA entegrasyonu gibi çalışmalar titizlikle yürütülmüştür.",
+      "descriptionEn": null,
+      "descriptionDe": null,
+      "clientTr": null,
+      "clientEn": null,
+      "clientDe": null,
+      "sourceCategory": "Enerji Santrali",
+      "suggestedDatabaseCategory": "POWER_SYSTEMS",
+      "mainImage": "/images/projeler/soma-adnan-polat-res/main.jpg",
+      "gallery": [
+        "/images/projeler/soma-adnan-polat-res/main.jpg"
+      ],
+      "year": null,
+      "location": null,
+      "isPublished": true,
+      "assets": [
+        {
+          "path": "/images/projeler/soma-adnan-polat-res/main.jpg",
+          "exists": true,
+          "bytes": 370853
+        }
+      ],
+      "migrationStatus": {
+        "contentExtracted": true,
+        "assetsVerified": true,
+        "translationsPending": [
+          "en",
+          "de"
+        ],
+        "metadataPending": [
+          "client",
+          "year",
+          "location"
+        ]
+      }
+    },
+    {
+      "sourceId": 6,
+      "slug": "nigde-bor-mobil-trafo-kurulum-baglanti-ve-devreye-alma-calismalari",
+      "titleTr": "Niğde Bor Mobil Trafo Kurulum Bağlantı ve Devreye Alma Çalışmaları",
+      "titleEn": null,
+      "titleDe": null,
+      "descriptionTr": "Niğde Bor sahasında mobil trafo kurulumu tamamlandı. Saha yerleşimi, primer-sekonder bağlantılar, topraklama, test ve devreye alma hazırlıkları standartlara uygun yürütüldü.\n\nNiğde'nin Bor ilçesinde yürüttüğümüz Mobil Trafo çalışmaları kapsamında, sahada geçici ya da hızlı devreye alma ihtiyacını karşılayacak şekilde mobil trafo sisteminin kurulum ve bağlantı süreçleri başarıyla gerçekleştirilmiştir. Mobil trafo çözümleri; bakım, revizyon veya yeni tesis devreye alma dönemlerinde enerji sürekliliğini sağlamak, kritik yüklerin beslemesini kesintisiz sürdürmek ve saha operasyonlarını güvenli şekilde yönetmek açısından önemli avantajlar sunar.\n\nProje kapsamında ilk olarak saha keşfi ve yerleşim planına göre mobil trafonun konumlandırılacağı alan hazırlanmış; zemin uygunluğu, erişim yolları ve güvenli çalışma alanı sınırları kontrol edilmiştir. Ardından mobil trafonun yerleşimi tamamlanarak mekanik sabitleme, ekipman kontrolleri ve etiketleme işlemleri yapılmıştır. Primer ve sekonder bağlantıların hazırlanması sürecinde kablo güzergâhları, bağlantı noktaları ve izolasyon mesafeleri proje standartlarına göre doğrulanmış; kablolama, pabuçlama ve bağlantı elemanlarının tork kontrolleri titizlikle uygulanmıştır.\n\nAyrıca topraklama sürekliliği ve eşpotansiyel bağlantılar kontrol edilerek güvenli işletme için gerekli altyapı sağlanmıştır. Devreye alma öncesi aşamada; görsel muayene, bağlantı doğrulama, ölçüm ve fonksiyon kontrolleri gibi kalite adımları kayıt altına alınmış, iş güvenliği prosedürleri ve saha risk değerlendirmeleri eksiksiz uygulanmıştır.\n\nNiğde Bor Mobil Trafo projemizde tamamlanan bu çalışmalar sayesinde, enerji beslemesinin güvenilirliği artırılmış; test ve devreye alma süreçlerine hazır, sürdürülebilir ve güvenli bir geçici enerji çözümü oluşturulmuştur.",
+      "descriptionEn": null,
+      "descriptionDe": null,
+      "clientTr": null,
+      "clientEn": null,
+      "clientDe": null,
+      "sourceCategory": "Trafo Kurulum",
+      "suggestedDatabaseCategory": "POWER_SYSTEMS",
+      "mainImage": "/images/projeler/nigde-bor-mobil-trafo-kurulum-baglanti-ve-devreye-alma-calismalari/main.jpg",
+      "gallery": [
+        "/images/projeler/nigde-bor-mobil-trafo-kurulum-baglanti-ve-devreye-alma-calismalari/main.jpg",
+        "/images/projeler/nigde-bor-mobil-trafo-kurulum-baglanti-ve-devreye-alma-calismalari/gallery-1.jpeg",
+        "/images/projeler/nigde-bor-mobil-trafo-kurulum-baglanti-ve-devreye-alma-calismalari/gallery-2.jpeg",
+        "/images/projeler/nigde-bor-mobil-trafo-kurulum-baglanti-ve-devreye-alma-calismalari/gallery-3.jpeg",
+        "/images/projeler/nigde-bor-mobil-trafo-kurulum-baglanti-ve-devreye-alma-calismalari/gallery-4.jpeg"
+      ],
+      "year": null,
+      "location": null,
+      "isPublished": true,
+      "assets": [
+        {
+          "path": "/images/projeler/nigde-bor-mobil-trafo-kurulum-baglanti-ve-devreye-alma-calismalari/main.jpg",
+          "exists": true,
+          "bytes": 433998
+        },
+        {
+          "path": "/images/projeler/nigde-bor-mobil-trafo-kurulum-baglanti-ve-devreye-alma-calismalari/gallery-1.jpeg",
+          "exists": true,
+          "bytes": 316522
+        },
+        {
+          "path": "/images/projeler/nigde-bor-mobil-trafo-kurulum-baglanti-ve-devreye-alma-calismalari/gallery-2.jpeg",
+          "exists": true,
+          "bytes": 308774
+        },
+        {
+          "path": "/images/projeler/nigde-bor-mobil-trafo-kurulum-baglanti-ve-devreye-alma-calismalari/gallery-3.jpeg",
+          "exists": true,
+          "bytes": 311249
+        },
+        {
+          "path": "/images/projeler/nigde-bor-mobil-trafo-kurulum-baglanti-ve-devreye-alma-calismalari/gallery-4.jpeg",
+          "exists": true,
+          "bytes": 306382
+        }
+      ],
+      "migrationStatus": {
+        "contentExtracted": true,
+        "assetsVerified": true,
+        "translationsPending": [
+          "en",
+          "de"
+        ],
+        "metadataPending": [
+          "client",
+          "year",
+          "location"
+        ]
+      }
+    },
+    {
+      "sourceId": 7,
+      "slug": "kuba-karpawershos-hat-ve-primer-montaji-yuksek-gerilim-saha-uygulamasi",
+      "titleTr": "Küba Karpawershos Hat ve Primer Montajı – Yüksek Gerilim Saha Uygulaması",
+      "titleEn": null,
+      "titleDe": null,
+      "descriptionTr": "Küba Karpawershos sahasında hat ve primer montajı başarıyla tamamlandı. OG/YG saha ekipman montajı, bağlantı hazırlıkları, kalite kontrolleri ve iş güvenliği prosedürleri uygulanmıştır.\n\nKüba'da yürüttüğümüz Karpawershos Hat ve Primer Montajı projesi kapsamında, enerji iletim/dağıtım altyapısının güvenli ve standartlara uygun şekilde kurulması için saha çalışmalarımız planlı biçimde gerçekleştirilmiştir. Proje; hat montajı ile sahadaki enerji aktarımının sürekliliğini sağlarken, primer montajı ile de şalt sahası ve bağlantı ekipmanlarının devreye alma öncesi hazırlıklarını tamamlamayı hedeflemiştir.\n\nHat montajı sürecinde güzergâh kontrolleri yapılarak montaj alanı güvenli hale getirilmiş, taşıyıcı sistem ve bağlantı noktaları projeye uygun şekilde hazırlanmıştır. İletken çekimi, gergi ayarları ve sehimin kontrolü, mekanik dayanım ve güvenli mesafe kriterleri gözetilerek uygulanmıştır. Bağlantı donanımları, ek parçalar ve koruma elemanları montajlanarak hat boyunca süreklilik ve sağlamlık kontrolleri gerçekleştirilmiştir.\n\nPrimer montaj aşamasında ise saha ekipmanlarının kaide ve konstrüksiyon üzerine yerleştirilmesi, hizalama işlemleri, ankraj ve tork kontrolleri titizlikle yürütülmüştür. İzolasyon mesafeleri, bağlantı düzeni ve topraklama sürekliliği gibi kritik noktalar doğrulanmış; sonraki adımlar olan bara/kablo bağlantıları ile test ve devreye alma faaliyetlerine uygun bir altyapı oluşturulmuştur.\n\nTüm çalışmalar boyunca iş güvenliği prosedürleri, yüksekte çalışma kuralları ve saha risk değerlendirmeleri esas alınmış; ekipman ve montaj kalitesi kontrol listeleri ile kayıt altına alınmıştır. Küba Karpawershos projesinde tamamlanan bu hat ve primer montaj etapları, tesisin güvenilir işletmeye alınması için önemli bir kilometre taşı oluşturmuştur.",
+      "descriptionEn": null,
+      "descriptionDe": null,
+      "clientTr": null,
+      "clientEn": null,
+      "clientDe": null,
+      "sourceCategory": "Yüksek Gerilim",
+      "suggestedDatabaseCategory": "HV",
+      "mainImage": "/images/projeler/kuba-karpawershos-hat-ve-primer-montaji-yuksek-gerilim-saha-uygulamasi/main.jpg",
+      "gallery": [
+        "/images/projeler/kuba-karpawershos-hat-ve-primer-montaji-yuksek-gerilim-saha-uygulamasi/main.jpg",
+        "/images/projeler/kuba-karpawershos-hat-ve-primer-montaji-yuksek-gerilim-saha-uygulamasi/gallery-1.jpeg",
+        "/images/projeler/kuba-karpawershos-hat-ve-primer-montaji-yuksek-gerilim-saha-uygulamasi/gallery-2.jpeg"
+      ],
+      "year": null,
+      "location": null,
+      "isPublished": true,
+      "assets": [
+        {
+          "path": "/images/projeler/kuba-karpawershos-hat-ve-primer-montaji-yuksek-gerilim-saha-uygulamasi/main.jpg",
+          "exists": true,
+          "bytes": 584545
+        },
+        {
+          "path": "/images/projeler/kuba-karpawershos-hat-ve-primer-montaji-yuksek-gerilim-saha-uygulamasi/gallery-1.jpeg",
+          "exists": true,
+          "bytes": 412482
+        },
+        {
+          "path": "/images/projeler/kuba-karpawershos-hat-ve-primer-montaji-yuksek-gerilim-saha-uygulamasi/gallery-2.jpeg",
+          "exists": true,
+          "bytes": 721491
+        }
+      ],
+      "migrationStatus": {
+        "contentExtracted": true,
+        "assetsVerified": true,
+        "translationsPending": [
+          "en",
+          "de"
+        ],
+        "metadataPending": [
+          "client",
+          "year",
+          "location"
+        ]
+      }
+    },
+    {
+      "sourceId": 8,
+      "slug": "dominik-arpowarshop-hat-montaji-enerji-iletim-saha-uygulamasi",
+      "titleTr": "Dominik Arpowarshop Hat Montajı – Enerji İletim Saha Uygulaması",
+      "titleEn": null,
+      "titleDe": null,
+      "descriptionTr": "Dominik Arpowarshop sahasında hat montajı çalışmaları tamamlandı. Direk/taşıyıcı sistem, iletken çekimi, bağlantılar ve saha kalite kontrolleri proje standartlarına uygun yürütüldü.\n\nDominik'te yürüttüğümüz Arpowarshop Hat Montajı çalışmaları kapsamında, enerji iletim/dağıtım hattının saha kurulum süreçleri planlı ve kontrollü şekilde ilerletilmiştir. Projenin amacı; ilgili tesisin şebeke bağlantısını güvenli, standartlara uygun ve uzun ömürlü olacak biçimde tamamlamak, işletme sürekliliğini destekleyecek sağlam bir altyapı oluşturmaktır.\n\nSaha uygulamalarında öncelikle güzergâh doğrulamaları yapılmış, taşıyıcı sistemlerin (direk/konstrüksiyon) montajı ve ankraj kontrolleri tamamlanmıştır. Ardından izolatör, bağlantı donanımları ve koruma elemanları yerleşim planına uygun biçimde montajlanarak hat çekimine hazırlık sağlanmıştır. İletken çekimi sürecinde; gergi ayarları, sehimin kontrolü, bağlantı noktalarının sıkılık/tork değerleri ve mekanik dayanım kriterleri titizlikle takip edilmiştir. Hat boyunca gerekli iş güvenliği tedbirleri alınmış; çalışma alanı sınırlandırmaları, ekipman kontrolleri ve risk değerlendirmeleri prosedürlere uygun yürütülmüştür.\n\nMontajın tamamlanmasıyla birlikte, hattın devreye alma öncesi kontrolleri için gerekli altyapı hazırlanmış; görsel muayene, bağlantı doğrulama, topraklama sürekliliği ve saha düzeni gibi kritik kontroller gerçekleştirilmiştir. Bu kapsamlı çalışma, Dominik Arpowarshop sahasının enerji aktarımını daha güvenilir hale getirirken, bakım kolaylığı ve işletme verimliliği açısından da önemli bir katkı sağlamaktadır.",
+      "descriptionEn": null,
+      "descriptionDe": null,
+      "clientTr": null,
+      "clientEn": null,
+      "clientDe": null,
+      "sourceCategory": "Elektrik Taahhüt",
+      "suggestedDatabaseCategory": "POWER_SYSTEMS",
+      "mainImage": "/images/projeler/dominik-arpowarshop-hat-montaji-enerji-iletim-saha-uygulamasi/main.jpg",
+      "gallery": [
+        "/images/projeler/dominik-arpowarshop-hat-montaji-enerji-iletim-saha-uygulamasi/main.jpg",
+        "/images/projeler/dominik-arpowarshop-hat-montaji-enerji-iletim-saha-uygulamasi/gallery-1.jpeg",
+        "/images/projeler/dominik-arpowarshop-hat-montaji-enerji-iletim-saha-uygulamasi/gallery-2.jpeg",
+        "/images/projeler/dominik-arpowarshop-hat-montaji-enerji-iletim-saha-uygulamasi/gallery-3.jpeg"
+      ],
+      "year": null,
+      "location": null,
+      "isPublished": true,
+      "assets": [
+        {
+          "path": "/images/projeler/dominik-arpowarshop-hat-montaji-enerji-iletim-saha-uygulamasi/main.jpg",
+          "exists": true,
+          "bytes": 311123
+        },
+        {
+          "path": "/images/projeler/dominik-arpowarshop-hat-montaji-enerji-iletim-saha-uygulamasi/gallery-1.jpeg",
+          "exists": true,
+          "bytes": 139846
+        },
+        {
+          "path": "/images/projeler/dominik-arpowarshop-hat-montaji-enerji-iletim-saha-uygulamasi/gallery-2.jpeg",
+          "exists": true,
+          "bytes": 295540
+        },
+        {
+          "path": "/images/projeler/dominik-arpowarshop-hat-montaji-enerji-iletim-saha-uygulamasi/gallery-3.jpeg",
+          "exists": true,
+          "bytes": 183547
+        }
+      ],
+      "migrationStatus": {
+        "contentExtracted": true,
+        "assetsVerified": true,
+        "translationsPending": [
+          "en",
+          "de"
+        ],
+        "metadataPending": [
+          "client",
+          "year",
+          "location"
+        ]
+      }
+    },
+    {
+      "sourceId": 9,
+      "slug": "denizli-civril-ges-gers-primer-montaji-yuksek-gerilim-saha-uygulamasi",
+      "titleTr": "Denizli Çivril GES Primer Montajı – Yüksek Gerilim Saha Uygulaması",
+      "titleEn": null,
+      "titleDe": null,
+      "descriptionTr": "Denizli Çivril GES sahasında primer montajı tamamlandı. Yüksek gerilim ekipmanlarının montaj, bağlantı ve saha uygulama süreçlerine ait proje detaylarını inceleyin.\n\nDenizli'nin Çivril ilçesinde yer alan GES (Güneş Enerjisi Santrali) projemiz kapsamında, şalt sahası ekipmanlarının kritik adımlarından biri olan primer montajı başarıyla gerçekleştirilmiştir. Bu çalışma, santralden alınan enerjinin güvenli ve kesintisiz biçimde şebekeye aktarılabilmesi için gerekli olan yüksek gerilim primer bağlantı elemanlarının sahaya yerleştirilmesi, mekanik montajı ve bağlantıya hazırlık süreçlerini kapsamaktadır.\n\nSaha uygulamasında; primer ekipmanların kaideler üzerine konumlandırılması, taşıyıcı konstrüksiyonların hizalanması, izolasyon mesafelerinin kontrolü ve ekipmanlar arası güvenli bağlantı düzeninin oluşturulması adımları titizlikle yürütülmüştür. Montaj sürecinde iş güvenliği prosedürleri ve yüksek gerilim çalışma standartları esas alınmış; ekipmanların yerleşim planına uygunluğu, ankraj ve tork kontrolleri ile saha düzeni detaylı şekilde doğrulanmıştır.\n\nGERS primer montajı, yalnızca mekanik kurulum değil; aynı zamanda ilerleyen süreçlerde yapılacak bara bağlantıları, kablolama, test ve devreye alma faaliyetleri için sağlam bir altyapı sağlar. Bu nedenle projemizde, hem kalite hem de sürdürülebilir işletme açısından uzun ömürlü ve bakım kolaylığı sunan bir montaj yaklaşımı benimsenmiştir.\n\nDenizli Çivril GES projemizde tamamlanan bu etap ile şalt sahasının devreye alma hazırlıkları hız kazanmış; enerji üretiminin şebekeye güvenli şekilde entegrasyonu için önemli bir kilometre taşı daha geride bırakılmıştır.",
+      "descriptionEn": null,
+      "descriptionDe": null,
+      "clientTr": null,
+      "clientEn": null,
+      "clientDe": null,
+      "sourceCategory": "Yüksek Gerilim",
+      "suggestedDatabaseCategory": "HV",
+      "mainImage": "/images/projeler/denizli-civril-ges-gers-primer-montaji-yuksek-gerilim-saha-uygulamasi/main.jpg",
+      "gallery": [
+        "/images/projeler/denizli-civril-ges-gers-primer-montaji-yuksek-gerilim-saha-uygulamasi/main.jpg",
+        "/images/projeler/denizli-civril-ges-gers-primer-montaji-yuksek-gerilim-saha-uygulamasi/gallery-1.jpg",
+        "/images/projeler/denizli-civril-ges-gers-primer-montaji-yuksek-gerilim-saha-uygulamasi/gallery-2.jpg",
+        "/images/projeler/denizli-civril-ges-gers-primer-montaji-yuksek-gerilim-saha-uygulamasi/gallery-3.jpg"
+      ],
+      "year": null,
+      "location": null,
+      "isPublished": true,
+      "assets": [
+        {
+          "path": "/images/projeler/denizli-civril-ges-gers-primer-montaji-yuksek-gerilim-saha-uygulamasi/main.jpg",
+          "exists": true,
+          "bytes": 589212
+        },
+        {
+          "path": "/images/projeler/denizli-civril-ges-gers-primer-montaji-yuksek-gerilim-saha-uygulamasi/gallery-1.jpg",
+          "exists": true,
+          "bytes": 485873
+        },
+        {
+          "path": "/images/projeler/denizli-civril-ges-gers-primer-montaji-yuksek-gerilim-saha-uygulamasi/gallery-2.jpg",
+          "exists": true,
+          "bytes": 551028
+        },
+        {
+          "path": "/images/projeler/denizli-civril-ges-gers-primer-montaji-yuksek-gerilim-saha-uygulamasi/gallery-3.jpg",
+          "exists": true,
+          "bytes": 577289
+        }
+      ],
+      "migrationStatus": {
+        "contentExtracted": true,
+        "assetsVerified": true,
+        "translationsPending": [
+          "en",
+          "de"
+        ],
+        "metadataPending": [
+          "client",
+          "year",
+          "location"
+        ]
+      }
+    },
+    {
+      "sourceId": 10,
+      "slug": "yeralti-kablo-cekimi-og",
+      "titleTr": "Yeraltı Kablo Çekimi OG – Gebze",
+      "titleEn": null,
+      "titleDe": null,
+      "descriptionTr": "Gebze'de gerçekleştirilen yeraltı OG kablo çekimi ve altyapı hattı imalatı; kazı, borulama/kanal, kablo serimi, ek-muf ve test süreçleriyle anahtar teslim şekilde tamamlandı.\n\nProje kapsamında gerçekleştirilen çalışmalar:\n\n• OG yeraltı kablo güzergâh keşfi ve aplikasyon\n• Kazı, kanal/bordür düzeni, koruge/boru serimi\n• Kablo çekimi–serimi, ek ve muf montajı\n• Uyarı bandı, kumlama/dolgu, rögar/menhol işleri\n• İzolasyon/continuity testleri ve devreye alma",
+      "descriptionEn": null,
+      "descriptionDe": null,
+      "clientTr": null,
+      "clientEn": null,
+      "clientDe": null,
+      "sourceCategory": "Orta Gerilim",
+      "suggestedDatabaseCategory": "MV",
+      "mainImage": "/images/projeler/yeralti-kablo-cekimi-og/gallery-3.jpeg",
+      "gallery": [
+        "/images/projeler/yeralti-kablo-cekimi-og/gallery-10.jpeg",
+        "/images/projeler/yeralti-kablo-cekimi-og/main.jpg",
+        "/images/projeler/yeralti-kablo-cekimi-og/gallery-3.jpeg",
+        "/images/projeler/yeralti-kablo-cekimi-og/gallery-4.jpeg",
+        "/images/projeler/yeralti-kablo-cekimi-og/gallery-5.jpeg",
+        "/images/projeler/yeralti-kablo-cekimi-og/gallery-6.jpeg",
+        "/images/projeler/yeralti-kablo-cekimi-og/gallery-7.jpeg",
+        "/images/projeler/yeralti-kablo-cekimi-og/gallery-8.jpeg",
+        "/images/projeler/yeralti-kablo-cekimi-og/gallery-9.jpeg",
+        "/images/projeler/yeralti-kablo-cekimi-og/gallery-11.jpeg",
+        "/images/projeler/yeralti-kablo-cekimi-og/gallery-12.jpeg",
+        "/images/projeler/yeralti-kablo-cekimi-og/gallery-13.jpeg",
+        "/images/projeler/yeralti-kablo-cekimi-og/gallery-14.jpeg",
+        "/images/projeler/yeralti-kablo-cekimi-og/gallery-15.jpeg",
+        "/images/projeler/yeralti-kablo-cekimi-og/gallery-16.jpeg",
+        "/images/projeler/yeralti-kablo-cekimi-og/gallery-17.jpeg",
+        "/images/projeler/yeralti-kablo-cekimi-og/gallery-18.jpeg",
+        "/images/projeler/yeralti-kablo-cekimi-og/gallery-21.jpeg",
+        "/images/projeler/yeralti-kablo-cekimi-og/gallery-22.jpeg",
+        "/images/projeler/yeralti-kablo-cekimi-og/gallery-23.jpeg",
+        "/images/projeler/yeralti-kablo-cekimi-og/gallery-24.jpeg"
+      ],
+      "year": null,
+      "location": null,
+      "isPublished": true,
+      "assets": [
+        {
+          "path": "/images/projeler/yeralti-kablo-cekimi-og/gallery-3.jpeg",
+          "exists": true,
+          "bytes": 383536
+        },
+        {
+          "path": "/images/projeler/yeralti-kablo-cekimi-og/gallery-10.jpeg",
+          "exists": true,
+          "bytes": 334868
+        },
+        {
+          "path": "/images/projeler/yeralti-kablo-cekimi-og/main.jpg",
+          "exists": true,
+          "bytes": 162375
+        },
+        {
+          "path": "/images/projeler/yeralti-kablo-cekimi-og/gallery-4.jpeg",
+          "exists": true,
+          "bytes": 279571
+        },
+        {
+          "path": "/images/projeler/yeralti-kablo-cekimi-og/gallery-5.jpeg",
+          "exists": true,
+          "bytes": 361292
+        },
+        {
+          "path": "/images/projeler/yeralti-kablo-cekimi-og/gallery-6.jpeg",
+          "exists": true,
+          "bytes": 461112
+        },
+        {
+          "path": "/images/projeler/yeralti-kablo-cekimi-og/gallery-7.jpeg",
+          "exists": true,
+          "bytes": 481212
+        },
+        {
+          "path": "/images/projeler/yeralti-kablo-cekimi-og/gallery-8.jpeg",
+          "exists": true,
+          "bytes": 543668
+        },
+        {
+          "path": "/images/projeler/yeralti-kablo-cekimi-og/gallery-9.jpeg",
+          "exists": true,
+          "bytes": 835552
+        },
+        {
+          "path": "/images/projeler/yeralti-kablo-cekimi-og/gallery-11.jpeg",
+          "exists": true,
+          "bytes": 414101
+        },
+        {
+          "path": "/images/projeler/yeralti-kablo-cekimi-og/gallery-12.jpeg",
+          "exists": true,
+          "bytes": 591317
+        },
+        {
+          "path": "/images/projeler/yeralti-kablo-cekimi-og/gallery-13.jpeg",
+          "exists": true,
+          "bytes": 331744
+        },
+        {
+          "path": "/images/projeler/yeralti-kablo-cekimi-og/gallery-14.jpeg",
+          "exists": true,
+          "bytes": 479818
+        },
+        {
+          "path": "/images/projeler/yeralti-kablo-cekimi-og/gallery-15.jpeg",
+          "exists": true,
+          "bytes": 514300
+        },
+        {
+          "path": "/images/projeler/yeralti-kablo-cekimi-og/gallery-16.jpeg",
+          "exists": true,
+          "bytes": 785096
+        },
+        {
+          "path": "/images/projeler/yeralti-kablo-cekimi-og/gallery-17.jpeg",
+          "exists": true,
+          "bytes": 412127
+        },
+        {
+          "path": "/images/projeler/yeralti-kablo-cekimi-og/gallery-18.jpeg",
+          "exists": true,
+          "bytes": 690999
+        },
+        {
+          "path": "/images/projeler/yeralti-kablo-cekimi-og/gallery-21.jpeg",
+          "exists": true,
+          "bytes": 878888
+        },
+        {
+          "path": "/images/projeler/yeralti-kablo-cekimi-og/gallery-22.jpeg",
+          "exists": true,
+          "bytes": 638691
+        },
+        {
+          "path": "/images/projeler/yeralti-kablo-cekimi-og/gallery-23.jpeg",
+          "exists": true,
+          "bytes": 734151
+        },
+        {
+          "path": "/images/projeler/yeralti-kablo-cekimi-og/gallery-24.jpeg",
+          "exists": true,
+          "bytes": 641624
+        }
+      ],
+      "migrationStatus": {
+        "contentExtracted": true,
+        "assetsVerified": true,
+        "translationsPending": [
+          "en",
+          "de"
+        ],
+        "metadataPending": [
+          "client",
+          "year",
+          "location"
+        ]
+      }
+    },
+    {
+      "sourceId": 11,
+      "slug": "hakkari-beytussebap-154-kv-orta-gerilim-projesi",
+      "titleTr": "Hakkari Beytüşşebap 154 kV Orta Gerilim Projesi",
+      "titleEn": null,
+      "titleDe": null,
+      "descriptionTr": "Hakkari'nin Beytüşşebap ilçesinde gerçekleştirilen 154 kV orta gerilim projesi kapsamında, bölgenin enerji altyapısının güçlendirilmesine yönelik kapsamlı çalışmalar başarıyla tamamlanmıştır.\n\nProje kapsamında gerçekleştirilen başlıca çalışmalar:\n\n• 154 kV trafo merkezi kurulumu ve devreye alma\n• Orta gerilim (OG) şalt sahası ekipman montajı\n• Alçak gerilim (AG) dağıtım panoları ve bağlantıları\n• Primer ve sekonder ekipman montajı\n• Koruma röleleri ve otomasyon sistemi entegrasyonu\n• Topraklama şebekesi ve eşpotansiyel bağlantılar\n• Kablo çekimi, pabuçlama ve bağlantı işlemleri\n• Test, ölçüm ve devreye alma faaliyetleri\n\nProjenin her aşamasında iş güvenliği standartlarına titizlikle uyulmuş, saha ekiplerimiz modern ölçüm cihazları ve kalibrasyon ekipmanlarıyla çalışarak enerji sürekliliğini ve sistem verimliliğini en üst düzeye çıkarmıştır. Orta gerilim ve alçak gerilim sistemleri arasında kusursuz bir koordinasyon sağlanmış; trafo merkezinden son kullanıcıya kadar tüm enerji dağıtım altyapısı anahtar teslim olarak hayata geçirilmiştir.\n\nHakkari Beytüşşebap 154 kV projesi, zorlu coğrafi koşullara rağmen planlanan sürede tamamlanmış olup, bölgedeki enerji dağıtımında güvenilir ve uzun ömürlü bir çözüm sunmaktadır. Proje, gelecekteki artan enerji taleplerini karşılayacak kapasitede tasarlanmış ve bölge halkının kesintisiz enerji erişimine önemli katkı sağlamıştır.",
+      "descriptionEn": null,
+      "descriptionDe": null,
+      "clientTr": null,
+      "clientEn": null,
+      "clientDe": null,
+      "sourceCategory": "Orta Gerilim",
+      "suggestedDatabaseCategory": "MV",
+      "mainImage": "/images/projeler/hakkari-beytussebap-154-kv-orta-gerilim-projesi/kirmizi-trafo.png",
+      "gallery": [
+        "/images/projeler/hakkari-beytussebap-154-kv-orta-gerilim-projesi/kirmizi-trafo.png",
+        "/images/projeler/hakkari-beytussebap-154-kv-orta-gerilim-projesi/main.png",
+        "/images/projeler/hakkari-beytussebap-154-kv-orta-gerilim-projesi/gallery-1.jpeg",
+        "/images/projeler/hakkari-beytussebap-154-kv-orta-gerilim-projesi/gallery-2.jpeg",
+        "/images/projeler/hakkari-beytussebap-154-kv-orta-gerilim-projesi/gallery-3.jpeg"
+      ],
+      "year": null,
+      "location": null,
+      "isPublished": true,
+      "assets": [
+        {
+          "path": "/images/projeler/hakkari-beytussebap-154-kv-orta-gerilim-projesi/kirmizi-trafo.png",
+          "exists": true,
+          "bytes": 5995365
+        },
+        {
+          "path": "/images/projeler/hakkari-beytussebap-154-kv-orta-gerilim-projesi/main.png",
+          "exists": true,
+          "bytes": 2090546
+        },
+        {
+          "path": "/images/projeler/hakkari-beytussebap-154-kv-orta-gerilim-projesi/gallery-1.jpeg",
+          "exists": true,
+          "bytes": 97122
+        },
+        {
+          "path": "/images/projeler/hakkari-beytussebap-154-kv-orta-gerilim-projesi/gallery-2.jpeg",
+          "exists": true,
+          "bytes": 59445
+        },
+        {
+          "path": "/images/projeler/hakkari-beytussebap-154-kv-orta-gerilim-projesi/gallery-3.jpeg",
+          "exists": true,
+          "bytes": 59445
+        }
+      ],
+      "migrationStatus": {
+        "contentExtracted": true,
+        "assetsVerified": true,
+        "translationsPending": [
+          "en",
+          "de"
+        ],
+        "metadataPending": [
+          "client",
+          "year",
+          "location"
+        ]
+      }
+    }
+  ]
+}

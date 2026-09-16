@@ -4,11 +4,12 @@ import { useState, useRef, useEffect } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { useRouter, usePathname } from "@/i18n/navigation";
 import { motion, AnimatePresence } from "framer-motion";
+import { ChevronDown, Globe } from "lucide-react";
 
 const locales = [
-    { code: "de", label: "DE", flag: "🇩🇪", name: "Deutsch" },
-    { code: "tr", label: "TR", flag: "🇹🇷", name: "Türkçe" },
-    { code: "en", label: "EN", flag: "🇬🇧", name: "English" },
+    { code: "de", flag: "🇩🇪", name: "Deutsch" },
+    { code: "tr", flag: "🇹🇷", name: "Türkçe" },
+    { code: "en", flag: "🇬🇧", name: "English" },
 ] as const;
 
 export default function LanguageSwitcher() {
@@ -53,7 +54,7 @@ export default function LanguageSwitcher() {
                         animate={{ opacity: 1, y: 0, scale: 1 }}
                         exit={{ opacity: 0, y: 10, scale: 0.95 }}
                         transition={{ duration: 0.15 }}
-                        className="absolute bottom-full mb-3 left-0 glass rounded-xl overflow-hidden shadow-xl shadow-black/30 min-w-[160px]"
+                        className="absolute bottom-full mb-3 left-0 min-w-[170px] overflow-hidden rounded-xl border border-border bg-background/95 backdrop-blur-md shadow-[0_8px_30px_rgb(0,0,0,0.18)]"
                     >
                         <div className="p-1.5">
                             {locales.map((l) => (
@@ -62,7 +63,7 @@ export default function LanguageSwitcher() {
                                     onClick={() => switchLocale(l.code)}
                                     className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-all duration-150 ${l.code === locale
                                             ? "bg-accent/10 text-accent"
-                                            : "text-enerva-text-muted hover:text-white hover:bg-enerva-surface-light"
+                                            : "text-foreground hover:bg-muted hover:text-accent"
                                         }`}
                                 >
                                     <span className="text-lg">{l.flag}</span>
@@ -93,27 +94,20 @@ export default function LanguageSwitcher() {
             <button
                 onClick={() => setIsOpen(!isOpen)}
                 aria-label={t("language")}
+                aria-expanded={isOpen}
                 title={t("language")}
-                className="group relative flex items-center gap-2 px-4 py-2.5 rounded-full glass hover:bg-enerva-surface-light transition-all duration-300 hover:scale-105 shadow-lg shadow-black/20"
+                className="group relative flex items-center gap-2 rounded-xl border border-border bg-background/90 px-3 py-2.5 backdrop-blur-md shadow-[0_8px_30px_rgb(0,0,0,0.12)] transition-all duration-300 hover:scale-105 hover:border-accent/50 hover:shadow-[0_8px_30px_rgb(0,0,0,0.2)]"
             >
-                <span className="text-lg">{currentLocale.flag}</span>
-                <span className="text-sm font-semibold text-white">
-                    {currentLocale.label}
+                <Globe className="w-5 h-5 text-muted-foreground transition-colors group-hover:text-accent" />
+                <span className="min-w-[80px] text-left text-sm font-semibold text-foreground">
+                    {currentLocale.name}
                 </span>
-                <motion.svg
+                <motion.span
                     animate={{ rotate: isOpen ? 180 : 0 }}
-                    className="w-3.5 h-3.5 text-secondary"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth={2}
+                    className="text-muted-foreground transition-colors group-hover:text-accent"
                 >
-                    <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M5 15l7-7 7 7"
-                    />
-                </motion.svg>
+                    <ChevronDown className="w-4 h-4" />
+                </motion.span>
             </button>
         </motion.div>
     );
