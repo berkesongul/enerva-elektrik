@@ -14,6 +14,7 @@ RUN npm ci
 FROM deps AS builder
 COPY . .
 ENV NODE_ENV=production
+ENV NODE_OPTIONS=--max-old-space-size=768
 ENV DATABASE_URL=postgresql://docker-build:docker-build@127.0.0.1:5432/docker-build
 ENV AUTH_SECRET=docker-build-secret
 ENV NEXTAUTH_URL=http://localhost:3000
@@ -29,6 +30,7 @@ FROM base AS runner
 ENV NODE_ENV=production
 ENV HOSTNAME=0.0.0.0
 ENV PORT=3000
+ENV NODE_OPTIONS=--max-old-space-size=512
 
 RUN groupadd --system --gid 1001 nodejs \
     && useradd --system --uid 1001 --gid nodejs nextjs

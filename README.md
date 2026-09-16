@@ -254,14 +254,14 @@ npm start
 
 ### VPS üzerinde Docker
 
-Docker Compose; Next.js uygulamasını, PostgreSQL 16'yı, migration adımını ve otomatik HTTPS sağlayan Caddy reverse proxy'yi birlikte çalıştırır. PostgreSQL verileri, admin panelinden yüklenen görseller ve TLS sertifikaları kalıcı volume'larda tutulur.
+Docker Compose; Next.js uygulamasını, PostgreSQL 16'yı ve migration adımını birlikte çalıştırır. Uygulama yalnızca `127.0.0.1:3020` üzerinden sunucudaki Nginx'e açılır. PostgreSQL verileri ve admin panelinden yüklenen görseller kalıcı volume'larda tutulur.
 
 ```bash
 # Sunucuda repoyu klonladıktan sonra
 cp deploy.env.example .env.production
 
-# .env.production içindeki alan adı, e-posta ve şifreleri düzenleyin.
-# DNS A kaydı sunucunun IP adresine yönlenmiş olmalıdır.
+# .env.production içindeki alan adı ve şifreleri düzenleyin.
+# Alan adlarının DNS A kayıtları sunucunun IP adresine yönlenmiş olmalıdır.
 
 # Veritabanı migration'larını çalıştırıp sistemi başlatın
 docker compose --env-file .env.production up -d --build
@@ -271,7 +271,7 @@ docker compose --env-file .env.production --profile tools run --rm admin-init
 
 # Durumu ve logları kontrol edin
 docker compose --env-file .env.production ps
-docker compose --env-file .env.production logs -f app caddy
+docker compose --env-file .env.production logs -f app
 ```
 
 Yeni sürüm yayınlamak için:
@@ -281,7 +281,7 @@ git pull
 docker compose --env-file .env.production up -d --build
 ```
 
-Yedek alınması gereken volume'lar: `postgres_data`, `uploads` ve `caddy_data`.
+Yedek alınması gereken volume'lar: `postgres_data` ve `uploads`.
 
 ### Ortam Kontrol Listesi
 
