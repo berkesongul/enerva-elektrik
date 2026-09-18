@@ -7,12 +7,18 @@ import type { Metadata } from "next";
 export const revalidate = 3600;
 
 export async function generateStaticParams() {
-    const projects = await prisma.project.findMany({
-        where: { isPublished: true },
-        select: { slug: true },
-    });
+    try {
+        const projects = await prisma.project.findMany({
+            where: { isPublished: true },
+            select: { slug: true },
+        });
 
-    return projects.map((p) => ({ slug: p.slug }));
+        return projects.map((p) => ({ slug: p.slug }));
+    } catch {
+        // The production database is unavailable while the Docker image is built.
+        // Missing paths are generated on demand and cached by the revalidate setting.
+        return [];
+    }
 }
 
 export async function generateMetadata({

@@ -6,19 +6,25 @@ import type { Metadata } from "next";
 export const revalidate = 3600;
 
 export async function generateStaticParams() {
-    const blogs = await prisma.blog.findMany({
-        where: { isPublished: true },
-        select: { slugDe: true, slugTr: true, slugEn: true },
-    });
+    try {
+        const blogs = await prisma.blog.findMany({
+            where: { isPublished: true },
+            select: { slugDe: true, slugTr: true, slugEn: true },
+        });
 
-    const params: { slug: string }[] = [];
-    for (const blog of blogs) {
-        if (blog.slugDe) params.push({ slug: blog.slugDe });
-        if (blog.slugTr) params.push({ slug: blog.slugTr });
-        if (blog.slugEn) params.push({ slug: blog.slugEn });
+        const params: { slug: string }[] = [];
+        for (const blog of blogs) {
+            if (blog.slugDe) params.push({ slug: blog.slugDe });
+            if (blog.slugTr) params.push({ slug: blog.slugTr });
+            if (blog.slugEn) params.push({ slug: blog.slugEn });
+        }
+
+        return params;
+    } catch {
+        // The production database is unavailable while the Docker image is built.
+        // Missing paths are generated on demand and cached by the revalidate setting.
+        return [];
     }
-
-    return params;
 }
 
 export async function generateMetadata({
