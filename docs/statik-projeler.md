@@ -2,7 +2,7 @@
 
 Statik sürümden **11 proje** çıkarıldı. Projelerde **59 benzersiz görsel referansı** bulunuyor. Eksik görsel sayısı: **0**.
 
-Bu belge kaynak içerikleri değiştirmeden arşivler. İngilizce ve Almanca çeviriler ile müşteri, yıl ve konum bilgileri statik veride bulunmadığı için beklemede bırakılmıştır.
+Bu belge kaynak içerikleri değiştirmeden arşivler. İngilizce ve Almanca proje çevirileri tamamlanmıştır. Müşteri, yıl ve konum bilgileri statik veride bulunmadığı için beklemede bırakılmıştır.
 
 ## Özet
 
@@ -29,7 +29,7 @@ Bu belge kaynak içerikleri değiştirmeden arşivler. İngilizce ve Almanca çe
 - **Prisma kategori önerisi:** `HV`
 - **Ana görsel:** `/images/projeler/154kv-salt-calismasi/main.jpeg`
 - **Galeri:** 5 görsel
-- **Çeviri durumu:** İngilizce ve Almanca bekliyor
+- **Çeviri durumu:** İngilizce ve Almanca tamamlandı
 - **Eksik metadata:** müşteri, yıl, konum
 
 **Açıklama**
@@ -58,7 +58,7 @@ Proje, yüksek gerilim standartlarına uygun olarak titizlikle yürütülmüş v
 - **Prisma kategori önerisi:** `HV`
 - **Ana görsel:** `/images/projeler/manisa-osb-380kv.jpeg`
 - **Galeri:** 1 görsel
-- **Çeviri durumu:** İngilizce ve Almanca bekliyor
+- **Çeviri durumu:** İngilizce ve Almanca tamamlandı
 - **Eksik metadata:** müşteri, yıl, konum
 
 **Açıklama**
@@ -78,7 +78,7 @@ Bu proje kapsamında yüksek gerilim hat montajı, iletken çekimi ve saha güve
 - **Prisma kategori önerisi:** `HV`
 - **Ana görsel:** `/images/projeler/nigde-bor-154kv/main.jpeg`
 - **Galeri:** 2 görsel
-- **Çeviri durumu:** İngilizce ve Almanca bekliyor
+- **Çeviri durumu:** İngilizce ve Almanca tamamlandı
 - **Eksik metadata:** müşteri, yıl, konum
 
 **Açıklama**
@@ -99,7 +99,7 @@ Proje, bölgenin enerji altyapısının güçlendirilmesine önemli katkı sağl
 - **Prisma kategori önerisi:** `MV`
 - **Ana görsel:** `/images/projeler/orta-gerilim-enerji-nakil-hatti-ve-trafo-kurulumlari/main.jpeg`
 - **Galeri:** 8 görsel
-- **Çeviri durumu:** İngilizce ve Almanca bekliyor
+- **Çeviri durumu:** İngilizce ve Almanca tamamlandı
 - **Eksik metadata:** müşteri, yıl, konum
 
 **Açıklama**
@@ -126,7 +126,7 @@ Proje sürecinde direk temelleri, montaj, iletken çekimi ve bağlantı işlemle
 - **Prisma kategori önerisi:** `POWER_SYSTEMS`
 - **Ana görsel:** `/images/projeler/soma-adnan-polat-res/main.jpg`
 - **Galeri:** 1 görsel
-- **Çeviri durumu:** İngilizce ve Almanca bekliyor
+- **Çeviri durumu:** İngilizce ve Almanca tamamlandı
 - **Eksik metadata:** müşteri, yıl, konum
 
 **Açıklama**
@@ -146,7 +146,7 @@ Sekonder montaj sürecinde koruma röleleri, ölçüm sistemleri, kumanda devrel
 - **Prisma kategori önerisi:** `POWER_SYSTEMS`
 - **Ana görsel:** `/images/projeler/nigde-bor-mobil-trafo-kurulum-baglanti-ve-devreye-alma-calismalari/main.jpg`
 - **Galeri:** 5 görsel
-- **Çeviri durumu:** İngilizce ve Almanca bekliyor
+- **Çeviri durumu:** İngilizce ve Almanca tamamlandı
 - **Eksik metadata:** müşteri, yıl, konum
 
 **Açıklama**
@@ -176,7 +176,7 @@ Niğde Bor Mobil Trafo projemizde tamamlanan bu çalışmalar sayesinde, enerji 
 - **Prisma kategori önerisi:** `HV`
 - **Ana görsel:** `/images/projeler/kuba-karpawershos-hat-ve-primer-montaji-yuksek-gerilim-saha-uygulamasi/main.jpg`
 - **Galeri:** 3 görsel
-- **Çeviri durumu:** İngilizce ve Almanca bekliyor
+- **Çeviri durumu:** İngilizce ve Almanca tamamlandı
 - **Eksik metadata:** müşteri, yıl, konum
 
 **Açıklama**
@@ -204,7 +204,7 @@ Tüm çalışmalar boyunca iş güvenliği prosedürleri, yüksekte çalışma k
 - **Prisma kategori önerisi:** `POWER_SYSTEMS`
 - **Ana görsel:** `/images/projeler/dominik-arpowarshop-hat-montaji-enerji-iletim-saha-uygulamasi/main.jpg`
 - **Galeri:** 4 görsel
-- **Çeviri durumu:** İngilizce ve Almanca bekliyor
+- **Çeviri durumu:** İngilizce ve Almanca tamamlandı
 - **Eksik metadata:** müşteri, yıl, konum
 
 **Açıklama**
@@ -231,7 +231,7 @@ Montajın tamamlanmasıyla birlikte, hattın devreye alma öncesi kontrolleri i�
 - **Prisma kategori önerisi:** `HV`
 - **Ana görsel:** `/images/projeler/denizli-civril-ges-gers-primer-montaji-yuksek-gerilim-saha-uygulamasi/main.jpg`
 - **Galeri:** 4 görsel
-- **Çeviri durumu:** İngilizce ve Almanca bekliyor
+- **Çeviri durumu:** İngilizce ve Almanca tamamlandı
 - **Eksik metadata:** müşteri, yıl, konum
 
 **Açıklama**
@@ -260,7 +260,7 @@ Denizli Çivril GES projemizde tamamlanan bu etap ile şalt sahasının devreye 
 - **Prisma kategori önerisi:** `MV`
 - **Ana görsel:** `/images/projeler/yeralti-kablo-cekimi-og/gallery-3.jpeg`
 - **Galeri:** 21 görsel
-- **Çeviri durumu:** İngilizce ve Almanca bekliyor
+- **Çeviri durumu:** İngilizce ve Almanca tamamlandı
 - **Eksik metadata:** müşteri, yıl, konum
 
 **Açıklama**
@@ -306,7 +306,7 @@ Proje kapsamında gerçekleştirilen çalışmalar:
 - **Prisma kategori önerisi:** `MV`
 - **Ana görsel:** `/images/projeler/hakkari-beytussebap-154-kv-orta-gerilim-projesi/kirmizi-trafo.png`
 - **Galeri:** 5 görsel
-- **Çeviri durumu:** İngilizce ve Almanca bekliyor
+- **Çeviri durumu:** İngilizce ve Almanca tamamlandı
 - **Eksik metadata:** müşteri, yıl, konum
 
 **Açıklama**

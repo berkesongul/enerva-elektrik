@@ -1,6 +1,6 @@
 {
   "documentVersion": 1,
-  "generatedAt": "2026-09-16T18:41:50.066Z",
+  "generatedAt": "2026-09-18T20:02:55.483Z",
   "source": "enerva-elektrik statik versiyonu/src/data/projects.ts",
   "targetModel": "Prisma Project",
   "projectCount": 11,
@@ -8,7 +8,7 @@
   "missingAssetCount": 0,
   "notes": [
     "Türkçe başlık ve açıklamalar statik sürümden değiştirilmeden alınmıştır.",
-    "İngilizce ve Almanca alanlar çeviri yapılmadan null bırakılmıştır.",
+    "İngilizce ve Almanca başlık ve açıklamalar tamamlanmıştır.",
     "Kategori eşleşmeleri suggestedDatabaseCategory alanında öneri olarak verilmiştir.",
     "client, year ve location bilgileri statik kaynakta bulunmadığı için null bırakılmıştır.",
     "assets dizisi, statik public klasöründeki dosya kontrolünün sonucunu içerir."
@@ -19,11 +19,11 @@
       "sourceId": 1,
       "slug": "154kv-salt-calismasi",
       "titleTr": "Aydın Efeler 154 kV Şalt Sahası Projesi",
-      "titleEn": null,
-      "titleDe": null,
+      "titleEn": "Aydın Efeler 154 kV Switchyard Project",
+      "titleDe": "Projekt 154-kV-Schaltanlage Aydın Efeler",
       "descriptionTr": "Aydın Efeler bölgesinde gerçekleştirilen 154 kV açık şalt sahası projesi kapsamında ekibimizin başarıyla tamamladığı çalışmalar:\n\n• Çelik konstrüksiyon montajı\n• Primer ekipman montajı\n• Bara sistemleri kurulumu\n• Topraklama uygulamaları\n\nProje, yüksek gerilim standartlarına uygun olarak titizlikle yürütülmüş ve zamanında teslim edilmiştir.",
-      "descriptionEn": null,
-      "descriptionDe": null,
+      "descriptionEn": "Our team successfully completed the following works as part of the 154 kV outdoor switchyard project in Aydın Efeler:\n\n• Steel structure installation\n• Primary equipment installation\n• Busbar system installation\n• Grounding works\n\nThe project was executed with great care in accordance with high-voltage standards and delivered on schedule.",
+      "descriptionDe": "Im Rahmen des Projekts einer 154-kV-Freiluftschaltanlage in Aydın Efeler hat unser Team folgende Arbeiten erfolgreich abgeschlossen:\n\n• Montage der Stahlkonstruktionen\n• Montage der Primärtechnik\n• Installation der Sammelschienensysteme\n• Erdungsarbeiten\n\nDas Projekt wurde sorgfältig nach den geltenden Hochspannungsstandards ausgeführt und termingerecht übergeben.",
       "clientTr": null,
       "clientEn": null,
       "clientDe": null,
@@ -70,10 +70,7 @@
       "migrationStatus": {
         "contentExtracted": true,
         "assetsVerified": true,
-        "translationsPending": [
-          "en",
-          "de"
-        ],
+        "translationsPending": [],
         "metadataPending": [
           "client",
           "year",
@@ -85,11 +82,11 @@
       "sourceId": 2,
       "slug": "manisa-osb-380kv",
       "titleTr": "Manisa OSB 380 kV Enerji Nakil Hattı",
-      "titleEn": null,
-      "titleDe": null,
+      "titleEn": "Manisa Industrial Zone 380 kV Transmission Line",
+      "titleDe": "380-kV-Energieübertragungsleitung im Industriegebiet Manisa",
       "descriptionTr": "Manisa Organize Sanayi Bölgesi'nde ekibimizin yer aldığı ve başarıyla tamamladığı 380 kV yüksek gerilim çift devre enerji nakil hattı projesi.\n\nBu proje kapsamında yüksek gerilim hat montajı, iletken çekimi ve saha güvenlik uygulamaları titizlikle gerçekleştirilmiştir.",
-      "descriptionEn": null,
-      "descriptionDe": null,
+      "descriptionEn": "Our team participated in and successfully completed the 380 kV double-circuit high-voltage transmission line project in the Manisa Organized Industrial Zone.\n\nHigh-voltage line installation, conductor stringing and field safety measures were carried out with meticulous attention throughout the project.",
+      "descriptionDe": "Unser Team war am Projekt einer zweisystemigen 380-kV-Hochspannungsleitung im Industriegebiet Manisa beteiligt und hat die Arbeiten erfolgreich abgeschlossen.\n\nDie Montage der Hochspannungsleitung, der Leiterseilzug und sämtliche Sicherheitsmaßnahmen auf der Baustelle wurden mit größter Sorgfalt ausgeführt.",
       "clientTr": null,
       "clientEn": null,
       "clientDe": null,
@@ -112,10 +109,7 @@
       "migrationStatus": {
         "contentExtracted": true,
         "assetsVerified": true,
-        "translationsPending": [
-          "en",
-          "de"
-        ],
+        "translationsPending": [],
         "metadataPending": [
           "client",
           "year",
@@ -127,11 +121,11 @@
       "sourceId": 3,
       "slug": "nigde-bor-154kv",
       "titleTr": "Niğde Bor 154 kV ENH Hat Tesisi",
-      "titleEn": null,
-      "titleDe": null,
+      "titleEn": "Niğde Bor 154 kV Transmission Line Installation",
+      "titleDe": "154-kV-Energieübertragungsleitung Niğde Bor",
       "descriptionTr": "Niğde'nin Bor ilçesinde gerçekleştirilen 154 kV enerji nakil hattı (ENH) tesisi projesi kapsamında hat montajı, direk dikimi ve iletken çekimi çalışmaları başarıyla tamamlanmıştır.\n\nProje, bölgenin enerji altyapısının güçlendirilmesine önemli katkı sağlamış olup, tüm çalışmalar iş güvenliği standartlarına uygun şekilde yürütülmüştür.",
-      "descriptionEn": null,
-      "descriptionDe": null,
+      "descriptionEn": "Line installation, tower erection and conductor stringing were successfully completed as part of the 154 kV transmission line project in Bor, Niğde.\n\nThe project made an important contribution to strengthening the region's energy infrastructure, and all work was carried out in compliance with occupational safety standards.",
+      "descriptionDe": "Im Rahmen des Projekts einer 154-kV-Energieübertragungsleitung in Bor, Niğde, wurden die Leitungsmontage, Mastaufstellung und der Leiterseilzug erfolgreich abgeschlossen.\n\nDas Projekt leistet einen wichtigen Beitrag zur Stärkung der regionalen Energieinfrastruktur. Sämtliche Arbeiten wurden unter Einhaltung der Arbeitsschutzstandards ausgeführt.",
       "clientTr": null,
       "clientEn": null,
       "clientDe": null,
@@ -160,10 +154,7 @@
       "migrationStatus": {
         "contentExtracted": true,
         "assetsVerified": true,
-        "translationsPending": [
-          "en",
-          "de"
-        ],
+        "translationsPending": [],
         "metadataPending": [
           "client",
           "year",
@@ -175,11 +166,11 @@
       "sourceId": 4,
       "slug": "orta-gerilim-enerji-nakil-hatti-ve-trafo-kurulumlari",
       "titleTr": "Orta Gerilim Enerji Nakil Hattı ve Trafo Kurulumları",
-      "titleEn": null,
-      "titleDe": null,
+      "titleEn": "Medium-Voltage Transmission Line and Transformer Installations",
+      "titleDe": "Mittelspannungsleitung und Transformatorinstallationen",
       "descriptionTr": "Manisa Soma'da gerçekleştirilen orta gerilim enerji nakil hattı ve trafo kurulum projesi kapsamında NB+6 direği montajı ve Hawk iletken montajı çalışmaları tamamlanmıştır.\n\nProje sürecinde direk temelleri, montaj, iletken çekimi ve bağlantı işlemleri güvenlik standartlarına uygun olarak yürütülmüş; trafo kurulumu ve devreye alma çalışmaları başarıyla gerçekleştirilmiştir.",
-      "descriptionEn": null,
-      "descriptionDe": null,
+      "descriptionEn": "The installation of an NB+6 pole and Hawk conductor was completed as part of the medium-voltage transmission line and transformer project in Soma, Manisa.\n\nPole foundations, assembly, conductor stringing and connection works were carried out in accordance with safety standards. Transformer installation and commissioning were also completed successfully.",
+      "descriptionDe": "Im Rahmen des Projekts für eine Mittelspannungsleitung und Transformatorinstallation in Soma, Manisa, wurden ein NB+6-Mast sowie Hawk-Leiter montiert.\n\nMastfundamente, Montage, Leiterseilzug und Anschlussarbeiten wurden gemäß den Sicherheitsstandards ausgeführt. Auch die Installation und Inbetriebnahme des Transformators wurden erfolgreich abgeschlossen.",
       "clientTr": null,
       "clientEn": null,
       "clientDe": null,
@@ -244,10 +235,7 @@
       "migrationStatus": {
         "contentExtracted": true,
         "assetsVerified": true,
-        "translationsPending": [
-          "en",
-          "de"
-        ],
+        "translationsPending": [],
         "metadataPending": [
           "client",
           "year",
@@ -259,11 +247,11 @@
       "sourceId": 5,
       "slug": "soma-adnan-polat-res",
       "titleTr": "Soma Adnan Polat RES Sekonder Montajı",
-      "titleEn": null,
-      "titleDe": null,
+      "titleEn": "Secondary Systems Installation at Soma Adnan Polat Wind Farm",
+      "titleDe": "Sekundärmontage im Windpark Soma Adnan Polat",
       "descriptionTr": "Manisa Soma'da yer alan Adnan Polat Rüzgâr Enerjisi Santrali (RES) projesi kapsamında, tesisin güvenli işletmeye alınması için kritik öneme sahip sekonder montaj çalışmaları başarıyla tamamlanmıştır.\n\nSekonder montaj sürecinde koruma röleleri, ölçüm sistemleri, kumanda devreleri ve SCADA entegrasyonu gibi çalışmalar titizlikle yürütülmüştür.",
-      "descriptionEn": null,
-      "descriptionDe": null,
+      "descriptionEn": "Critical secondary installation works required for the safe commissioning of the Adnan Polat Wind Farm in Soma, Manisa, were successfully completed.\n\nThe scope included protection relays, metering systems, control circuits and SCADA integration, all implemented with meticulous attention to quality and safety.",
+      "descriptionDe": "Im Windpark Adnan Polat in Soma, Manisa, wurden die für eine sichere Inbetriebnahme entscheidenden Sekundärmontagearbeiten erfolgreich abgeschlossen.\n\nDer Leistungsumfang umfasste Schutzrelais, Messsysteme, Steuerstromkreise und die SCADA-Integration. Sämtliche Arbeiten wurden mit hoher Sorgfalt und unter Beachtung der Qualitäts- und Sicherheitsanforderungen ausgeführt.",
       "clientTr": null,
       "clientEn": null,
       "clientDe": null,
@@ -286,10 +274,7 @@
       "migrationStatus": {
         "contentExtracted": true,
         "assetsVerified": true,
-        "translationsPending": [
-          "en",
-          "de"
-        ],
+        "translationsPending": [],
         "metadataPending": [
           "client",
           "year",
@@ -301,11 +286,11 @@
       "sourceId": 6,
       "slug": "nigde-bor-mobil-trafo-kurulum-baglanti-ve-devreye-alma-calismalari",
       "titleTr": "Niğde Bor Mobil Trafo Kurulum Bağlantı ve Devreye Alma Çalışmaları",
-      "titleEn": null,
-      "titleDe": null,
+      "titleEn": "Niğde Bor Mobile Transformer Installation, Connection and Commissioning",
+      "titleDe": "Installation, Anschluss und Inbetriebnahme eines mobilen Transformators in Niğde Bor",
       "descriptionTr": "Niğde Bor sahasında mobil trafo kurulumu tamamlandı. Saha yerleşimi, primer-sekonder bağlantılar, topraklama, test ve devreye alma hazırlıkları standartlara uygun yürütüldü.\n\nNiğde'nin Bor ilçesinde yürüttüğümüz Mobil Trafo çalışmaları kapsamında, sahada geçici ya da hızlı devreye alma ihtiyacını karşılayacak şekilde mobil trafo sisteminin kurulum ve bağlantı süreçleri başarıyla gerçekleştirilmiştir. Mobil trafo çözümleri; bakım, revizyon veya yeni tesis devreye alma dönemlerinde enerji sürekliliğini sağlamak, kritik yüklerin beslemesini kesintisiz sürdürmek ve saha operasyonlarını güvenli şekilde yönetmek açısından önemli avantajlar sunar.\n\nProje kapsamında ilk olarak saha keşfi ve yerleşim planına göre mobil trafonun konumlandırılacağı alan hazırlanmış; zemin uygunluğu, erişim yolları ve güvenli çalışma alanı sınırları kontrol edilmiştir. Ardından mobil trafonun yerleşimi tamamlanarak mekanik sabitleme, ekipman kontrolleri ve etiketleme işlemleri yapılmıştır. Primer ve sekonder bağlantıların hazırlanması sürecinde kablo güzergâhları, bağlantı noktaları ve izolasyon mesafeleri proje standartlarına göre doğrulanmış; kablolama, pabuçlama ve bağlantı elemanlarının tork kontrolleri titizlikle uygulanmıştır.\n\nAyrıca topraklama sürekliliği ve eşpotansiyel bağlantılar kontrol edilerek güvenli işletme için gerekli altyapı sağlanmıştır. Devreye alma öncesi aşamada; görsel muayene, bağlantı doğrulama, ölçüm ve fonksiyon kontrolleri gibi kalite adımları kayıt altına alınmış, iş güvenliği prosedürleri ve saha risk değerlendirmeleri eksiksiz uygulanmıştır.\n\nNiğde Bor Mobil Trafo projemizde tamamlanan bu çalışmalar sayesinde, enerji beslemesinin güvenilirliği artırılmış; test ve devreye alma süreçlerine hazır, sürdürülebilir ve güvenli bir geçici enerji çözümü oluşturulmuştur.",
-      "descriptionEn": null,
-      "descriptionDe": null,
+      "descriptionEn": "The mobile transformer installation at the Niğde Bor site was completed in accordance with applicable standards, including site layout, primary and secondary connections, grounding, testing and commissioning preparations.\n\nThe mobile transformer system was installed and connected to meet temporary supply and rapid commissioning requirements. Such solutions maintain energy continuity during maintenance, refurbishment or the commissioning of new facilities, keep critical loads supplied and support safe field operations.\n\nFollowing the site survey and layout plan, the installation area was prepared and checked for ground suitability, access and safe working boundaries. The transformer was positioned and mechanically secured, followed by equipment inspections and labeling. Cable routes, connection points and insulation clearances were verified before cabling, lug installation and torque checks were completed.\n\nGrounding continuity and equipotential bonding were verified. Visual inspections, connection checks, measurements and functional tests were documented, while occupational safety procedures and field risk assessments were fully applied.\n\nThe completed work provides Niğde Bor with a reliable, sustainable and safe temporary power solution that is ready for testing and commissioning.",
+      "descriptionDe": "Die Installation des mobilen Transformators am Standort Niğde Bor wurde einschließlich Standortplanung, Primär- und Sekundäranschlüssen, Erdung sowie Test- und Inbetriebnahmevorbereitungen normgerecht abgeschlossen.\n\nDas mobile Transformatorsystem wurde für eine temporäre Versorgung und eine schnelle Inbetriebnahme installiert und angeschlossen. Solche Lösungen sichern die Energieversorgung während Wartungs- und Modernisierungsarbeiten oder bei der Inbetriebnahme neuer Anlagen, versorgen kritische Verbraucher unterbrechungsfrei und unterstützen einen sicheren Baustellenbetrieb.\n\nNach der Standortaufnahme und Ausführungsplanung wurde die Aufstellfläche vorbereitet und hinsichtlich Tragfähigkeit, Zufahrt und sicherer Arbeitsbereiche geprüft. Anschließend wurde der Transformator positioniert, mechanisch befestigt, kontrolliert und gekennzeichnet. Kabelwege, Anschlusspunkte und Isolationsabstände wurden geprüft; danach folgten Verkabelung, Kabelschuhmontage und Drehmomentkontrollen.\n\nDie Erdungsdurchgängigkeit und der Potenzialausgleich wurden überprüft. Sichtprüfungen, Anschlusskontrollen, Messungen und Funktionstests wurden dokumentiert; Arbeitsschutzmaßnahmen und Gefährdungsbeurteilungen wurden vollständig umgesetzt.\n\nDamit steht in Niğde Bor eine zuverlässige, nachhaltige und sichere temporäre Energieversorgung bereit, die für Prüfung und Inbetriebnahme vorbereitet ist.",
       "clientTr": null,
       "clientEn": null,
       "clientDe": null,
@@ -352,10 +337,7 @@
       "migrationStatus": {
         "contentExtracted": true,
         "assetsVerified": true,
-        "translationsPending": [
-          "en",
-          "de"
-        ],
+        "translationsPending": [],
         "metadataPending": [
           "client",
           "year",
@@ -367,11 +349,11 @@
       "sourceId": 7,
       "slug": "kuba-karpawershos-hat-ve-primer-montaji-yuksek-gerilim-saha-uygulamasi",
       "titleTr": "Küba Karpawershos Hat ve Primer Montajı – Yüksek Gerilim Saha Uygulaması",
-      "titleEn": null,
-      "titleDe": null,
+      "titleEn": "Cuba Karpowership Line and Primary Equipment Installation – High-Voltage Field Works",
+      "titleDe": "Leitungs- und Primärmontage bei Karpowership Kuba – Hochspannungsarbeiten",
       "descriptionTr": "Küba Karpawershos sahasında hat ve primer montajı başarıyla tamamlandı. OG/YG saha ekipman montajı, bağlantı hazırlıkları, kalite kontrolleri ve iş güvenliği prosedürleri uygulanmıştır.\n\nKüba'da yürüttüğümüz Karpawershos Hat ve Primer Montajı projesi kapsamında, enerji iletim/dağıtım altyapısının güvenli ve standartlara uygun şekilde kurulması için saha çalışmalarımız planlı biçimde gerçekleştirilmiştir. Proje; hat montajı ile sahadaki enerji aktarımının sürekliliğini sağlarken, primer montajı ile de şalt sahası ve bağlantı ekipmanlarının devreye alma öncesi hazırlıklarını tamamlamayı hedeflemiştir.\n\nHat montajı sürecinde güzergâh kontrolleri yapılarak montaj alanı güvenli hale getirilmiş, taşıyıcı sistem ve bağlantı noktaları projeye uygun şekilde hazırlanmıştır. İletken çekimi, gergi ayarları ve sehimin kontrolü, mekanik dayanım ve güvenli mesafe kriterleri gözetilerek uygulanmıştır. Bağlantı donanımları, ek parçalar ve koruma elemanları montajlanarak hat boyunca süreklilik ve sağlamlık kontrolleri gerçekleştirilmiştir.\n\nPrimer montaj aşamasında ise saha ekipmanlarının kaide ve konstrüksiyon üzerine yerleştirilmesi, hizalama işlemleri, ankraj ve tork kontrolleri titizlikle yürütülmüştür. İzolasyon mesafeleri, bağlantı düzeni ve topraklama sürekliliği gibi kritik noktalar doğrulanmış; sonraki adımlar olan bara/kablo bağlantıları ile test ve devreye alma faaliyetlerine uygun bir altyapı oluşturulmuştur.\n\nTüm çalışmalar boyunca iş güvenliği prosedürleri, yüksekte çalışma kuralları ve saha risk değerlendirmeleri esas alınmış; ekipman ve montaj kalitesi kontrol listeleri ile kayıt altına alınmıştır. Küba Karpawershos projesinde tamamlanan bu hat ve primer montaj etapları, tesisin güvenilir işletmeye alınması için önemli bir kilometre taşı oluşturmuştur.",
-      "descriptionEn": null,
-      "descriptionDe": null,
+      "descriptionEn": "Line and primary equipment installation at the Cuba Karpowership site was completed successfully, including MV/HV field equipment, connection preparations, quality inspections and occupational safety measures.\n\nThe field work was planned and executed to establish a safe, standards-compliant transmission and distribution infrastructure. The line installation ensured continuous energy transfer, while the primary installation prepared the switchyard and connection equipment for commissioning.\n\nRoute checks were completed and the work area secured before support structures and connection points were prepared. Conductor stringing, tension adjustment and sag checks were performed in line with mechanical strength and safety-clearance requirements. Connection hardware, fittings and protective components were installed and checked for continuity and integrity.\n\nPrimary equipment was positioned on foundations and structures, aligned, anchored and torque-checked. Insulation clearances, connection arrangements and grounding continuity were verified, providing a sound basis for busbar and cable connections, testing and commissioning.\n\nOccupational safety procedures, working-at-height rules and field risk assessments were applied throughout. These completed stages represent an important milestone toward reliable operation of the facility.",
+      "descriptionDe": "Die Leitungs- und Primärmontage am Standort Karpowership Kuba wurde erfolgreich abgeschlossen. Der Leistungsumfang umfasste MS-/HS-Feldtechnik, Anschlussvorbereitungen, Qualitätsprüfungen und Arbeitsschutzmaßnahmen.\n\nDie Arbeiten wurden geplant und ausgeführt, um eine sichere und normgerechte Übertragungs- und Verteilungsinfrastruktur zu errichten. Die Leitungsmontage gewährleistet eine kontinuierliche Energieübertragung, während die Primärmontage Schaltanlage und Anschlusstechnik auf die Inbetriebnahme vorbereitet.\n\nNach der Trassenkontrolle und Absicherung des Arbeitsbereichs wurden Tragwerke und Anschlusspunkte vorbereitet. Leiterseilzug, Zugspannung und Durchhang wurden nach den Anforderungen an mechanische Festigkeit und Sicherheitsabstände ausgeführt. Verbindungselemente, Armaturen und Schutzeinrichtungen wurden montiert und auf Durchgängigkeit und Festigkeit geprüft.\n\nDie Primärgeräte wurden auf Fundamenten und Konstruktionen positioniert, ausgerichtet, verankert und mit den vorgeschriebenen Drehmomenten befestigt. Isolationsabstände, Anschlussanordnung und Erdungsdurchgängigkeit wurden kontrolliert. Damit wurde eine solide Grundlage für Sammelschienen- und Kabelanschlüsse sowie Prüfung und Inbetriebnahme geschaffen.\n\nArbeitsschutz, Regeln für Höhenarbeiten und Gefährdungsbeurteilungen wurden durchgehend umgesetzt. Die abgeschlossenen Arbeiten bilden einen wichtigen Meilenstein für den zuverlässigen Betrieb der Anlage.",
       "clientTr": null,
       "clientEn": null,
       "clientDe": null,
@@ -406,10 +388,7 @@
       "migrationStatus": {
         "contentExtracted": true,
         "assetsVerified": true,
-        "translationsPending": [
-          "en",
-          "de"
-        ],
+        "translationsPending": [],
         "metadataPending": [
           "client",
           "year",
@@ -421,11 +400,11 @@
       "sourceId": 8,
       "slug": "dominik-arpowarshop-hat-montaji-enerji-iletim-saha-uygulamasi",
       "titleTr": "Dominik Arpowarshop Hat Montajı – Enerji İletim Saha Uygulaması",
-      "titleEn": null,
-      "titleDe": null,
+      "titleEn": "Dominican Republic Karpowership Line Installation – Power Transmission Field Works",
+      "titleDe": "Leitungsmontage bei Karpowership Dominikanische Republik – Energieübertragung",
       "descriptionTr": "Dominik Arpowarshop sahasında hat montajı çalışmaları tamamlandı. Direk/taşıyıcı sistem, iletken çekimi, bağlantılar ve saha kalite kontrolleri proje standartlarına uygun yürütüldü.\n\nDominik'te yürüttüğümüz Arpowarshop Hat Montajı çalışmaları kapsamında, enerji iletim/dağıtım hattının saha kurulum süreçleri planlı ve kontrollü şekilde ilerletilmiştir. Projenin amacı; ilgili tesisin şebeke bağlantısını güvenli, standartlara uygun ve uzun ömürlü olacak biçimde tamamlamak, işletme sürekliliğini destekleyecek sağlam bir altyapı oluşturmaktır.\n\nSaha uygulamalarında öncelikle güzergâh doğrulamaları yapılmış, taşıyıcı sistemlerin (direk/konstrüksiyon) montajı ve ankraj kontrolleri tamamlanmıştır. Ardından izolatör, bağlantı donanımları ve koruma elemanları yerleşim planına uygun biçimde montajlanarak hat çekimine hazırlık sağlanmıştır. İletken çekimi sürecinde; gergi ayarları, sehimin kontrolü, bağlantı noktalarının sıkılık/tork değerleri ve mekanik dayanım kriterleri titizlikle takip edilmiştir. Hat boyunca gerekli iş güvenliği tedbirleri alınmış; çalışma alanı sınırlandırmaları, ekipman kontrolleri ve risk değerlendirmeleri prosedürlere uygun yürütülmüştür.\n\nMontajın tamamlanmasıyla birlikte, hattın devreye alma öncesi kontrolleri için gerekli altyapı hazırlanmış; görsel muayene, bağlantı doğrulama, topraklama sürekliliği ve saha düzeni gibi kritik kontroller gerçekleştirilmiştir. Bu kapsamlı çalışma, Dominik Arpowarshop sahasının enerji aktarımını daha güvenilir hale getirirken, bakım kolaylığı ve işletme verimliliği açısından da önemli bir katkı sağlamaktadır.",
-      "descriptionEn": null,
-      "descriptionDe": null,
+      "descriptionEn": "Line installation at the Dominican Republic Karpowership site was completed in accordance with project standards, covering support structures, conductor stringing, connections and field quality inspections.\n\nThe transmission and distribution line was installed through a planned and controlled field process. The objective was to establish a safe, durable and standards-compliant grid connection that supports reliable facility operation.\n\nRoute verification was followed by the installation and anchor inspection of poles and support structures. Insulators, connection hardware and protective components were installed according to the layout before conductor stringing began. Tension, sag, tightening torques and mechanical strength criteria were monitored throughout. Work areas were secured, equipment inspected and field risks assessed in line with established procedures.\n\nAfter installation, visual inspections, connection verification, grounding-continuity checks and site organization were completed in preparation for commissioning. The project improves energy-transfer reliability while supporting efficient operation and maintenance.",
+      "descriptionDe": "Die Leitungsmontage am Standort Karpowership in der Dominikanischen Republik wurde projekt- und normgerecht abgeschlossen. Der Umfang umfasste Tragwerke, Leiterseilzug, Anschlüsse und Qualitätskontrollen auf der Baustelle.\n\nDie Übertragungs- und Verteilungsleitung wurde in einem geplanten und kontrollierten Ablauf installiert. Ziel war eine sichere, langlebige und normgerechte Netzanbindung, die einen zuverlässigen Anlagenbetrieb unterstützt.\n\nNach der Trassenprüfung wurden Masten und Tragwerke montiert und ihre Verankerungen kontrolliert. Isolatoren, Verbindungselemente und Schutzeinrichtungen wurden gemäß dem Lageplan eingebaut. Beim Leiterseilzug wurden Zugspannung, Durchhang, Anzugsdrehmomente und mechanische Festigkeit fortlaufend überwacht. Arbeitsbereiche wurden abgesichert, Betriebsmittel geprüft und Risiken nach den geltenden Verfahren bewertet.\n\nNach Abschluss der Montage wurden Sichtprüfungen, Anschlusskontrollen, Prüfungen der Erdungsdurchgängigkeit und die Baustellenorganisation für die Inbetriebnahme durchgeführt. Das Projekt erhöht die Zuverlässigkeit der Energieübertragung und unterstützt einen effizienten Betrieb sowie eine einfache Wartung.",
       "clientTr": null,
       "clientEn": null,
       "clientDe": null,
@@ -466,10 +445,7 @@
       "migrationStatus": {
         "contentExtracted": true,
         "assetsVerified": true,
-        "translationsPending": [
-          "en",
-          "de"
-        ],
+        "translationsPending": [],
         "metadataPending": [
           "client",
           "year",
@@ -481,11 +457,11 @@
       "sourceId": 9,
       "slug": "denizli-civril-ges-gers-primer-montaji-yuksek-gerilim-saha-uygulamasi",
       "titleTr": "Denizli Çivril GES Primer Montajı – Yüksek Gerilim Saha Uygulaması",
-      "titleEn": null,
-      "titleDe": null,
+      "titleEn": "Denizli Çivril Solar Power Plant Primary Installation – High-Voltage Field Works",
+      "titleDe": "Primärmontage im Solarpark Denizli Çivril – Hochspannungsarbeiten",
       "descriptionTr": "Denizli Çivril GES sahasında primer montajı tamamlandı. Yüksek gerilim ekipmanlarının montaj, bağlantı ve saha uygulama süreçlerine ait proje detaylarını inceleyin.\n\nDenizli'nin Çivril ilçesinde yer alan GES (Güneş Enerjisi Santrali) projemiz kapsamında, şalt sahası ekipmanlarının kritik adımlarından biri olan primer montajı başarıyla gerçekleştirilmiştir. Bu çalışma, santralden alınan enerjinin güvenli ve kesintisiz biçimde şebekeye aktarılabilmesi için gerekli olan yüksek gerilim primer bağlantı elemanlarının sahaya yerleştirilmesi, mekanik montajı ve bağlantıya hazırlık süreçlerini kapsamaktadır.\n\nSaha uygulamasında; primer ekipmanların kaideler üzerine konumlandırılması, taşıyıcı konstrüksiyonların hizalanması, izolasyon mesafelerinin kontrolü ve ekipmanlar arası güvenli bağlantı düzeninin oluşturulması adımları titizlikle yürütülmüştür. Montaj sürecinde iş güvenliği prosedürleri ve yüksek gerilim çalışma standartları esas alınmış; ekipmanların yerleşim planına uygunluğu, ankraj ve tork kontrolleri ile saha düzeni detaylı şekilde doğrulanmıştır.\n\nGERS primer montajı, yalnızca mekanik kurulum değil; aynı zamanda ilerleyen süreçlerde yapılacak bara bağlantıları, kablolama, test ve devreye alma faaliyetleri için sağlam bir altyapı sağlar. Bu nedenle projemizde, hem kalite hem de sürdürülebilir işletme açısından uzun ömürlü ve bakım kolaylığı sunan bir montaj yaklaşımı benimsenmiştir.\n\nDenizli Çivril GES projemizde tamamlanan bu etap ile şalt sahasının devreye alma hazırlıkları hız kazanmış; enerji üretiminin şebekeye güvenli şekilde entegrasyonu için önemli bir kilometre taşı daha geride bırakılmıştır.",
-      "descriptionEn": null,
-      "descriptionDe": null,
+      "descriptionEn": "Primary equipment installation was completed at the Denizli Çivril solar power plant, covering the installation, connection preparation and field implementation of high-voltage equipment.\n\nThe work included positioning high-voltage primary connection equipment, mechanical installation and preparation for connection so that the energy generated by the plant can be transferred safely and continuously to the grid.\n\nPrimary equipment was positioned on its foundations, support structures were aligned, insulation clearances checked and safe connection arrangements established. Occupational safety procedures and high-voltage working standards guided the installation. Layout compliance, anchor and torque checks, and overall site organization were verified in detail.\n\nThe primary installation also provides the foundation for subsequent busbar connections, cabling, testing and commissioning. A durable, maintainable installation approach was adopted to support quality and long-term operation.\n\nCompletion of this stage accelerated the switchyard's commissioning preparations and marked another important milestone in the safe grid integration of the plant's generation capacity.",
+      "descriptionDe": "Im Solarpark Denizli Çivril wurde die Primärmontage der Hochspannungstechnik einschließlich Montage, Anschlussvorbereitung und Baustellenarbeiten erfolgreich abgeschlossen.\n\nDie Arbeiten umfassten die Positionierung der primären Hochspannungsanschlusstechnik, die mechanische Montage und die Vorbereitung der Anschlüsse, damit die erzeugte Energie sicher und kontinuierlich in das Netz eingespeist werden kann.\n\nDie Primärgeräte wurden auf ihren Fundamenten aufgestellt, Tragkonstruktionen ausgerichtet, Isolationsabstände geprüft und sichere Anschlussanordnungen hergestellt. Arbeitsschutzmaßnahmen und Standards für Hochspannungsarbeiten bestimmten den gesamten Montageablauf. Die Übereinstimmung mit dem Aufstellungsplan, Verankerungen, Drehmomente und die Baustellenordnung wurden detailliert kontrolliert.\n\nDie Primärmontage bildet zugleich die Grundlage für nachfolgende Sammelschienenanschlüsse, Verkabelung, Prüfung und Inbetriebnahme. Für Qualität und langfristigen Betrieb wurde eine langlebige und wartungsfreundliche Ausführung gewählt.\n\nMit Abschluss dieser Phase wurden die Vorbereitungen zur Inbetriebnahme der Schaltanlage beschleunigt und ein weiterer wichtiger Meilenstein für die sichere Netzintegration der Erzeugungsanlage erreicht.",
       "clientTr": null,
       "clientEn": null,
       "clientDe": null,
@@ -526,10 +502,7 @@
       "migrationStatus": {
         "contentExtracted": true,
         "assetsVerified": true,
-        "translationsPending": [
-          "en",
-          "de"
-        ],
+        "translationsPending": [],
         "metadataPending": [
           "client",
           "year",
@@ -541,11 +514,11 @@
       "sourceId": 10,
       "slug": "yeralti-kablo-cekimi-og",
       "titleTr": "Yeraltı Kablo Çekimi OG – Gebze",
-      "titleEn": null,
-      "titleDe": null,
+      "titleEn": "Underground Medium-Voltage Cable Installation – Gebze",
+      "titleDe": "Verlegung von Mittelspannungskabeln – Gebze",
       "descriptionTr": "Gebze'de gerçekleştirilen yeraltı OG kablo çekimi ve altyapı hattı imalatı; kazı, borulama/kanal, kablo serimi, ek-muf ve test süreçleriyle anahtar teslim şekilde tamamlandı.\n\nProje kapsamında gerçekleştirilen çalışmalar:\n\n• OG yeraltı kablo güzergâh keşfi ve aplikasyon\n• Kazı, kanal/bordür düzeni, koruge/boru serimi\n• Kablo çekimi–serimi, ek ve muf montajı\n• Uyarı bandı, kumlama/dolgu, rögar/menhol işleri\n• İzolasyon/continuity testleri ve devreye alma",
-      "descriptionEn": null,
-      "descriptionDe": null,
+      "descriptionEn": "The underground medium-voltage cable and infrastructure project in Gebze was completed on a turnkey basis, covering excavation, ducting, cable laying, joints and terminations, testing and commissioning.\n\nCompleted works included:\n\n• Route survey and setting-out for the underground MV cable\n• Excavation, trench and curb works, and installation of corrugated ducts and conduits\n• Cable pulling and laying, jointing and termination installation\n• Warning tape, sand bedding and backfilling, manholes and inspection chambers\n• Insulation and continuity testing and commissioning",
+      "descriptionDe": "Das Projekt für erdverlegte Mittelspannungskabel und die zugehörige Infrastruktur in Gebze wurde schlüsselfertig abgeschlossen. Der Umfang umfasste Aushub, Rohr- und Kanalarbeiten, Kabelverlegung, Muffen und Endverschlüsse sowie Prüfung und Inbetriebnahme.\n\nAusgeführte Arbeiten:\n\n• Trassenerkundung und Absteckung der erdverlegten MS-Kabel\n• Aushub, Graben- und Bordarbeiten sowie Verlegung von Wellrohren und Schutzrohren\n• Kabelzug und Kabelverlegung, Montage von Muffen und Endverschlüssen\n• Warnband, Sandbettung und Verfüllung sowie Schacht- und Inspektionsarbeiten\n• Isolations- und Durchgangsprüfungen sowie Inbetriebnahme",
       "clientTr": null,
       "clientEn": null,
       "clientDe": null,
@@ -688,10 +661,7 @@
       "migrationStatus": {
         "contentExtracted": true,
         "assetsVerified": true,
-        "translationsPending": [
-          "en",
-          "de"
-        ],
+        "translationsPending": [],
         "metadataPending": [
           "client",
           "year",
@@ -703,11 +673,11 @@
       "sourceId": 11,
       "slug": "hakkari-beytussebap-154-kv-orta-gerilim-projesi",
       "titleTr": "Hakkari Beytüşşebap 154 kV Orta Gerilim Projesi",
-      "titleEn": null,
-      "titleDe": null,
+      "titleEn": "Hakkari Beytüşşebap 154 kV Medium-Voltage Project",
+      "titleDe": "154-kV-Mittelspannungsprojekt Hakkari Beytüşşebap",
       "descriptionTr": "Hakkari'nin Beytüşşebap ilçesinde gerçekleştirilen 154 kV orta gerilim projesi kapsamında, bölgenin enerji altyapısının güçlendirilmesine yönelik kapsamlı çalışmalar başarıyla tamamlanmıştır.\n\nProje kapsamında gerçekleştirilen başlıca çalışmalar:\n\n• 154 kV trafo merkezi kurulumu ve devreye alma\n• Orta gerilim (OG) şalt sahası ekipman montajı\n• Alçak gerilim (AG) dağıtım panoları ve bağlantıları\n• Primer ve sekonder ekipman montajı\n• Koruma röleleri ve otomasyon sistemi entegrasyonu\n• Topraklama şebekesi ve eşpotansiyel bağlantılar\n• Kablo çekimi, pabuçlama ve bağlantı işlemleri\n• Test, ölçüm ve devreye alma faaliyetleri\n\nProjenin her aşamasında iş güvenliği standartlarına titizlikle uyulmuş, saha ekiplerimiz modern ölçüm cihazları ve kalibrasyon ekipmanlarıyla çalışarak enerji sürekliliğini ve sistem verimliliğini en üst düzeye çıkarmıştır. Orta gerilim ve alçak gerilim sistemleri arasında kusursuz bir koordinasyon sağlanmış; trafo merkezinden son kullanıcıya kadar tüm enerji dağıtım altyapısı anahtar teslim olarak hayata geçirilmiştir.\n\nHakkari Beytüşşebap 154 kV projesi, zorlu coğrafi koşullara rağmen planlanan sürede tamamlanmış olup, bölgedeki enerji dağıtımında güvenilir ve uzun ömürlü bir çözüm sunmaktadır. Proje, gelecekteki artan enerji taleplerini karşılayacak kapasitede tasarlanmış ve bölge halkının kesintisiz enerji erişimine önemli katkı sağlamıştır.",
-      "descriptionEn": null,
-      "descriptionDe": null,
+      "descriptionEn": "Comprehensive works to strengthen the regional energy infrastructure were successfully completed as part of the 154 kV project in Beytüşşebap, Hakkari.\n\nThe main scope included:\n\n• Installation and commissioning of a 154 kV substation\n• Installation of medium-voltage switchyard equipment\n• Low-voltage distribution panels and connections\n• Primary and secondary equipment installation\n• Protection relay and automation system integration\n• Grounding grid and equipotential bonding\n• Cable pulling, lug installation and connections\n• Testing, measurement and commissioning\n\nOccupational safety standards were followed rigorously at every stage. Our field teams used modern measuring and calibration equipment to maximize energy continuity and system efficiency. Seamless coordination between medium- and low-voltage systems enabled turnkey delivery of the entire distribution infrastructure from the substation to end users.\n\nDespite challenging geographical conditions, the project was completed on schedule and provides a reliable, durable solution for regional power distribution. It was designed with sufficient capacity for future demand and makes an important contribution to uninterrupted energy access in the region.",
+      "descriptionDe": "Im Rahmen des 154-kV-Projekts in Beytüşşebap, Hakkari, wurden umfangreiche Arbeiten zur Stärkung der regionalen Energieinfrastruktur erfolgreich abgeschlossen.\n\nDer wesentliche Leistungsumfang:\n\n• Errichtung und Inbetriebnahme eines 154-kV-Umspannwerks\n• Montage der Mittelspannungs-Schaltanlagentechnik\n• Niederspannungsverteilungen und Anschlüsse\n• Montage der Primär- und Sekundärtechnik\n• Integration von Schutzrelais und Automatisierungssystemen\n• Erdungsnetz und Potenzialausgleich\n• Kabelzug, Kabelschuhmontage und Anschlussarbeiten\n• Prüf-, Mess- und Inbetriebnahmearbeiten\n\nIn jeder Projektphase wurden die Arbeitsschutzstandards konsequent eingehalten. Unsere Baustellenteams setzten moderne Mess- und Kalibriergeräte ein, um Versorgungskontinuität und Systemeffizienz zu maximieren. Die reibungslose Abstimmung zwischen Mittel- und Niederspannung ermöglichte die schlüsselfertige Umsetzung der gesamten Verteilungsinfrastruktur vom Umspannwerk bis zu den Endverbrauchern.\n\nTrotz anspruchsvoller geografischer Bedingungen wurde das Projekt termingerecht abgeschlossen. Es bietet eine zuverlässige und langlebige Lösung für die regionale Energieverteilung, ist für den zukünftigen Bedarf ausgelegt und leistet einen wichtigen Beitrag zu einer unterbrechungsfreien Stromversorgung der Region.",
       "clientTr": null,
       "clientEn": null,
       "clientDe": null,
@@ -754,10 +724,7 @@
       "migrationStatus": {
         "contentExtracted": true,
         "assetsVerified": true,
-        "translationsPending": [
-          "en",
-          "de"
-        ],
+        "translationsPending": [],
         "metadataPending": [
           "client",
           "year",
