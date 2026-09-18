@@ -49,9 +49,9 @@
         "statProjects": "Tamamlanan Proje",
         "statClients": "Mutlu Müşteri",
         "statSupport": "Teknik Destek",
-        "aboutTitle": "Enerva Elektrik Hakkında",
-        "aboutP1": "Enerva Elektrik, elektrik, otomasyon ve enerji sektörlerinde yenilikçi çözümler sunan lider firmalardan biridir. Kurulduğu günden bu yana, müşterilerimizin ihtiyaçlarını doğru analiz ederek güvenli ve verimli projeler gerçekleştirmeyi ilke edinmiştir.",
-        "aboutP2": "Endüstriyel tesislerden ticari işletmelere kadar geniş bir portföye hizmet veren firmamız, kaliteli ürün ve profesyonel hizmet anlayışıyla sektörde fark yaratmaktadır.",
+        "aboutTitle": "Neden Enerva Elektrik?",
+        "aboutP1": "Enerva Elektrik olarak çeyrek asrı aşan tecrübemizle elektrik mühendisliği, taahhüt ve projelendirme alanlarında hizmet vermekteyiz.",
+        "aboutP2": "Yenilikçi ve çözüm odaklı yaklaşımımızla sektörde güvenin simgesi olmayı başardık. İş güvenliği tedbirlerinden hiçbir surette taviz vermeden projeleri söz verdiğimiz sürede teslim etmek bizim için temel prensiptir.",
         "servicesTitle": "Hizmetlerimiz",
         "servicesSubtitle": "Kapsamlı elektrik ve otomasyon çözümlerimizle projelerinize değer katıyoruz.",
         "projectsTitle": "Projelerimiz",
@@ -77,16 +77,16 @@
         "company": "Enerva Elektrik"
     },
     "aboutPage": {
-        "title": "Hakkımızda",
-        "techTitle": "Teknoloji ve Uzmanlık",
-        "valuesTitle": "Kalite ve Güvenilirlik",
+        "title": "Kurumsal",
+        "techTitle": "Teknoloji Odaklı",
+        "valuesTitle": "Değerlerimiz",
         "sustainTitle": "Sürdürülebilirlik",
-        "p1": "Enerva Elektrik, elektrik, otomasyon ve enerji sektörlerinde yenilikçi çözümler sunan lider firmalardan biridir. Kurulduğu günden bu yana, müşterilerimizin ihtiyaçlarını doğru analiz ederek, güvenli ve verimli projeler gerçekleştirmeyi ilke edinmiştir. Endüstriyel tesislerden ticari işletmelere kadar geniş bir müşteri portföyüne hizmet veren firmamız, kaliteli ürün ve profesyonel hizmet anlayışıyla sektörde fark yaratmaktadır.",
-        "p2": "Firmamız, elektrik sistemleri alanında alçak gerilim (AG), orta gerilim (OG) ve enerji hatları projelerinin yanı sıra, kompanzasyon, otomasyon, güneş enerjisi sistemleri (GES) ve yer altı kanal çözümleri gibi kapsamlı hizmetler sunmaktadır. Her bir proje, alanında uzman mühendis ve teknisyen ekibimiz tarafından titizlikle planlanır, uygulanır ve kontrol edilir. Bu sayede, projelerimiz her zaman güvenli, uzun ömürlü ve maksimum verimlilik sunar.",
-        "p3": "Enerva Elektrik olarak teknolojiyi yakından takip ediyor ve en son sistemleri uygulamalarımıza entegre ediyoruz. PLC, SCADA, inverter ve enerji izleme sistemleri gibi modern teknolojiler sayesinde, müşterilerimizin üretim süreçleri optimize edilmekte ve enerji verimliliği artırılmaktadır. Bunun yanı sıra, yer altı kablo kanalları, direk montaj-demontaj hizmetleri ve detaylı proje çizimi ile tesislerin elektrik altyapıları güvence altına alınmaktadır.",
-        "p4": "Kalite ve müşteri memnuniyeti, firmamızın temel değerlerindendir. Her aşamada kalite kontrol mekanizmaları ile desteklenen hizmetlerimiz, işletmelerin güvenli ve kesintisiz enerjiye sahip olmasını garanti eder. Periyodik bakım, arıza tespit ve teknik destek hizmetlerimiz ile sistemlerin her zaman optimum performans göstermesini sağlıyoruz. Bu yaklaşım, Enerva Elektrik'i sektörde güvenilir bir çözüm ortağı haline getirmektedir.",
-        "p5": "Ayrıca çevre ve sürdürülebilirlik konularına büyük önem veriyoruz. Güneş enerjisi sistemleri ve enerji tasarrufu çözümleri ile hem işletmelerin maliyetlerini düşürüyor hem de karbon ayak izlerini azaltmalarına katkıda bulunuyoruz. Firmamız, inovatif ve çevre dostu çözümlerle sektörde öncü bir rol üstlenmektedir.",
-        "p6": "Enerva Elektrik, güçlü teknik bilgi birikimi, deneyimli kadrosu ve müşteri odaklı hizmet anlayışı ile her zaman en iyi çözümleri sunmayı hedefler. Müşterilerimizin ihtiyaçlarını doğru analiz ederek, proje planlama ve uygulama süreçlerinde güvenilir bir ortak olarak yanlarında yer alıyoruz. Yenilikçi yaklaşımımız, kaliteli hizmet anlayışımız ve sürekli gelişim hedefimiz sayesinde sektörde lider konumumuzu koruyor ve müşterilerimizin güvenini kazanmaya devam ediyoruz."
+        "p1": "Enerva Elektrik olarak çeyrek asrı aşan tecrübemizle elektrik mühendisliği, taahhüt ve projelendirme alanlarında hizmet vermekteyiz.",
+        "p2": "Kurulduğumuz günden bu yana teknoloji ve mühendislik bilimini harmanlayarak sanayi tesislerinden ticari yapılara, enerji nakil hatlarından altyapı projelerine kadar birçok önemli projeye imza attık. Yenilikçi ve çözüm odaklı yaklaşımımızla sektörde güvenin simgesi olmayı başardık.",
+        "p3": "Sürekli gelişen teknolojiyi yakından takip eden uzman mühendis kadromuzla, projelerinizde en güncel standartları ve yenilikçi çözümleri uyguluyoruz. Gelişmiş yazılımlar ve ekipmanlar sayesinde hatasız tasarım ve uygulamalar gerçekleştiriyoruz.",
+        "p4": "En iyi malzemeleri yetkin işçilikle birleştirerek uzun ömürlü, dayanıklı ve güvenli sistemler inşa ediyoruz. İş güvenliği tedbirlerinden hiçbir surette taviz vermeden projeleri söz verdiğimiz sürede teslim etmek bizim için temel prensiptir.",
+        "p5": "Enerji verimliliğini maksimize eden projeler tasarlayarak sadece işletmelerin maliyetlerini düşürmekle kalmıyor, doğanın korunmasına ve sürdürülebilir bir gelecek inşasına da katkıda bulunuyoruz.",
+        "p6": "Enerva Elektrik, aydınlık yarınlar için güçlü altyapılar inşa eder."
     },
     "servicesPage": {
         "title": "Hizmetlerimiz",

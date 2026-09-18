@@ -5,13 +5,13 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const galleryImages = [
-    { src: "/images/hizmetler/orta-gerilim.jpg", alt: "Orta Gerilim Sistemleri" },
-    { src: "/images/hizmetler/kompanzasyon-sistemleri.png", alt: "Kompanzasyon Sistemleri" },
-    { src: "/images/hizmetler/otomasyon-sistemleri.jpg", alt: "Otomasyon Sistemleri" },
-    { src: "/images/hizmetler/yer-alti-kanal.jpg", alt: "Yer Altı Kanal Sistemleri" },
+    { src: "/images/projeler/hakkari-beytussebap-154-kv-orta-gerilim-projesi/kirmizi-trafo.png", alt: "Yüksek Gerilim Sistemleri" },
     { src: "/images/hizmetler/enerji-hat.jpg", alt: "Enerji Hat Kurulumu" },
-    { src: "/images/hizmetler/direk-montaj.jpg", alt: "Direk Montaj" },
-    { src: "/images/hizmetler/proje-çizimi.jpg", alt: "Proje Çizimi" },
+    { src: "/images/hizmetler/direk-montaj.png", alt: "Direk Montaj" },
+    { src: "/images/hizmetler/yer-alti-kanal.jpg", alt: "Yer Altı Kanal Sistemleri" },
+    { src: "/images/hizmetler/proje-cizimi.png", alt: "Proje Çizimi" },
+    { src: "/images/projeler/154kv-salt-calismasi/main.jpeg", alt: "154 kV Şalt Çalışması" },
+    { src: "/images/projeler/manisa-osb-380kv.jpeg", alt: "Manisa OSB 380 kV" },
 ];
 
 export default function AboutPage() {
@@ -28,7 +28,7 @@ export default function AboutPage() {
             <section className="relative h-[45vh] min-h-[350px] flex items-center">
                 <div className="absolute inset-0">
                     <img
-                        src="/images/anasayfa/ana-sayfa-banner.jpg"
+                        src="/images/projeler/hakkari-beytussebap-154-kv-orta-gerilim-projesi/kirmizi-trafo.png"
                         alt="Enerva Elektrik"
                         className="w-full h-full object-cover"
                     />
@@ -43,7 +43,7 @@ export default function AboutPage() {
                         transition={{ duration: 0.6 }}
                     >
                         <Image
-                            src="/images/enerva-logo.png"
+                            src="/images/enervagrid-cropped-logo.svg"
                             alt="Enerva Elektrik Logo"
                             width={160}
                             height={50}
@@ -87,15 +87,15 @@ export default function AboutPage() {
                                 <div className="space-y-4">
                                     <div className="rounded-2xl overflow-hidden shadow-lg">
                                         <img
-                                            src="/images/hizmetler/orta-gerilim.jpg"
-                                            alt="Orta Gerilim"
+                                            src="/images/projeler/hakkari-beytussebap-154-kv-orta-gerilim-projesi/kirmizi-trafo.png"
+                                            alt="Yüksek Gerilim"
                                             className="w-full h-48 object-cover hover:scale-105 transition-transform duration-500"
                                         />
                                     </div>
                                     <div className="rounded-2xl overflow-hidden shadow-lg">
                                         <img
-                                            src="/images/hizmetler/otomasyon-sistemleri.jpg"
-                                            alt="Otomasyon"
+                                            src="/images/hizmetler/yer-alti-kanal.jpg"
+                                            alt="Yer Altı Kanal"
                                             className="w-full h-56 object-cover hover:scale-105 transition-transform duration-500"
                                         />
                                     </div>
@@ -103,8 +103,8 @@ export default function AboutPage() {
                                 <div className="space-y-4 pt-8">
                                     <div className="rounded-2xl overflow-hidden shadow-lg">
                                         <img
-                                            src="/images/hizmetler/kompanzasyon-sistemleri.png"
-                                            alt="Kompanzasyon"
+                                            src="/images/hizmetler/direk-montaj.png"
+                                            alt="Direk Montaj"
                                             className="w-full h-56 object-cover hover:scale-105 transition-transform duration-500"
                                         />
                                     </div>
@@ -137,7 +137,7 @@ export default function AboutPage() {
                         >
                             <div className="relative rounded-2xl overflow-hidden shadow-xl">
                                 <img
-                                    src="/images/hizmetler/proje-çizimi.jpg"
+                                    src="/images/hizmetler/proje-cizimi.png"
                                     alt="Proje Çizimi"
                                     className="w-full h-80 object-cover"
                                 />
@@ -203,7 +203,7 @@ export default function AboutPage() {
                         >
                             <div className="relative rounded-2xl overflow-hidden shadow-xl">
                                 <img
-                                    src="/images/hizmetler/direk-montaj.jpg"
+                                    src="/images/hizmetler/direk-montaj.png"
                                     alt="Direk Montaj"
                                     className="w-full h-80 object-cover"
                                 />
@@ -273,7 +273,7 @@ export default function AboutPage() {
             {/* Image Gallery */}
             <section className="pb-16 lg:pb-24">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                         {galleryImages.map((img, index) => (
                             <motion.div
                                 key={img.src}
@@ -281,14 +281,12 @@ export default function AboutPage() {
                                 whileInView={{ opacity: 1, scale: 1 }}
                                 viewport={{ once: true, margin: "-50px" }}
                                 transition={{ delay: index * 0.05 }}
-                                className={`rounded-xl overflow-hidden shadow-md ${index === 0 ? "col-span-2 row-span-2" : ""
-                                    }`}
+                                className="rounded-xl overflow-hidden shadow-md aspect-[4/3]"
                             >
                                 <img
                                     src={img.src}
                                     alt={img.alt}
-                                    className={`w-full object-cover hover:scale-105 transition-transform duration-500 ${index === 0 ? "h-full min-h-[300px]" : "h-48"
-                                        }`}
+                                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                                 />
                             </motion.div>
                         ))}

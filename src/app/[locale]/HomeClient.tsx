@@ -267,14 +267,14 @@ export function HomeClient({
                         {/* Image */}
                         <div className="relative h-[400px] rounded-2xl overflow-hidden border border-border">
                             <img
-                                src="/images/anasayfa/ana-sayfa-banner.jpg"
+                                src="/images/anasayfa/neden-enerva.png"
                                 alt="Enerva Elektrik Hakkımızda"
                                 className="w-full h-full object-cover"
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
                             <div className="absolute bottom-6 left-6">
                                 <Image
-                                    src="/images/enerva-logo.png"
+                                    src="/images/enervagrid-cropped-logo.svg"
                                     alt="Enerva Logo"
                                     width={120}
                                     height={40}
