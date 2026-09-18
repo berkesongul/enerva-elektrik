@@ -584,8 +584,8 @@ export function HomeClient({
                                     </svg>
                                 ),
                                 title: ct("phone"),
-                                value: "+90 (___) ___ __ __",
-                                href: "tel:+90",
+                                value: (<>0546 622 45 04<br />0538 305 74 64</>),
+                                href: "tel:+905466224504",
                             },
                             {
                                 icon: (
@@ -658,7 +658,7 @@ export function HomeClient({
                     >
                         <div className="lg:col-span-3 rounded-2xl overflow-hidden border border-border min-h-[300px] flex">
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3060.0!2d32.85!3d39.92!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMznCsDU1JzEyLjAiTiAzMsKwNTEnMDAuMCJF!5e0!3m2!1str!2str!4v1700000000000!5m2!1str!2str"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2488.5!2d6.9940!3d51.4350!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDI2JzA2LjAiTiA2wrA1OSczOC40IkU!5e0!3m2!1str!2sde!4v1700000000000!5m2!1str!2sde"
                                 className="w-full h-full border-0 flex-1"
                                 allowFullScreen
                                 loading="lazy"
@@ -677,7 +677,7 @@ export function HomeClient({
                                 <h3 className="text-lg font-bold text-foreground mb-2">{ct("directContactTitle")}</h3>
                                 <p className="text-muted-foreground text-sm mb-4">{ct("directContactDesc")}</p>
                                 <a
-                                    href="https://wa.me/90"
+                                    href="https://wa.me/905466224504"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="inline-flex items-center justify-center gap-2 w-full py-3 rounded-xl bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold transition-all"

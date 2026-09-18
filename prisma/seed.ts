@@ -27,8 +27,8 @@ async function main() {
     const settingsData = [
         { key: 'site_title', value: 'Enerva Elektrik' },
         { key: 'contact_email', value: 'info@enervaelektrik.com' },
-        { key: 'contact_phone', value: '+90 555 123 4567' },
-        { key: 'address', value: 'Ankara, Türkiye' },
+        { key: 'contact_phone', value: '0546 622 45 04 / 0538 305 74 64' },
+        { key: 'address', value: 'Ruhrallee 185, 3rd Floor, Excellent Business Center, Essen, NRW, 45136, Germany' },
     ];
 
     for (const s of settingsData) {

@@ -53,6 +53,19 @@ export default function Footer() {
                             ))}
                         </nav>
                     </div>
+
+                    {/* Contact Info */}
+                    <div className="flex flex-col items-center md:items-start">
+                        <h3 className="text-foreground font-semibold mb-4 text-lg">{t("contact")}</h3>
+                        <div className="space-y-3 text-sm text-muted-foreground text-center md:text-left">
+                            <p>
+                                <a href="tel:+905466224504" className="hover:text-accent transition-colors">0546 622 45 04</a>
+                                {" / "}
+                                <a href="tel:+905383057464" className="hover:text-accent transition-colors">0538 305 74 64</a>
+                            </p>
+                            <p>Ruhrallee 185, 3rd Floor<br />Excellent Business Center<br />Essen, NRW, 45136, Germany</p>
+                        </div>
+                    </div>
                 </div>
 
                 {/* Bottom Bar */}
