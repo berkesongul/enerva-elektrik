@@ -4,22 +4,9 @@ import { notFound } from "next/navigation";
 import { ProjectDetailClient } from "./ProjectDetailClient";
 import type { Metadata } from "next";
 
-export const revalidate = 3600;
-
-export async function generateStaticParams() {
-    try {
-        const projects = await prisma.project.findMany({
-            where: { isPublished: true },
-            select: { slug: true },
-        });
-
-        return projects.map((p) => ({ slug: p.slug }));
-    } catch {
-        // The production database is unavailable while the Docker image is built.
-        // Missing paths are generated on demand and cached by the revalidate setting.
-        return [];
-    }
-}
+// Project content is managed in PostgreSQL and must be rendered at request time.
+// Static generation conflicts with next-intl's request-based locale handling.
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({
     params
