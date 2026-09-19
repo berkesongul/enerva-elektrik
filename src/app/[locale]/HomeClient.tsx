@@ -98,12 +98,12 @@ export function HomeClient({
     };
 
     return (
-        <div className="relative overflow-hidden transition-colors duration-300">
+        <div className="relative -mt-16 overflow-hidden transition-colors duration-300 lg:-mt-20">
 
             {/* ══════════════════════════════════════════════
                 HERO SECTION
             ══════════════════════════════════════════════ */}
-            <section className="relative min-h-[calc(100vh-5rem)] flex items-center justify-center text-center">
+            <section className="relative min-h-screen flex items-center justify-center text-center">
                 <div className="absolute inset-0 bg-black/80 dark:bg-black/90 z-0">
                     <AnimatePresence mode="wait">
                         <motion.img
