@@ -26,8 +26,12 @@ export function HomeClient({
 
     const [currentSlide, setCurrentSlide] = useState(0);
 
-    // Filter services that have images for the slider (we use the first 6)
-    const sliderImages = services.slice(0, 6).map(s => s.image);
+    const sliderImages = [
+        "/images/anasayfa/slider_banner/banner-1.png",
+        "/images/anasayfa/slider_banner/banner-2.png",
+        "/images/anasayfa/slider_banner/banner-3.jpeg",
+        "/images/anasayfa/slider_banner/banner-4.png",
+    ];
 
     // Try to get slides array from translations, fallback to empty array to avoid errors
     const slides = (() => {
