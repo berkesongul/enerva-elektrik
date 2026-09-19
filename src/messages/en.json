@@ -180,6 +180,12 @@
         "ctaTitle": "Planning a similar project?",
         "ctaDesc": "Contact us for a free consultation.",
         "ctaButton": "Contact Us",
-        "gallery": "Project Gallery"
+        "gallery": "Project Gallery",
+        "openImage": "Enlarge image",
+        "closeGallery": "Close gallery",
+        "previousImage": "Previous image",
+        "nextImage": "Next image",
+        "imageCounter": "{current} / {total}",
+        "galleryHint": "Use the arrow keys to browse and ESC to close."
     }
 }

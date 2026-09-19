@@ -1,8 +1,11 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
+import { ChevronLeft, ChevronRight, Expand, X } from "lucide-react";
+import { useCallback, useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 
 export function ProjectDetailClient({ project, locale }: { project: any, locale: string }) {
     const t = useTranslations("projectsPage");
@@ -15,7 +18,40 @@ export function ProjectDetailClient({ project, locale }: { project: any, locale:
     const title = getLocalized("title");
     const description = getLocalized("description");
     const client = getLocalized("client");
-    const gallery = Array.isArray(project.gallery) ? project.gallery : [];
+    const gallery = Array.isArray(project.gallery)
+        ? project.gallery.filter((image: unknown): image is string => typeof image === "string" && image.length > 0)
+        : [];
+    const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
+    const closeButtonRef = useRef<HTMLButtonElement>(null);
+    const touchStartX = useRef<number | null>(null);
+
+    const closeLightbox = useCallback(() => setLightboxIndex(null), []);
+    const showPreviousImage = useCallback(() => {
+        setLightboxIndex((current) => current === null ? null : (current - 1 + gallery.length) % gallery.length);
+    }, [gallery.length]);
+    const showNextImage = useCallback(() => {
+        setLightboxIndex((current) => current === null ? null : (current + 1) % gallery.length);
+    }, [gallery.length]);
+
+    useEffect(() => {
+        if (lightboxIndex === null) return;
+
+        const previousOverflow = document.body.style.overflow;
+        document.body.style.overflow = "hidden";
+        closeButtonRef.current?.focus();
+
+        const handleKeyDown = (event: KeyboardEvent) => {
+            if (event.key === "Escape") closeLightbox();
+            if (event.key === "ArrowLeft") showPreviousImage();
+            if (event.key === "ArrowRight") showNextImage();
+        };
+
+        window.addEventListener("keydown", handleKeyDown);
+        return () => {
+            document.body.style.overflow = previousOverflow;
+            window.removeEventListener("keydown", handleKeyDown);
+        };
+    }, [lightboxIndex, closeLightbox, showNextImage, showPreviousImage]);
 
     return (
         <div className="bg-background text-foreground min-h-screen pb-32 transition-colors duration-300">
@@ -155,13 +191,24 @@ export function ProjectDetailClient({ project, locale }: { project: any, locale:
                         </h2>
                         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                             {gallery.map((img: string, idx: number) => (
-                                <div key={idx} className="aspect-square rounded-xl overflow-hidden bg-muted border border-border hover:border-[#D4AF37]/50 transition-colors duration-300 group">
+                                <button
+                                    key={`${img}-${idx}`}
+                                    type="button"
+                                    onClick={() => setLightboxIndex(idx)}
+                                    aria-label={`${t("openImage")} ${idx + 1}`}
+                                    className="relative aspect-square rounded-xl overflow-hidden bg-muted border border-border hover:border-[#D4AF37]/70 transition-all duration-300 group cursor-zoom-in focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#D4AF37] focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+                                >
                                     <img
                                         src={img}
                                         alt={`${title} - ${idx + 1}`}
                                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                                     />
-                                </div>
+                                    <span className="absolute inset-0 flex items-center justify-center bg-[#0d1b2e]/0 group-hover:bg-[#0d1b2e]/35 group-focus-visible:bg-[#0d1b2e]/35 transition-colors duration-300">
+                                        <span className="flex h-11 w-11 scale-75 items-center justify-center rounded-full border border-white/30 bg-black/45 text-white opacity-0 shadow-lg backdrop-blur-sm transition-all duration-300 group-hover:scale-100 group-hover:opacity-100 group-focus-visible:scale-100 group-focus-visible:opacity-100">
+                                            <Expand className="h-5 w-5" aria-hidden="true" />
+                                        </span>
+                                    </span>
+                                </button>
                             ))}
                         </div>
                     </motion.div>
@@ -180,6 +227,98 @@ export function ProjectDetailClient({ project, locale }: { project: any, locale:
                     </Link>
                 </div>
             </section>
+
+            {typeof document !== "undefined" && createPortal(
+                <AnimatePresence>
+                    {lightboxIndex !== null && (
+                        <motion.div
+                            role="dialog"
+                            aria-modal="true"
+                            aria-label={t("gallery")}
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            exit={{ opacity: 0 }}
+                            transition={{ duration: 0.2 }}
+                            className="fixed inset-0 z-[100] flex flex-col bg-[#07101d]/95 backdrop-blur-md"
+                            onMouseDown={(event) => {
+                                if (event.target === event.currentTarget) closeLightbox();
+                            }}
+                            onTouchStart={(event) => {
+                                touchStartX.current = event.changedTouches[0]?.clientX ?? null;
+                            }}
+                            onTouchEnd={(event) => {
+                                if (touchStartX.current === null) return;
+                                const endX = event.changedTouches[0]?.clientX ?? touchStartX.current;
+                                const distance = endX - touchStartX.current;
+                                touchStartX.current = null;
+                                if (Math.abs(distance) < 50) return;
+                                if (distance > 0) showPreviousImage();
+                                else showNextImage();
+                            }}
+                        >
+                            <div className="flex h-16 shrink-0 items-center justify-between gap-4 border-b border-white/10 px-4 sm:px-6">
+                                <div className="min-w-0">
+                                    <p className="truncate text-sm font-medium text-white/80 sm:text-base">{title}</p>
+                                    <p className="text-xs text-white/50">
+                                        {t("imageCounter", { current: lightboxIndex + 1, total: gallery.length })}
+                                    </p>
+                                </div>
+                                <button
+                                    ref={closeButtonRef}
+                                    type="button"
+                                    onClick={closeLightbox}
+                                    aria-label={t("closeGallery")}
+                                    className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-white/15 bg-white/10 text-white transition-colors hover:bg-white/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#D4AF37]"
+                                >
+                                    <X className="h-6 w-6" aria-hidden="true" />
+                                </button>
+                            </div>
+
+                            <div className="relative flex min-h-0 flex-1 items-center justify-center px-3 py-4 sm:px-20 sm:py-8">
+                                <AnimatePresence mode="wait" initial={false}>
+                                    <motion.img
+                                        key={gallery[lightboxIndex]}
+                                        src={gallery[lightboxIndex]}
+                                        alt={`${title} - ${lightboxIndex + 1}`}
+                                        initial={{ opacity: 0, scale: 0.97 }}
+                                        animate={{ opacity: 1, scale: 1 }}
+                                        exit={{ opacity: 0, scale: 0.97 }}
+                                        transition={{ duration: 0.18 }}
+                                        className="max-h-full max-w-full select-none object-contain drop-shadow-2xl"
+                                        draggable={false}
+                                    />
+                                </AnimatePresence>
+
+                                {gallery.length > 1 && (
+                                    <>
+                                        <button
+                                            type="button"
+                                            onClick={showPreviousImage}
+                                            aria-label={t("previousImage")}
+                                            className="absolute left-3 top-1/2 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border border-white/20 bg-black/45 text-white shadow-xl backdrop-blur-sm transition-all hover:border-[#D4AF37]/70 hover:bg-[#D4AF37] hover:text-[#1B365D] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#D4AF37] sm:left-6 sm:h-14 sm:w-14"
+                                        >
+                                            <ChevronLeft className="h-7 w-7" aria-hidden="true" />
+                                        </button>
+                                        <button
+                                            type="button"
+                                            onClick={showNextImage}
+                                            aria-label={t("nextImage")}
+                                            className="absolute right-3 top-1/2 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border border-white/20 bg-black/45 text-white shadow-xl backdrop-blur-sm transition-all hover:border-[#D4AF37]/70 hover:bg-[#D4AF37] hover:text-[#1B365D] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#D4AF37] sm:right-6 sm:h-14 sm:w-14"
+                                        >
+                                            <ChevronRight className="h-7 w-7" aria-hidden="true" />
+                                        </button>
+                                    </>
+                                )}
+                            </div>
+
+                            <div className="flex h-14 shrink-0 items-center justify-center border-t border-white/10 px-4 text-xs text-white/50 sm:text-sm">
+                                {t("galleryHint")}
+                            </div>
+                        </motion.div>
+                    )}
+                </AnimatePresence>,
+                document.body
+            )}
         </div>
     );
 }

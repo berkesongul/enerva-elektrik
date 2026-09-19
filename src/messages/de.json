@@ -180,6 +180,12 @@
             "ctaTitle": "Planen Sie ein ähnliches Projekt?",
             "ctaDesc": "Kontaktieren Sie uns für ein unverbindliches Beratungsgespräch.",
             "ctaButton": "Kontakt aufnehmen",
-            "gallery": "Projektgalerie"
+            "gallery": "Projektgalerie",
+            "openImage": "Bild vergrößern",
+            "closeGallery": "Galerie schließen",
+            "previousImage": "Vorheriges Bild",
+            "nextImage": "Nächstes Bild",
+            "imageCounter": "{current} / {total}",
+            "galleryHint": "Mit den Pfeiltasten navigieren und mit ESC schließen."
         }
     }

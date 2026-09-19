@@ -180,6 +180,12 @@
         "ctaTitle": "Benzer bir proje mi planlıyorsunuz?",
         "ctaDesc": "Ücretsiz danışmanlık için bizimle iletişime geçin.",
         "ctaButton": "İletişime Geçin",
-        "gallery": "Proje Galerisi"
+        "gallery": "Proje Galerisi",
+        "openImage": "Görseli büyüt",
+        "closeGallery": "Galeriyi kapat",
+        "previousImage": "Önceki görsel",
+        "nextImage": "Sonraki görsel",
+        "imageCounter": "{current} / {total}",
+        "galleryHint": "Ok tuşlarıyla gezinebilir, ESC ile kapatabilirsiniz."
     }
 }
