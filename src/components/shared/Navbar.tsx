@@ -55,7 +55,7 @@ export default function Navbar() {
             initial={{ y: -100 }}
             animate={{ y: 0 }}
             transition={{ type: "spring", stiffness: 100, damping: 20 }}
-            className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? "glass shadow-lg shadow-black/20" : "bg-transparent"
+            className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled || isOpen ? "glass shadow-lg shadow-black/20" : "bg-transparent"
                 }`}
         >
             <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -67,7 +67,7 @@ export default function Navbar() {
                             alt="Enerva Elektrik"
                             width={160}
                             height={50}
-                            className="h-10 lg:h-12 w-auto transition-transform group-hover:scale-105"
+                            className="h-10 lg:h-12 w-auto transition-transform group-hover:scale-105 drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]"
                             priority
                         />
                     </Link>
@@ -78,14 +78,16 @@ export default function Navbar() {
                             const isActive =
                                 pathname === href ||
                                 (href !== "/" && pathname.startsWith(href));
+
+                            const textClass = !scrolled
+                                ? (isActive ? "text-accent" : "text-white/90 hover:text-white")
+                                : (isActive ? "text-accent" : "text-foreground/80 hover:text-foreground");
+
                             return (
                                 <Link
                                     key={key}
                                     href={href}
-                                    className={`relative px-4 py-2 text-sm font-medium rounded-lg transition-all duration-200 ${isActive
-                                        ? "text-accent"
-                                        : "text-enerva-text-muted hover:text-white"
-                                        }`}
+                                    className={`relative px-4 py-2 text-sm font-medium rounded-lg transition-all duration-200 ${textClass}`}
                                 >
                                     {t(key)}
                                     {isActive && (
@@ -108,7 +110,10 @@ export default function Navbar() {
                     <div className="hidden lg:flex items-center gap-4">
                         <button
                             onClick={toggleTheme}
-                            className="p-2.5 text-enerva-text-muted hover:text-accent bg-transparent hover:bg-enerva-surface rounded-full transition-all"
+                            className={`p-2.5 rounded-full transition-all duration-300 ${!scrolled
+                                ? "text-white/90 hover:text-white hover:bg-white/10"
+                                : "text-muted-foreground hover:text-foreground bg-transparent hover:bg-muted"
+                                }`}
                             aria-label="Toggle Theme"
                         >
                             {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
@@ -116,7 +121,10 @@ export default function Navbar() {
 
                         <a
                             href="/admin/login"
-                            className="p-2.5 text-enerva-text-muted hover:text-accent bg-transparent hover:bg-enerva-surface rounded-full transition-all"
+                            className={`p-2.5 rounded-full transition-all duration-300 ${!scrolled
+                                ? "text-white/90 hover:text-white hover:bg-white/10"
+                                : "text-muted-foreground hover:text-foreground bg-transparent hover:bg-muted"
+                                }`}
                             aria-label="Admin Login"
                         >
                             <User size={20} />
@@ -134,7 +142,10 @@ export default function Navbar() {
                     <div className="flex items-center gap-2 lg:hidden">
                         <button
                             onClick={toggleTheme}
-                            className="p-2 text-enerva-text-muted hover:text-accent bg-transparent hover:bg-enerva-surface rounded-full transition-all"
+                            className={`p-2.5 rounded-full transition-all duration-300 ${!scrolled && !isOpen
+                                ? "text-white/90 hover:text-white hover:bg-white/10"
+                                : "text-muted-foreground hover:text-foreground bg-transparent hover:bg-muted"
+                                }`}
                             aria-label="Toggle Theme"
                         >
                             {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
@@ -142,7 +153,10 @@ export default function Navbar() {
 
                         <a
                             href="/admin/login"
-                            className="p-2 text-enerva-text-muted hover:text-accent bg-transparent hover:bg-enerva-surface rounded-full transition-all"
+                            className={`p-2.5 rounded-full transition-all duration-300 ${!scrolled && !isOpen
+                                ? "text-white/90 hover:text-white hover:bg-white/10"
+                                : "text-muted-foreground hover:text-foreground bg-transparent hover:bg-muted"
+                                }`}
                             aria-label="Admin Login"
                         >
                             <User size={20} />
@@ -150,7 +164,10 @@ export default function Navbar() {
 
                         <button
                             onClick={() => setIsOpen(!isOpen)}
-                            className="relative w-10 h-10 flex items-center justify-center rounded-lg hover:bg-enerva-surface-light transition-colors"
+                            className={`relative w-10 h-10 flex items-center justify-center rounded-lg transition-colors duration-300 ${!scrolled && !isOpen
+                                ? "hover:bg-white/10"
+                                : "hover:bg-muted"
+                                }`}
                             aria-label="Toggle menu"
                         >
                             <div className="flex flex-col gap-1.5 w-5">
@@ -158,19 +175,19 @@ export default function Navbar() {
                                     animate={
                                         isOpen ? { rotate: 45, y: 5 } : { rotate: 0, y: 0 }
                                     }
-                                    className="block h-0.5 w-full bg-secondary rounded-full origin-center"
+                                    className={`block h-0.5 w-full rounded-full origin-center transition-colors duration-300 ${!scrolled && !isOpen ? "bg-white" : "bg-foreground"}`}
                                 />
                                 <motion.span
                                     animate={
                                         isOpen ? { opacity: 0, x: -10 } : { opacity: 1, x: 0 }
                                     }
-                                    className="block h-0.5 w-full bg-secondary rounded-full"
+                                    className={`block h-0.5 w-full rounded-full transition-colors duration-300 ${!scrolled && !isOpen ? "bg-white" : "bg-foreground"}`}
                                 />
                                 <motion.span
                                     animate={
                                         isOpen ? { rotate: -45, y: -7 } : { rotate: 0, y: 0 }
                                     }
-                                    className="block h-0.5 w-full bg-secondary rounded-full origin-center"
+                                    className={`block h-0.5 w-full rounded-full origin-center transition-colors duration-300 ${!scrolled && !isOpen ? "bg-white" : "bg-foreground"}`}
                                 />
                             </div>
                         </button>
